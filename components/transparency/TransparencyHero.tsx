@@ -1,16 +1,32 @@
 export default function TransparencyHero() {
   return (
-    <section className="px-6">
-      <div className="max-w-5xl mx-auto space-y-6">
-        <h1 className="text-4xl md:text-5xl font-semibold">
+    <section className="relative px-6 py-32 bg-green-950 text-white overflow-hidden">
+      
+      {/* Background texture */}
+      <div className="absolute inset-0 bg-[url('/leaf-texture.png')] opacity-10" />
+
+      <div className="relative max-w-5xl mx-auto space-y-8">
+
+        {/* Eyebrow */}
+        <span className="inline-block text-sm tracking-wide uppercase text-emerald-300">
+          Fundación Abuela Ecológica
+        </span>
+
+        {/* Title */}
+        <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
           Transparencia y rendición de cuentas
         </h1>
 
-        <p className="text-lg text-gray-700">
-          Creemos que la confianza se construye con información clara, accesible
-          y verificable. Aquí compartimos cómo funciona la fundación y cómo se
-          toman las decisiones.
+        {/* Divider */}
+        <span className="block w-16 h-1 bg-emerald-500 rounded-full" />
+
+        {/* Description */}
+        <p className="text-lg text-white/90 max-w-3xl">
+          La confianza se cultiva con información clara, accesible y verificable.
+          Aquí compartimos quiénes somos, cómo tomamos decisiones y cómo rendimos
+          cuentas a la comunidad.
         </p>
+
       </div>
     </section>
   );

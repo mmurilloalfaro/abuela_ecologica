@@ -1,49 +1,95 @@
-import Image from "next/image";
-import Link from "next/link";
+"use client";
 
-type Project = {
-  title: string;
-  content: string;
-  image: string;
-  location: string;
-  year: string;
-};
+import Link from "next/link";
+import { projects } from "@/data/projects";
+import { motion } from "framer-motion";
+import ProjectHero from "@/components/projects/ProjectHero";
+
+
+type Project = (typeof projects)[number];
+
 
 export default function ProjectDetail({ project }: { project: Project }) {
   return (
-    <section className="px-6 py-20">
-      <div className="max-w-4xl mx-auto space-y-10">
+    <article key={project.slug} className="bg-white">
 
-        <div className="relative h-72 rounded-xl overflow-hidden">
-          <Image
-            src={project.image}
-            alt={project.title}
-            fill
-            className="object-cover"
-          />
+      {/* HERO */}
+      <ProjectHero
+        title={project.title}
+        excerpt={project.excerpt}
+        images={
+          project.heroImages && project.heroImages.length > 0
+            ? project.heroImages
+            : [project.image]
+        }
+      />
+
+      {/* STATS */}
+      <section className="bg-green-50 border-b border-green-100">
+        <div className="max-w-5xl mx-auto px-6 py-12 grid gap-6 sm:grid-cols-2 md:grid-cols-4 text-center">
+          {project.stats?.map((stat, i) => (
+            <div key={i}>
+              <p className="text-3xl font-semibold text-green-700">
+                {stat.value}
+              </p>
+              <p className="text-sm text-gray-600">
+                {stat.label}
+              </p>
+            </div>
+          ))}
         </div>
+      </section>
 
-        <header className="space-y-2">
-          <div className="text-green-600 font-medium">
-            {project.location} · {project.year}
+      {/* STORY */}
+      <section className="px-6 py-24">
+        <div className="max-w-4xl mx-auto space-y-12">
+
+          <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
+            {Array.isArray(project.content) &&
+              project.content.map((paragraph, i) => (
+                <motion.p
+                  key={i}
+                  initial={{ opacity: 0, y: 14 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{
+                    duration: 0.5,
+                    ease: "easeOut",
+                    delay: i * 0.06,
+                  }}
+                >
+                  {paragraph}
+                </motion.p>
+              ))}
           </div>
-          <h1 className="text-4xl font-semibold">
-            {project.title}
-          </h1>
-        </header>
 
-        <p className="text-gray-700 leading-relaxed whitespace-pre-line">
-          {project.content}
-        </p>
+          {/* CTA */}
+          <div className="bg-green-900 text-white rounded-2xl p-10 space-y-6">
+            <h2 className="text-2xl font-semibold">
+              {project.cta?.title}
+            </h2>
+            <p className="text-white/90 max-w-2xl">
+              {project.cta?.text}
+            </p>
 
-        <Link
-          href="/donar"
-          className="inline-block mt-8 px-6 py-3 bg-green-500 text-black font-medium rounded-md hover:bg-green-400 transition"
-        >
-          Support this project
-        </Link>
+            <Link
+              href="/donate"
+              className="
+                inline-flex items-center
+                bg-green-700 text-green-900
+                font-semibold
+                px-6 py-3 rounded-xl
+                hover:bg-green-100
+                transition
+              "
+            >
+              Apoyar este proyecto
+            </Link>
+          </div>
 
-      </div>
-    </section>
+        </div>
+      </section>
+
+    </article>
   );
 }

@@ -1,26 +1,43 @@
+"use client";
+
+import { motion } from "framer-motion";
 import ProjectCard from "./ProjectCard";
 import { projects } from "@/data/projects";
+import { fadeUp } from "@/components/animations/fadeUp";
 
 export default function ProjectsGrid() {
   return (
-    <section className="py-20 px-6">
-      <div className="max-w-7xl mx-auto space-y-12">
+    <section className="px-6 pb-24">
+      <div className="max-w-7xl mx-auto space-y-10">
 
-        <header className="max-w-3xl space-y-4">
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">
-            Nuestros proyectos
-          </h1>
-          <p className="text-gray-600 text-lg leading-relaxed">
-            Impulsamos iniciativas ambientales y sociales que nacen en el territorio,
-            se construyen con las comunidades y buscan un impacto real y duradero.
-          </p>
-        </header>
+        {/* Header */}
+        <motion.div
+          variants={fadeUp()}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+        >
+          <div className="flex items-center gap-4">
+            <div className="h-px flex-1 bg-gray-200" />
+            <span className="text-sm text-gray-500 uppercase tracking-widest">
+              Proyectos
+            </span>
+            <div className="h-px flex-1 bg-gray-200" />
+          </div>
+        </motion.div>
 
-        <div className="h-px w-full bg-gray-200" />
-        
+        {/* Grid */}
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project) => (
-            <ProjectCard key={project.slug} {...project} />
+          {projects.map((project, index) => (
+            <motion.div
+              key={project.slug}
+              variants={fadeUp(index * 0.08)}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+            >
+              <ProjectCard {...project} />
+            </motion.div>
           ))}
         </div>
 

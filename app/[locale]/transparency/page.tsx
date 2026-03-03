@@ -1,14 +1,14 @@
 import TransparencyHero from "@/components/transparency/TransparencyHero";
 import Board from "@/components/transparency/Board";
-import Legal from "@/components/transparency/Legal";
+import Founders from "@/components/transparency/Founders";
 import Reports from "@/components/transparency/Reports";
 
 export default function TransparencyPage() {
   return (
-    <main className="pt-32 space-y-32">
+    <main className="pt-32">
       <TransparencyHero />
       <Board />
-      <Legal />
+      <Founders />
       <Reports />
     </main>
   );

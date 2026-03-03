@@ -4,17 +4,9 @@
    VARIABLES DE MARCA
    ========================= */
 :root {
-  /* Colores base */
-  --color-background: #ffffff;
-  --color-foreground: #171717;
-
-  /* Verde institucional (ajustable luego) */
-  --color-primary: #6bbf3f;
-  --color-primary-dark: #58a833;
-
-  /* Grises útiles */
-  --color-muted: #f5f5f5;
-  --color-muted-foreground: #6b7280;
+  --green-primary: #059669;
+  --green-soft: #ECFDF5;
+  --green-dark: #022C22;
 }
 
 /* =========================

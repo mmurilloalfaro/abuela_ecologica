@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image"; 
 import {
   Facebook,
   Instagram,
@@ -7,21 +8,28 @@ import {
   Music2
 } from "lucide-react";
 
+
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white/80 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
 
         {/* Organization */}
-        <div className="space-y-4">
-          <h3 className="text-white font-semibold text-lg">
-            Fundación Abuela Ecológica
-          </h3>
-          <p className="text-sm leading-relaxed">
-            Trabajamos por la protección del ambiente y el fortalecimiento de
-            comunidades mediante educación ambiental, acción comunitaria y
-            desarrollo sostenible.
-          </p>
+        <div className="space-y-6">
+          {/* Logo */}
+          <div className="flex items-center gap-3">
+            <Link href="/" className="hover:text-white transition">
+              <Image 
+              src="/logos/logoabuelaeco_blanco.png" 
+              alt="Logo Fundación Abuela Ecológica"
+              width={80} 
+              height={80}
+              className="priority"
+            />
+            </Link>
+            
+          </div>
         </div>
 
         {/* Navigation */}
@@ -41,7 +49,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/donar" className="hover:text-white transition">
+              <Link href="/donate" className="hover:text-white transition">
                 Donar
               </Link>
             </li>
@@ -131,6 +139,15 @@ export default function Footer() {
 
       <div className="border-t border-white/10 text-center text-xs text-white/50 py-6">
         © {new Date().getFullYear()} Fundación Abuela Ecológica. Todos los derechos reservados.
+        <p className="mt-1">
+          Desarrollado por{" "}
+          <Link 
+            href="https://github.com/mmurilloalfaro" 
+            className="font-semibold hover:text-white transition-colors underline-offset-4 hover:underline"
+          >
+            mmurilloalfaro
+          </Link>
+        </p>
       </div>
     </footer>
   );

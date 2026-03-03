@@ -1,38 +1,45 @@
-export interface BoardMember {
+interface BoardMember {
   name: string;
   role: string;
-  period?: string;
+  period: string;
+  image: string;
 }
 
 export const boardMembers: BoardMember[] = [
   {
-    name: "María Fernanda Murillo",
+    name: "María Fernanda Murillo Alfaro",
     role: "Presidenta",
-    period: "2024 – 2026",
+    period: "2026 – 2028",
+    image: "/founder/fernanda.JPG",
   },
   {
     name: "Cristel Arce",
-    role: "Vicepresidencia",
-    period: "2024 – 2026",
+    role: "Vicepresidenta",
+    period: "2026 – 2028",
+    image: "/avatar-placeholder.svg",
   },
   {
-    name: "Laura Alfaro",
-    role: "Tesorería",
-    period: "2024 – 2026",
+    name: "Laura Alfaro González",
+    role: "Tesorera",
+    period: "2026 – 2028",
+    image: "/board/Laura_Alfaro.png",
   },
   {
     name: "Eulin Chacón",
-    role: "Secretaría",
-    period: "2024 – 2026",
+    role: "Secretaria",
+    period: "2026 – 2028",
+    image: "/avatar-placeholder.svg",
   },
   {
     name: "Carlos Andrei Salas",
-    role: "Vocalía",
-    period: "2024 – 2026",
+    role: "Vocal I",
+    period: "2026 – 2028",
+    image: "/avatar-placeholder.svg",
   },
   {
-    name: "Alberto Rico",
-    role: "Vocalía",
-    period: "2024 – 2026",
+    name: "Alberto Rico Urones",
+    role: "Vocal II",
+    period: "2026 – 2028",
+    image: "/board/Alberto_RicoU.jpeg",
   },
 ];

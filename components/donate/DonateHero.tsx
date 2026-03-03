@@ -1,16 +1,31 @@
 export default function DonateHero() {
   return (
-    <section className="bg-green-700 text-white py-32 px-6">
-      <div className="max-w-4xl mx-auto space-y-6 text-center">
-        <h1 className="text-4xl md:text-5xl font-semibold">
-          Tu apoyo hace posible el cambio
-        </h1>
+    <section className="relative px-6 py-32 bg-green-950 text-white overflow-hidden">
 
-        <p className="text-lg md:text-xl opacity-90">
-          Cada donación nos permite seguir educando, restaurando ecosistemas
-          y trabajando junto a las comunidades por un futuro sostenible.
-        </p>
-      </div>
-    </section>
+        {/* Background texture */}
+        <div className="absolute inset-0 bg-[url('/leaf-texture.png')] opacity-10" />
+        <div className="relative max-w-5xl mx-auto space-y-8">
+
+          {/* Eyebrow */}
+          <span className="inline-block text-sm tracking-wide uppercase text-emerald-300">
+            Fundación Abuela Ecológica
+          </span>
+
+          {/* Title */}
+          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
+            Tu apoyo se convierte en acción ambiental real
+          </h1>
+
+          {/* Divider */}
+          <span className="block w-16 h-1 bg-emerald-500 rounded-full" />
+
+          {/* Description */}
+          <p className="text-lg text-white/90 max-w-3xl">
+            Cada donación impulsa educación ambiental, restauración de ecosistemas
+            y trabajo directo con comunidades en Costa Rica.
+          </p>
+        </div>
+      </section>
   );
 }
+
