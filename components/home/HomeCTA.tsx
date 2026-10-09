@@ -4,7 +4,15 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
 
-export default function HomeCTA() {
+interface HomeCTAProps {
+  dictionary: {
+    title: string;
+    description: string;
+    button: string;
+  };
+}
+
+export default function HomeCTA({ dictionary }: HomeCTAProps) {
   return (
     <section className="bg-green-950 text-white py-24 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-8">
@@ -16,7 +24,7 @@ export default function HomeCTA() {
           viewport={{ once: true }}
           className="text-3xl md:text-4xl font-semibold"
         >
-          El futuro se construye hoy.
+          {dictionary.title}
         </motion.h3>
 
         <motion.p
@@ -26,8 +34,7 @@ export default function HomeCTA() {
           viewport={{ once: true }}
           className="text-lg text-white/85"
         >
-          Cada acción cuenta. Cada persona suma.
-          Juntos podemos proteger la naturaleza y fortalecer comunidades.
+          {dictionary.description}
         </motion.p>
 
         <motion.div
@@ -41,7 +48,7 @@ export default function HomeCTA() {
             href="/donate"
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-green-500 text-black font-medium hover:bg-green-400 transition"
           >
-            Apoyar la fundación
+            {dictionary.button}
           </Link>
         </motion.div>
 

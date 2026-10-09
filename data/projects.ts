@@ -28,10 +28,10 @@ export const projects = [
     year: "2025 - 2026",
     image: "/projects/plant_tree.JPG",
     heroImages: [
-      "/projects/nietos/nietos_1.jpg",
-      "/projects/nietos/nietos_2.jpg",
-      "/projects/nietos/nietos_3.jpg",
-      "/projects/nietos/nietos_4.jpg",
+      "/projects/arboles/arboles_01.jpeg",
+      "/projects/arboles/arboles2.jpeg",
+      "/projects/arboles/arboles3.jpeg",
+      "/projects/arboles/arboles3.jpeg",
     ],
     content: [
       "Árboles y Plumas es un proyecto dedicado a la restauración del hábitat de la lapa verde. La lapa verde es una de las guacamayas más emblemáticas de Costa Rica, pero también una de las más amenazadas. La deforestación y la fragmentación del bosque han reducido drásticamente su hábitat, confinándola a pequeños núcleos aislados.",
@@ -55,34 +55,49 @@ export const projects = [
     slug: "bosque-los-lolos",
     title: "Bosque de los Lolos",
     status: "completed",
-    excerpt: "Restauramos bosques para devolverle el hogar a la lapa verde",
+
+    excerpt:
+      "Restauración ecológica para fortalecer la conectividad entre bosques y proteger fuentes de agua.",
+
     description:
-      "Restauración del hábitat de la lapa verde en San Carlos mediante la siembra de árboles clave y el fortalecimiento de corredores biológicos.",
+      "Recuperación de 1.400 m² de terreno mediante la siembra de 700 árboles nativos para la protección de dos nacientes de importancia estratégica para la Zona Norte de Costa Rica.",
+
     location: "Zona Norte",
     year: "2025 - 2026",
+
     image: "/projects/sanvi/image06.JPG",
+
     heroImages: [
       "/projects/sanvi/image01.JPG",
       "/projects/sanvi/image02.JPG",
       "/projects/sanvi/image03.JPG",
       "/projects/sanvi/image04.JPG",
+      "/projects/sanvi/image05.JPG",
+      "/projects/sanvi/image06.JPG",
+      "/projects/sanvi/image09.JPG",
     ],
+
     content: [
-      "Árboles y Plumas es un proyecto dedicado a la restauración del hábitat de la lapa verde. La lapa verde es una de las guacamayas más emblemáticas de Costa Rica, pero también una de las más amenazadas. La deforestación y la fragmentación del bosque han reducido drásticamente su hábitat, confinándola a pequeños núcleos aislados.",
-      "San Carlos sigue siendo un territorio clave para su recuperación. Aún existen bosques, comunidades comprometidas y especies arbóreas esenciales como el almendro de montaña que permiten devolverle condiciones adecuadas para alimentarse y anidar.",
-      "Árboles y Plumas nace como una respuesta concreta: restaurar corredores biológicos mediante la siembra de especies clave y la participación activa de comunidades locales, instituciones y aliados estratégicos.",
+      "El proyecto Bosque de los Lolos consistió en la restauración de un antiguo potrero de aproximadamente 1.400 metros cuadrados ubicado en San Vicente de Ciudad Quesada. El área alberga dos nacientes de gran relevancia para las comunidades locales: una que forma parte del sistema de abastecimiento de agua de Ciudad Quesada y otra que suministra agua a la comunidad de El Porvenir.",
+
+      "La siembra de 700 árboles nativos contribuye a la protección de estas fuentes hídricas, mejora la infiltración y regulación del agua en el suelo y fortalece la conectividad ecológica entre fragmentos de bosque cercanos, creando condiciones más favorables para la biodiversidad de la región.",
+
+      "La iniciativa contó con el acompañamiento técnico de profesionales de la Escuela de Ingeniería Forestal y de la Escuela de Agronomía del Instituto Tecnológico de Costa Rica (TEC), quienes brindaron asesoría durante las etapas de planificación, selección de especies y establecimiento de la restauración.",
+
+      "Debido a que el sitio se encuentra a aproximadamente 1.400 metros sobre el nivel del mar, se realizó una selección cuidadosa de especies nativas adaptadas a las condiciones climáticas, edáficas y ecológicas propias de la zona, con el objetivo de maximizar la supervivencia de los árboles y el impacto ambiental a largo plazo."
     ],
+
     stats: [
-      { value: "700", label: "Árboles nativos" },
-      { value: "Ara ambiguus", label: "Lapa verde" },
-      { value: "Zona Norte", label: "Territorio" },
-      { value: "2025–2026", label: "Periodo" },
+      { value: "700", label: "Árboles plantados" },
+      { value: "2", label: "Nacientes" },
+      { value: "San Vicente", label: "Lugar" },
+      { value: "2024–2025", label: "Periodo" },
     ],
+
     cta: {
-      title: "Ayudá a devolverle el bosque a la lapa verde",
-      text: "Tu donación apoya la producción, siembra y mantenimiento de árboles nativos esenciales para la supervivencia de esta especie y la restauración del ecosistema.",
+      title: "Súmate a la restauración de nuestros bosques",
+      text: "Tu donación contribuye a la producción, siembra y mantenimiento de árboles nativos que protegen el agua, fortalecen la biodiversidad y restauran ecosistemas esenciales para las futuras generaciones."
     },
-    
   },
 
   {
@@ -132,14 +147,17 @@ export const projects = [
     "Siembra de árboles nativos para proteger nacientes de agua y fortalecer ecosistemas en La Tigra de San Carlos.",
   description:
     "Siembra de 5.000 árboles nativos para proteger nacientes de agua y fortalecer ecosistemas en La Tigra de San Carlos.",
-  location: "La Tigra, San Carlos",
+  location: "La Tigra",
   year: "2020",
-  image: "/projects/reforestacion_consciente.JPG",
+  image: "/projects/reforestacion_consciente/img01.JPG",
   heroImages: [
-      "/projects/nietos/nietos_1.jpg",
-      "/projects/nietos/nietos_2.jpg",
-      "/projects/nietos/nietos_3.jpg",
-      "/projects/nietos/nietos_4.jpg",
+      "/projects/reforestacion_consciente/img01.JPG",
+      "/projects/reforestacion_consciente/img02.JPG",
+      "/projects/reforestacion_consciente/img03.JPG",
+      "/projects/reforestacion_consciente/img04.JPG",
+      "/projects/reforestacion_consciente/img05.JPG",
+      "/projects/reforestacion_consciente/img06.JPG",
+      "/projects/reforestacion_consciente/img07.JPG",
     ],
   content: [
     "Durante octubre, noviembre y diciembre de 2020 se realizaron varias jornadas de reforestación en la zona de La Tigra de San Carlos, logrando sembrar exitosamente 5.000 árboles de 55 especies nativas.",
@@ -151,7 +169,7 @@ export const projects = [
   stats: [
     { value: "5000", label: "Árboles plantados" },
     { value: "Ara ambiguus", label: "Lapa verde" },
-    { value: "La Tigra de San Carlos", label: "Territorio" },
+    { value: "La Tigra", label: "Zona" },
     { value: "2020", label: "Periodo" },
   ],
   cta: {
@@ -169,12 +187,10 @@ export const projects = [
     "Proyecto de restauración ecológica enfocado en la donación y siembra de almendro de montaña para proteger el hábitat de la lapa verde.",
   location: "Zona Huetar Norte y Vertiente Atlántica",
   year: "2020",
-  image: "/projects/un_norte_lapa.jpg",
+  image: "/projects/lapa_verde/lapaverde1.JPG",
   heroImages: [
-      "/projects/nietos/nietos_1.jpg",
-      "/projects/nietos/nietos_2.jpg",
-      "/projects/nietos/nietos_3.jpg",
-      "/projects/nietos/nietos_4.jpg",
+      "/projects/lapa_verde/lapaverde1.JPG",
+      "/projects/lapa_verde/lapaverde2.JPG",
     ],
   content: [
     "Un Norte para la Lapa Verde es un proyecto de conservación desarrollado entre noviembre de 2019 y julio de 2020, enfocado en reforzar el hábitat de una de las especies más emblemáticas y amenazadas de Costa Rica: la lapa verde.",
@@ -209,6 +225,7 @@ export const projects = [
   year: "2019",
   image: "/projects/inclusion_intercultural/inclusion00.png",
   heroImages: [
+
     "/projects/inclusion_intercultural/inclusion01.jpeg",
     "/projects/inclusion_intercultural/inclusion02.JPG",
     "/projects/inclusion_intercultural/inclusion00.png",

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image"; 
+import Image from "next/image";
 import {
   Facebook,
   Instagram,
@@ -8,54 +8,74 @@ import {
   Music2
 } from "lucide-react";
 
+interface FooterProps {
+  dictionary: {
+    navigation: string;
+    legalTitle: string;
+    contact: string;
+    email: string;
+    developedBy: string;
+    legal: {
+      nonprofit: string;
+      country: string;
+      rights: string;
+    };
+    links: {
+      home: string;
+      projects: string;
+      donate: string;
+      transparency: string;
+    };
+  };
+  locale: string;
+}
 
-
-export default function Footer() {
+export default function Footer({ dictionary, locale }: FooterProps) {
   return (
     <footer className="bg-black text-white/80 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-6 py-16 grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
 
-        {/* Organization */}
+        {/* Logo */}
         <div className="space-y-6">
-          {/* Logo */}
-          <div className="flex items-center gap-3">
-            <Link href="/" className="hover:text-white transition">
-              <Image 
-              src="/logos/logoabuelaeco_blanco.png" 
+          <Link href={`/${locale}`}>
+            <Image
+              src="/logos/logoabuelaeco_blanco.png"
               alt="Logo Fundación Abuela Ecológica"
-              width={80} 
+              width={80}
               height={80}
-              className="priority"
+              priority
             />
-            </Link>
-            
-          </div>
+          </Link>
         </div>
 
         {/* Navigation */}
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-sm uppercase tracking-wide">
-            Navegación
+            {dictionary.navigation}
           </h4>
+
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/" className="hover:text-white transition">
-                Inicio
+              <Link href={`/${locale}`} className="hover:text-white transition">
+                {dictionary.links.home}
               </Link>
             </li>
+
             <li>
-              <Link href="/projects" className="hover:text-white transition">
-                Proyectos
+              <Link href={`/${locale}/projects`} className="hover:text-white transition">
+                {dictionary.links.projects}
               </Link>
             </li>
+
             <li>
-              <Link href="/donate" className="hover:text-white transition">
-                Donar
+              <Link href={`/${locale}/donate`} className="hover:text-white transition">
+                {dictionary.links.donate}
               </Link>
             </li>
+
             <li>
-              <Link href="/transparency" className="hover:text-white transition">
-                Transparencia
+              <Link href={`/${locale}/transparency`} className="hover:text-white transition">
+                {dictionary.links.transparency}
               </Link>
             </li>
           </ul>
@@ -64,23 +84,24 @@ export default function Footer() {
         {/* Legal */}
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-sm uppercase tracking-wide">
-            Información legal
+            {dictionary.legalTitle}
           </h4>
+
           <ul className="space-y-2 text-sm">
-            <li>Fundación sin fines de lucro</li>
-            <li>Costa Rica</li>
-            <li>Todos los derechos reservados</li>
+            <li>{dictionary.legal.nonprofit}</li>
+            <li>{dictionary.legal.country}</li>
+            <li>{dictionary.legal.rights}</li>
           </ul>
         </div>
 
-        {/* Contact & Social */}
+        {/* Contact */}
         <div className="space-y-4">
           <h4 className="text-white font-semibold text-sm uppercase tracking-wide">
-            Contacto
+            {dictionary.contact}
           </h4>
 
           <p className="text-sm">
-            info@abuelaecologica.org
+            {dictionary.email}
           </p>
 
           <div className="flex items-center gap-4 pt-2">
@@ -89,7 +110,6 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
-              aria-label="Facebook"
             >
               <Facebook size={20} />
             </a>
@@ -99,17 +119,15 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
-              aria-label="Instagram"
             >
               <Instagram size={20} />
             </a>
 
             <a
-              href="https://www.tiktok.com/"
+              href="https://www.tiktok.com/@abuelaecologica?_r=1&_t=ZS-96fquNYidEq"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
-              aria-label="TikTok"
             >
               <Music2 size={20} />
             </a>
@@ -119,7 +137,6 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
-              aria-label="WhatsApp"
             >
               <MessageCircle size={20} />
             </a>
@@ -129,7 +146,6 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
-              aria-label="YouTube"
             >
               <Youtube size={20} />
             </a>
@@ -137,13 +153,15 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Bottom */}
       <div className="border-t border-white/10 text-center text-xs text-white/50 py-6">
-        © {new Date().getFullYear()} Fundación Abuela Ecológica. Todos los derechos reservados.
+        © {new Date().getFullYear()} Fundación Abuela Ecológica. {dictionary.legal.rights}
+
         <p className="mt-1">
-          Desarrollado por{" "}
-          <Link 
-            href="https://github.com/mmurilloalfaro" 
-            className="font-semibold hover:text-white transition-colors underline-offset-4 hover:underline"
+          {dictionary.developedBy}{" "}
+          <Link
+            href="https://github.com/mmurilloalfaro"
+            className="font-semibold hover:text-white transition underline-offset-4 hover:underline"
           >
             mmurilloalfaro
           </Link>

@@ -4,8 +4,11 @@ import { Leaf, Target } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
 import { Card } from "./AboutHelpers";
+import { useDictionary } from "@/context/DictionaryProvider";
 
 export default function MissionVision() {
+  const dict = useDictionary();
+
   return (
     <section className="relative px-6 py-28 bg-white overflow-hidden">
       {/* Subtle background accent */}
@@ -21,34 +24,32 @@ export default function MissionVision() {
           viewport={{ once: true }}
           className="max-w-3xl space-y-4"
         >
-          <h2 className="text-3xl md:text-4xl  font-semibold">
-            Nuestra dirección institucional
+          <h2 className="text-3xl md:text-4xl font-semibold">
+            {dict.missionVision.title}
           </h2>
+
           <p className="text-lg text-gray-600">
-            Definimos con claridad lo que hacemos hoy y el futuro que queremos construir.
+            {dict.missionVision.description}
           </p>
         </motion.div>
 
         {/* Cards */}
         <div className="grid md:grid-cols-2 gap-12">
           <Card
-            title="Nuestra misión"
-            subtitle="Acción ambiental con sentido humano"
+            title={dict.missionVision.mission.title}
+            subtitle={dict.missionVision.mission.subtitle}
             icon={<Target className="w-14 h-14" />}
             highlight
           >
-            Velar por el uso responsable de los recursos naturales, restaurar el
-            ambiente y promover estilos de vida sostenibles junto a las
-            comunidades.
+            {dict.missionVision.mission.text}
           </Card>
 
           <Card
-            title="Nuestra visión"
-            subtitle="Un futuro justo y sostenible"
+            title={dict.missionVision.vision.title}
+            subtitle={dict.missionVision.vision.subtitle}
             icon={<Leaf className="w-14 h-14" />}
           >
-            Ser una fundación referente en acción ambiental comunitaria,
-            impulsando territorios sostenibles y ecosistemas sanos.
+            {dict.missionVision.vision.text}
           </Card>
         </div>
       </div>

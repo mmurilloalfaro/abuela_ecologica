@@ -1,0 +1,174 @@
+{
+  "nav": {
+    "about": "Über uns",
+    "projects": "Projekte",
+    "nursery": "Forstbaumschule",
+    "involucrate": "Mitmachen",
+    "transparency": "Transparenz",
+    "donate": "Spenden"
+  },
+
+  "home": {
+  "heroTitle": "Wir schützen die Erde, indem wir diejenigen bilden, die sie erben werden",
+  "heroSubtitle": "Von San Carlos nach Costa Rica und in die Welt.",
+  "ctaPrimary": "Stiftung unterstützen",
+  "ctaSecondary": "Unsere Geschichte kennenlernen"
+  },
+
+  "story": {
+  "title": "Unsere Geschichte beginnt mit einem Fluss",
+  "paragraph1": "Die Stiftung Abuela Ecológica entstand in der nördlichen Region Costa Ricas, am Ufer eines Flusses, der seinen Wald verlor.",
+  "paragraph2": "Mit 80 Jahren entschied sich Frau Bertalia González, nicht untätig zu bleiben. Sie begann, Samen in ihrem Haus keimen zu lassen und die Ufer mit einheimischen Arten wieder aufzuforsten, wo einst reiches Leben existierte.",
+  "paragraph3": "Sie tat es nicht für Anerkennung. Sie tat es für die Tiere, für das Land und für diejenigen, die noch nicht geboren waren.",
+  "quote": "„Man muss Bäume pflanzen, um den Kindern, die noch nicht geboren sind, Leben zu hinterlassen.“",
+  "closing": "Für San Carlos, Costa Rica und die Welt.",
+  "imageAlt": "Anfänge von Abuela Ecológica"
+  },
+
+  "impact": {
+  "badge": "Unsere Wirkung",
+  "title": "Messbare Ergebnisse seit 2018",
+  "description": "Unsere Arbeit zeigt sich in langfristigem Engagement, starken Partnerschaften und konkretem Nutzen für Gemeinden und Ökosysteme.",
+  "metrics": {
+    "trees": {
+      "value": "+55.000",
+      "label": "Einheimische Bäume, die seit der Gründung der Stiftung in der nördlichen Region gepflanzt wurden."
+    },
+    "schools": {
+      "value": "+50",
+      "label": "Bildungseinrichtungen, die in den letzten fünf Jahren erreicht wurden, um Umweltbewusstsein und Verantwortung zu fördern."
+    },
+    "partnerships": {
+      "value": "20",
+      "label": "Aktive Kooperationen mit Wasserverbänden, Gemeinden und öffentlichen Institutionen."
+    },
+    "students": {
+      "value": "200",
+      "label": "Schülerinnen, Schüler und Studierende, die ihr soziales Engagement gemeinsam mit unserer Organisation umgesetzt haben."
+    }
+  },
+  "closing": "Jede Zahl steht für langfristige Prozesse, die gemeinsam mit Gemeinden, Institutionen und kommenden Generationen aufgebaut wurden."
+  },
+  
+  "howToHelp": {
+  "title": "Wie Sie sich engagieren können",
+  "description": "Es gibt verschiedene Möglichkeiten, unsere Mission zu unterstützen. Jeder Beitrag stärkt unsere Umwelt- und Gemeinschaftsarbeit nachhaltig.",
+  "options": {
+    "donate": {
+      "title": "Spenden",
+      "description": "Ihre Spende unterstützt Umweltbildung, ökologische Wiederherstellung und nachhaltige Gemeinschaftsprojekte."
+    },
+    "volunteer": {
+      "title": "Freiwilligenarbeit",
+      "description": "Engagieren Sie sich aktiv in Workshops, Umweltaktionen und gemeinschaftlichen Initiativen."
+    },
+    "alliances": {
+      "title": "Partnerschaften",
+      "description": "Unternehmen und Organisationen können gemeinsam mit uns ökologische und soziale Wirkung verstärken."
+    }
+  }
+  },
+
+  "cta": {
+  "title": "Die Zukunft wird heute gestaltet.",
+  "description": "Jede Handlung zählt. Jede Person trägt bei. Gemeinsam können wir die Natur schützen und Gemeinschaften stärken.",
+  "button": "Stiftung unterstützen"
+  },
+  
+  "footer": {
+  "navigation": "Navigation",
+  "legalTitle": "Rechtliche Informationen",
+  "legal": {
+    "nonprofit": "Gemeinnützige Stiftung",
+    "country": "Costa Rica",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "contact": "Kontakt",
+  "email": "info@abuelaecologica.org",
+  "links": {
+    "home": "Startseite",
+    "projects": "Projekte",
+    "donate": "Spenden",
+    "transparency": "Transparenz"
+  },
+  "developedBy": "Entwickelt von"
+  },
+
+  "aboutHero": {
+    "eyebrow": "Abuela Ecologica Stiftung",
+    "title": "Über uns",
+    "description": "Umweltschutz, gemeinschaftliches Handeln und nachhaltige Entwicklung auf lokaler Ebene."
+  },
+  "aboutStory": {
+  "eyebrow": "Unser Ursprung",
+  "title": "Die Ökologische Großmutter",
+  "p1": "Die Abuela Ecologica Stiftung entstand inspiriert vom Vermächtnis von Bertalia González Villalobos (1935–2020), einer Gemeinschaftsreferenz in Wiederaufforstung und Wasserschutz.",
+  "p2": "Mit Samen in den Händen und Überzeugung im Herzen reiste sie durch Gemeinden und pflanzte Bäume als Akt intergenerationeller Verantwortung.",
+  "p3": "Im Jahr 2018 wurde dieses Vermächtnis zusammen mit ihrer Tochter Laura Alfaro González und ihrer Enkelin María Murillo Alfaro zu einer Stiftung."
+  },
+
+  "missionVision": {
+  "title": "Unsere institutionelle Ausrichtung",
+  "description": "Wir definieren klar, was wir heute tun und welche Zukunft wir aufbauen wollen.",
+  "mission": {
+    "title": "Unsere Mission",
+    "subtitle": "Umweltarbeit mit menschlichem Fokus",
+    "text": "Den verantwortungsvollen Umgang mit natürlichen Ressourcen fördern, die Umwelt wiederherstellen und nachhaltige Lebensweisen gemeinsam mit Gemeinschaften unterstützen."
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "subtitle": "Eine gerechte und nachhaltige Zukunft",
+    "text": "Eine führende Stiftung in gemeinschaftlicher Umweltarbeit zu sein, die nachhaltige Regionen und gesunde Ökosysteme fördert."
+  }
+  },
+
+  "aboutValues": {
+    "values": {
+      "title": "Unsere Werte",
+      "items": {
+        "consciousness": {
+          "title": "Umweltbewusstsein",
+          "text": "Wir übernehmen Verantwortung für die Auswirkungen unseres Handelns."
+        },
+        "respect": {
+          "title": "Respekt gegenüber der Umwelt",
+          "text": "Wir erkennen die Grenzen unseres Planeten und alle Lebensformen an."
+        },
+        "justice": {
+          "title": "Umweltgerechtigkeit",
+          "text": "Soziale und ökologische Gerechtigkeit sind untrennbar miteinander verbunden."
+        }
+      }
+    }
+  },
+  
+  "aboutPrinciples": {
+    "principles": {
+      "title": "Unsere Prinzipien",
+      "subtitle": "Sie leiten jede Entscheidung, jedes Projekt und jede Partnerschaft, die wir fördern.",
+      "items": {
+        "responsibility": "Intergenerationelle Verantwortung",
+        "community": "Gemeinschaftsarbeit",
+        "sustainability": "Echte Nachhaltigkeit",
+        "education": "Umweltbildung"
+      },
+      "impact": {
+        "title": "Unsere Lebensweise transformieren",
+        "text": "Dies erfordert ein Umdenken in der Art und Weise, wie wir produzieren, konsumieren und zusammenleben. Nachhaltigkeit ist keine Ergänzung: Sie ist eine neue Art, unsere Beziehung zur Natur zu verstehen."
+      }
+    }
+  },
+
+  "aboutClosing": {
+  "quote": "Die Erde zu schützen bedeutet, diejenigen zu schützen, die noch nicht geboren sind.",
+  "description": "Eine Überzeugung, die jede Handlung der Abuela Ecologica Stiftung leitet."
+  },
+
+  "projects": {
+  "hero": {
+    "eyebrow": "Abuela Ecológica Stiftung",
+    "title": "Unsere Projekte",
+    "description": "Jedes Projekt reagiert auf einen realen Bedarf: fragmentierte Wälder, bedrohte Arten und Gemeinschaften, die Teil der Lösung sein wollen."
+  }
+  }
+}

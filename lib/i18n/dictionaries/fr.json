@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "about": "Qui sommes-nous",
+    "projects": "Projets",
+    "nursery": "Pépinière Forestière",
+    "involucrate": "Impliquez-vous",
+    "transparency": "Transparence",
+    "donate": "Faire un don"
+  },
+
+  "home": {
+    "heroTitle": "Nous prenons soin de la terre en éduquant ceux qui en hériteront",
+    "heroSubtitle": "De San Carlos pour le Costa Rica et le monde.",
+    "ctaPrimary": "Soutenir la fondation",
+    "ctaSecondary": "Découvrir notre histoire"
+  },
+
+  "story": {
+    "title": "Notre histoire est née d'une rivière",
+    "paragraph1": "La Fondation Abuela Ecológica est née dans la zone nord du Costa Rica, au bord d'une rivière qui perdait sa forêt.",
+    "paragraph2": "À 80 ans, Mme Bertalia González a décidé de ne pas rester les bras croisés. Elle a commencé à faire germer des graines chez elle et à reboiser avec des espèces indigènes les rives où la vie était autrefois abondante.",
+    "paragraph3": "Elle ne l'a pas fait pour la reconnaissance. Elle l'a fait pour les animaux, pour la terre et pour ceux qui ne sont pas encore nés.",
+    "quote": "« Il faut planter des arbres pour laisser de la vie aux enfants qui ne sont pas encore nés. »",
+    "closing": "Pour San Carlos, le Costa Rica et le monde.",
+    "imageAlt": "Débuts de la Fondation Abuela Ecológica"
+  },
+
+  "impact": {
+    "badge": "Notre impact",
+    "title": "Des résultats concrets depuis 2018",
+    "description": "Notre travail se mesure par des actions soutenues, des alliances réelles et des bénéfices tangibles pour le territoire.",
+    "metrics": {
+      "trees": {
+        "value": "+55 000",
+        "label": "Arbres plantés dans la zone nord depuis la création de la fondation."
+      },
+      "schools": {
+        "value": "+50",
+        "label": "Centres éducatifs visités au cours des cinq dernières années, promouvant l'éducation environnementale."
+      },
+      "partnerships": {
+        "value": "20",
+        "label": "Alliances actives avec les ASADAS, les municipalités et d'autres institutions publiques."
+      },
+      "students": {
+        "value": "200",
+        "label": "Étudiants de lycée et d'université ayant réalisé leur service communautaire avec nous."
+      }
+    },
+    "closing": "Chaque chiffre représente des processus soutenus dans le temps, construits avec les communautés, les institutions et les nouvelles générations."
+  },
+
+  "howToHelp": {
+    "title": "Comment pouvez-vous participer ?",
+    "description": "Nous rejoindre est simple. Chaque forme de soutien renforce le travail environnemental et communautaire que nous menons au quotidien.",
+    "options": {
+      "donate": {
+        "title": "Faire un don",
+        "description": "Votre contribution se transforme en éducation environnementale, restauration écologique et travail communautaire durable."
+      },
+      "volunteer": {
+        "title": "Bénévolat",
+        "description": "Participez activement aux ateliers, aux journées environnementales et aux actions menées avec les communautés."
+      },
+      "alliances": {
+        "title": "Alliances",
+        "description": "Les entreprises et organisations peuvent amplifier l'impact environnemental et social à nos côtés."
+      }
+    }
+  },
+
+  "cta": {
+    "title": "L'avenir se construit aujourd'hui.",
+    "description": "Chaque action compte. Chaque personne apporte sa pierre à l'édifice. Ensemble, nous pouvons protéger la nature et renforcer les communautés.",
+    "button": "Soutenir la fondation"
+  },
+  
+  "footer": {
+  "navigation": "Navigation",
+  "legalTitle": "Informations légales",
+  "legal": {
+    "nonprofit": "Fondation à but non lucratif",
+    "country": "Costa Rica",
+    "rights": "Tous droits réservés"
+  },
+  "contact": "Contact",
+  "email": "info@abuelaecologica.org",
+  "links": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "donate": "Faire un don",
+    "transparency": "Transparence"
+  },
+  "developedBy": "Développé par"
+  },
+
+  "aboutHero": {
+    "eyebrow": "Fondation Abuela Ecologica",
+    "title": "Qui sommes-nous",
+    "description": "Protection de l’environnement, action communautaire et développement durable à partir du niveau local."
+  },
+
+  "aboutStory": {
+  "eyebrow": "Notre origine",
+  "title": "La Grand-Mère Écologique",
+  "p1": "La Fondation Abuela Ecologica est née inspirée par l’héritage de Bertalia González Villalobos (1935–2020), une référence communautaire en reforestation et protection de l’eau.",
+  "p2": "Avec des graines dans les mains et une conviction dans le cœur, elle parcourait les communautés en plantant des arbres comme un acte de responsabilité intergénérationnelle.",
+  "p3": "En 2018, avec sa fille Laura Alfaro González et sa petite-fille María Murillo Alfaro, cet héritage devient une fondation."
+  },
+
+  "missionVision": {
+  "title": "Notre orientation institutionnelle",
+  "description": "Nous définissons clairement ce que nous faisons aujourd’hui et l’avenir que nous voulons construire.",
+  "mission": {
+    "title": "Notre mission",
+    "subtitle": "Action environnementale à dimension humaine",
+    "text": "Veiller à l’utilisation responsable des ressources naturelles, restaurer l’environnement et promouvoir des modes de vie durables avec les communautés."
+  },
+  "vision": {
+    "title": "Notre vision",
+    "subtitle": "Un avenir juste et durable",
+    "text": "Être une fondation de référence dans l’action environnementale communautaire, en favorisant des territoires durables et des écosystèmes sains."
+  }
+  },
+
+  "aboutValues": {
+    "values": {
+      "title": "Nos valeurs",
+      "items": {
+        "consciousness": {
+          "title": "Conscience environnementale",
+          "text": "Nous assumons la responsabilité de l'impact de nos actions."
+        },
+        "respect": {
+          "title": "Respect de l'environnement",
+          "text": "Nous reconnaissons les limites de la planète et toutes les formes de vie."
+        },
+        "justice": {
+          "title": "Justice environnementale",
+          "text": "L'équité sociale et environnementale sont indissociables."
+        }
+      }
+    }
+  },
+  
+  "aboutPrinciples": {
+    "principles": {
+      "title": "Nos principes",
+      "subtitle": "Ils guident chaque décision, projet et alliance que nous développons.",
+      "items": {
+        "responsibility": "Responsabilité intergénérationnelle",
+        "community": "Travail communautaire",
+        "sustainability": "Durabilité réelle",
+        "education": "Éducation environnementale"
+      },
+      "impact": {
+        "title": "Transformer notre mode de vie",
+        "text": "Cela implique de repenser notre façon de produire, de consommer et de coexister. La durabilité n'est pas un complément : c'est une nouvelle manière de comprendre notre relation avec la nature."
+      }
+    }
+  },
+
+  "aboutClosing": {
+  "quote": "Prendre soin de la Terre, c’est prendre soin de ceux qui ne sont pas encore nés.",
+  "description": "Une conviction qui guide chaque action de la Fondation Abuela Ecologica."
+  },
+
+  "projects": {
+  "hero": {
+    "eyebrow": "Fondation Abuela Ecológica",
+    "title": "Nos projets",
+    "description": "Chaque projet répond à un besoin réel : forêts fragmentées, espèces menacées et communautés souhaitant faire partie de la solution."
+  }
+  }
+}

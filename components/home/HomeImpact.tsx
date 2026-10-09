@@ -8,8 +8,11 @@ import {
   Handshake,
   GraduationCap,
 } from "lucide-react";
+import { useDictionary } from "@/context/DictionaryProvider";
 
 export default function HomeImpact() {
+  const dict = useDictionary();
+
   return (
     <section className="bg-green-950 text-white py-28 px-6">
       <div className="max-w-6xl mx-auto space-y-20">
@@ -23,7 +26,7 @@ export default function HomeImpact() {
             viewport={{ once: true }}
             className="inline-block text-sm font-medium text-green-300"
           >
-            Nuestro impacto
+            {dict.impact.badge}
           </motion.span>
 
           <motion.h2
@@ -33,7 +36,7 @@ export default function HomeImpact() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold leading-tight"
           >
-            Resultados concretos desde 2018
+            {dict.impact.title}
           </motion.h2>
 
           <motion.p
@@ -43,15 +46,14 @@ export default function HomeImpact() {
             viewport={{ once: true }}
             className="text-lg text-green-100/90"
           >
-            Nuestro trabajo se mide en acciones sostenidas, alianzas reales
-            y beneficios tangibles para el territorio.
+            {dict.impact.description}
           </motion.p>
         </div>
 
         {/* METRICS */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
-          {/* Árboles */}
+          {/* Trees */}
           <motion.div
             variants={fadeUp(0)}
             initial="hidden"
@@ -64,16 +66,15 @@ export default function HomeImpact() {
             </div>
 
             <p className="text-4xl font-semibold">
-              +55.000
+              {dict.impact.metrics.trees.value}
             </p>
 
             <p className="text-sm text-green-100/80">
-              Árboles plantados en la Zona Norte desde la constitución
-              de la fundación.
+              {dict.impact.metrics.trees.label}
             </p>
           </motion.div>
 
-          {/* Escuelas */}
+          {/* Schools */}
           <motion.div
             variants={fadeUp(0.1)}
             initial="hidden"
@@ -86,16 +87,15 @@ export default function HomeImpact() {
             </div>
 
             <p className="text-4xl font-semibold">
-              +50
+              {dict.impact.metrics.schools.value}
             </p>
 
             <p className="text-sm text-green-100/80">
-              Centros educativos visitados en los últimos cinco años,
-              promoviendo educación ambiental.
+              {dict.impact.metrics.schools.label}
             </p>
           </motion.div>
 
-          {/* Alianzas */}
+          {/* Partnerships */}
           <motion.div
             variants={fadeUp(0.2)}
             initial="hidden"
@@ -108,16 +108,15 @@ export default function HomeImpact() {
             </div>
 
             <p className="text-4xl font-semibold">
-              20
+              {dict.impact.metrics.partnerships.value}
             </p>
 
             <p className="text-sm text-green-100/80">
-              Alianzas activas con ASADAS, municipalidades
-              y otras instituciones públicas.
+              {dict.impact.metrics.partnerships.label}
             </p>
           </motion.div>
 
-          {/* TCU */}
+          {/* Students */}
           <motion.div
             variants={fadeUp(0.3)}
             initial="hidden"
@@ -130,17 +129,17 @@ export default function HomeImpact() {
             </div>
 
             <p className="text-4xl font-semibold">
-              200
+              {dict.impact.metrics.students.value}
             </p>
 
             <p className="text-sm text-green-100/80">
-              Estudiantes de colegio y universidad que han realizado su Trabajo Comunal con nosotros.
+              {dict.impact.metrics.students.label}
             </p>
           </motion.div>
 
         </div>
 
-        {/* CIERRE */}
+        {/* CLOSING */}
         <motion.p
           variants={fadeUp(0.4)}
           initial="hidden"
@@ -148,8 +147,7 @@ export default function HomeImpact() {
           viewport={{ once: true }}
           className="max-w-3xl text-sm text-green-100/70"
         >
-          Cada cifra representa procesos sostenidos en el tiempo,
-          construidos junto a comunidades, instituciones y nuevas generaciones.
+          {dict.impact.closing}
         </motion.p>
 
       </div>

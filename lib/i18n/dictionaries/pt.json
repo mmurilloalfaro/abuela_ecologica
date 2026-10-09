@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "about": "Quem somos",
+    "projects": "Projetos",
+    "nursery": "Viveiro Florestal",
+    "involucrate": "Envolva-se",
+    "transparency": "Transparência",
+    "donate": "Doar"
+  },
+  
+  "home": {
+    "heroTitle": "Cuidamos da terra educando quem irá herdá-la",
+    "heroSubtitle": "De San Carlos para a Costa Rica e o mundo.",
+    "ctaPrimary": "Apoiar a fundação",
+    "ctaSecondary": "Conhecer nossa história"
+  },
+
+  "story": {
+    "title": "Nossa história nasce de um rio",
+    "paragraph1": "A Fundação Abuela Ecológica nasceu na Zona Norte da Costa Rica, às margens de um rio que estava perdendo sua floresta.",
+    "paragraph2": "Aos 80 anos, dona Bertalia González decidiu não ficar de braços cruzados. Começou a germinar sementes em sua casa e a reflorestar com espécies nativas as margens onde antes havia vida abundante.",
+    "paragraph3": "Não o fez por reconhecimento. Fez pelos animais, pela terra e por aqueles que ainda não nasceram.",
+    "quote": "“É preciso plantar árvores para deixar vida às crianças que ainda não nasceram.”",
+    "closing": "Por San Carlos, Costa Rica e o mundo.",
+    "imageAlt": "Inícios da Fundação Abuela Ecológica"
+  },
+
+  "impact": {
+    "badge": "Nosso impacto",
+    "title": "Resultados concretos desde 2018",
+    "description": "Nosso trabalho é medido em ações sustentadas, parcerias reais e benefícios tangíveis para o território.",
+    "metrics": {
+      "trees": {
+        "value": "+55.000",
+        "label": "Árvores plantadas na Zona Norte desde a constituição da fundação."
+      },
+      "schools": {
+        "value": "+50",
+        "label": "Centros educativos visitados nos últimos cinco anos, promovendo educação ambiental."
+      },
+      "partnerships": {
+        "value": "20",
+        "label": "Parcerias ativas com ASADAS, prefeituras e outras instituições públicas."
+      },
+      "students": {
+        "value": "200",
+        "label": "Estudantes de ensino médio e universitários que realizaram seu Trabalho Comunitário conosco."
+      }
+    },
+    "closing": "Cada número representa processos sustentados ao longo do tempo, construídos junto a comunidades, instituições e novas gerações."
+  },
+
+  "howToHelp": {
+    "title": "Como você pode participar?",
+    "description": "Juntar-se a nós é simples. Cada forma de apoio fortalece o trabalho ambiental e comunitário que realizamos dia após dia.",
+    "options": {
+      "donate": {
+        "title": "Doe",
+        "description": "Sua contribuição se transforma em educação ambiental, restauração ecológica e trabalho comunitário sustentável."
+      },
+      "volunteer": {
+        "title": "Voluntariado",
+        "description": "Participe ativamente de oficinas, jornadas ambientais e ações junto às comunidades."
+      },
+      "alliances": {
+        "title": "Parcerias",
+        "description": "Empresas e organizações podem ampliar o impacto ambiental e social junto conosco."
+      }
+    }
+  },
+
+  "cta": {
+    "title": "O futuro se constrói hoje.",
+    "description": "Cada ação conta. Cada pessoa faz a diferença. Juntos, podemos proteger a natureza e fortalecer comunidades.",
+    "button": "Apoiar a fundação"
+  },
+
+  "footer": {
+  "navigation": "Navegação",
+  "legalTitle": "Informações legais",
+  "legal": {
+    "nonprofit": "Fundação sem fins lucrativos",
+    "country": "Costa Rica",
+    "rights": "Todos os direitos reservados"
+  },
+  "contact": "Contato",
+  "email": "info@abuelaecologica.org",
+  "links": {
+    "home": "Início",
+    "projects": "Projetos",
+    "donate": "Doar",
+    "transparency": "Transparência"
+  },
+  "developedBy": "Desenvolvido por"
+  },
+
+  "aboutHero": {
+    "eyebrow": "Fundação Abuela Ecologica",
+    "title": "Quem somos",
+    "description": "Proteção ambiental, ação comunitária e desenvolvimento sustentável a partir do nível local."
+  },
+
+  "aboutStory": {
+  "eyebrow": "Nossa origem",
+  "title": "A Avó Ecológica",
+  "p1": "A Fundação Abuela Ecologica nasceu inspirada no legado de Bertalia González Villalobos (1935–2020), referência comunitária em reflorestamento e proteção da água.",
+  "p2": "Com sementes nas mãos e convicção no coração, percorreu comunidades plantando árvores como um ato de responsabilidade intergeracional.",
+  "p3": "Em 2018, junto com sua filha Laura Alfaro González e sua neta María Murillo Alfaro, esse legado se transforma em fundação."
+  },
+
+  "missionVision": {
+  "title": "Nossa direção institucional",
+  "description": "Definimos com clareza o que fazemos hoje e o futuro que queremos construir.",
+  "mission": {
+    "title": "Nossa missão",
+    "subtitle": "Ação ambiental com sentido humano",
+    "text": "Zelar pelo uso responsável dos recursos naturais, restaurar o ambiente e promover estilos de vida sustentáveis junto às comunidades."
+  },
+  "vision": {
+    "title": "Nossa visão",
+    "subtitle": "Um futuro justo e sustentável",
+    "text": "Ser uma fundação referência em ação ambiental comunitária, impulsionando territórios sustentáveis e ecossistemas saudáveis."
+  }
+  },
+
+  "aboutValues": {
+    "values": {
+      "title": "Nossos valores",
+      "items": {
+        "consciousness": {
+          "title": "Consciência ambiental",
+          "text": "Assumimos a responsabilidade pelo impacto de nossas ações."
+        },
+        "respect": {
+          "title": "Respeito ambiental",
+          "text": "Reconhecemos os limites do planeta e todas as formas de vida."
+        },
+        "justice": {
+          "title": "Justiça ambiental",
+          "text": "A equidade social e ambiental são inseparáveis."
+        }
+      }
+    }
+  },
+  
+  "aboutPrinciples": {
+    "principles": {
+      "title": "Nossos princípios",
+      "subtitle": "Guiam cada decisão, projeto e parceria que promovemos.",
+      "items": {
+        "responsibility": "Responsabilidade intergeracional",
+        "community": "Trabalho comunitário",
+        "sustainability": "Sustentabilidade real",
+        "education": "Educação ambiental"
+      },
+      "impact": {
+        "title": "Transformar nossa forma de viver",
+        "text": "Isso implica repensar como produzimos, consumimos e convivemos. A sustentabilidade não é um complemento: é uma nova maneira de entender nossa relação com a natureza."
+      }
+    }
+  },
+
+  "aboutClosing": {
+  "quote": "Cuidar da Terra é cuidar daqueles que ainda não nasceram.",
+  "description": "Uma convicção que orienta cada ação da Fundação Abuela Ecologica."
+  },
+
+  "projects": {
+  "hero": {
+    "eyebrow": "Fundação Abuela Ecológica",
+    "title": "Nossos projetos",
+    "description": "Cada projeto responde a uma necessidade real: florestas fragmentadas, espécies em risco e comunidades que querem fazer parte da solução."
+  }
+  }
+}

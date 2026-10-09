@@ -63,7 +63,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               ))}
           </div>
 
-          {/* CTA */}
+          {/* CTA 
           <div className="bg-green-900 text-white rounded-2xl p-10 space-y-6">
             <h2 className="text-2xl font-semibold">
               {project.cta?.title}
@@ -85,7 +85,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
             >
               Apoyar este proyecto
             </Link>
-          </div>
+          </div>*/}
 
         </div>
       </section>

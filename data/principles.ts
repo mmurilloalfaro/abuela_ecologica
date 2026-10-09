@@ -3,29 +3,24 @@ import { LucideIcon } from "lucide-react";
 
 export interface PrincipleItem {
   id: string;
-  title: string;
   icon: LucideIcon;
 }
 
 export const principles: PrincipleItem[] = [
   {
-    id: "ambiente",
-    title: "Derecho a un ambiente sano",
+    id: "responsibility",
     icon: Leaf,
   },
   {
-    id: "equidad",
-    title: "Equidad intergeneracional",
-    icon: Scale,
-  },
-  {
-    id: "liderazgo",
-    title: "Liderazgo comunitario",
+    id: "community",
     icon: Handshake,
   },
   {
-    id: "saberes",
-    title: "Saberes diversos",
+    id: "sustainability",
+    icon: Scale,
+  },
+  {
+    id: "education",
     icon: Globe,
   },
 ];

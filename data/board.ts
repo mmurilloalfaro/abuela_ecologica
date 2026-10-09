@@ -16,13 +16,13 @@ export const boardMembers: BoardMember[] = [
     name: "Cristel Arce",
     role: "Vicepresidenta",
     period: "2026 – 2028",
-    image: "/avatar-placeholder.svg",
+    image: "/board/Cristel_Arce.png",
   },
   {
     name: "Laura Alfaro González",
     role: "Tesorera",
     period: "2026 – 2028",
-    image: "/board/Laura_Alfaro.png",
+    image: "/board/Laura_Alfaro.JPG",
   },
   {
     name: "Eulin Chacón",

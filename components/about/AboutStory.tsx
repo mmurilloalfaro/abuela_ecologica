@@ -2,8 +2,12 @@
 
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
+import { useDictionary } from "@/context/DictionaryProvider";
+
 
 export default function AboutStory() {
+  const dict = useDictionary();
+
   return (
     <section className="relative py-28 px-6 bg-green-50 overflow-hidden">
       {/* Subtle background texture */}
@@ -21,30 +25,24 @@ export default function AboutStory() {
         >
           <div className="space-y-4">
             <span className="text-sm font-medium text-green-700 uppercase tracking-wide">
-              Nuestro origen
+              {dict.aboutStory.eyebrow}
             </span>
 
             <h2 className="text-3xl md:text-4xl font-semibold text-green-900 leading-tight">
-              La Abuela Ecológica
+              {dict.aboutStory.title}
             </h2>
           </div>
 
           <p className="text-gray-800 leading-relaxed text-lg">
-            La Fundación Abuela Ecológica nace inspirada en el legado de{" "}
-            <strong>Bertalia González Villalobos</strong> (1935–2020),
-            referente comunitaria en reforestación y protección del agua.
+            {dict.aboutStory.p1}
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            Con semillas en las manos y convicción en el corazón,
-            recorrió comunidades sembrando árboles como un acto de
-            responsabilidad intergeneracional.
+            {dict.aboutStory.p2}
           </p>
 
           <p className="text-gray-700 leading-relaxed">
-            En 2018, junto a su hija <strong>Laura Alfaro González</strong>
-            {" "}y su nieta <strong>María Murillo Alfaro</strong>, ese legado
-            se transforma en fundación.
+            {dict.aboutStory.p3}
           </p>
         </motion.div>
 

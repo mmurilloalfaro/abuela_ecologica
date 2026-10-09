@@ -1,0 +1,175 @@
+{
+  "nav": {
+    "about": "About us",
+    "projects": "Projects",
+    "nursery": "Forest Nursery",
+    "involucrate": "Get involved",
+    "transparency": "Transparency",
+    "donate": "Donate"
+  },
+
+  "home": {
+  "heroTitle": "We care for the earth by educating those who will inherit it",
+  "heroSubtitle": "From San Carlos to Costa Rica and the world.",
+  "ctaPrimary": "Support the foundation",
+  "ctaSecondary": "Discover our story"
+  },
+
+  "story": {
+  "title": "Our story begins with a river",
+  "paragraph1": "Abuela Ecológica Foundation was born in the Northern Zone of Costa Rica, on the banks of a river that was losing its forest.",
+  "paragraph2": "At 80 years old, Mrs. Bertalia González decided not to stand by. She began germinating seeds at home and reforesting the riverbanks with native species where life had once flourished.",
+  "paragraph3": "She did not do it for recognition. She did it for the animals, for the land, and for those who had not yet been born.",
+  "quote": "“We must plant trees to leave life for the children who have not yet been born.”",
+  "closing": "For San Carlos, Costa Rica and the world.",
+  "imageAlt": "Early days of Abuela Ecológica"
+  },
+
+  "impact": {
+  "badge": "Our Impact",
+  "title": "Measurable results since 2018",
+  "description": "Our work is reflected in sustained action, strategic partnerships, and tangible benefits for the communities and ecosystems we serve.",
+  "metrics": {
+    "trees": {
+      "value": "+55,000",
+      "label": "Native trees planted across the Northern Region since the foundation was established."
+    },
+    "schools": {
+      "value": "+50",
+      "label": "Educational institutions engaged over the past five years, promoting environmental awareness and responsibility."
+    },
+    "partnerships": {
+      "value": "20",
+      "label": "Active partnerships with community water associations, municipalities, and public institutions."
+    },
+    "students": {
+      "value": "200",
+      "label": "High school and university students who have completed community service programs with our organization."
+    }
+  },
+  "closing": "Each figure represents long-term processes built collaboratively with communities, institutions, and future generations."
+  },
+
+  "howToHelp": {
+  "title": "How You Can Contribute",
+  "description": "There are multiple ways to support our mission. Each contribution strengthens our environmental and community-based initiatives.",
+  "options": {
+    "donate": {
+      "title": "Donate",
+      "description": "Your contribution supports environmental education, ecological restoration, and sustainable community initiatives."
+    },
+    "volunteer": {
+      "title": "Volunteer",
+      "description": "Engage directly in workshops, environmental campaigns, and collaborative community actions."
+    },
+    "alliances": {
+      "title": "Partnerships",
+      "description": "Companies and organizations can amplify environmental and social impact alongside us."
+    }
+  }
+  },
+
+  "cta": {
+  "title": "The future is built today.",
+  "description": "Every action matters. Every individual contributes. Together, we can protect nature and strengthen communities.",
+  "button": "Support the Foundation"
+  },
+  
+  "footer": {
+  "navigation": "Navigation",
+  "legalTitle": "Legal Information",
+  "legal": {
+    "nonprofit": "Nonprofit Foundation",
+    "country": "Costa Rica",
+    "rights": "All rights reserved"
+  },
+  "contact": "Contact",
+  "email": "info@abuelaecologica.org",
+  "links": {
+    "home": "Home",
+    "projects": "Projects",
+    "donate": "Donate",
+    "transparency": "Transparency"
+  },
+  "developedBy": "Developed by"
+  },
+  
+  "aboutHero": {
+    "eyebrow": "Abuela Ecologica Foundation",
+    "title": "About Us",
+    "description": "Environmental protection, community action, and sustainable development from the local level."
+  },
+
+  "aboutStory": {
+  "eyebrow": "Our origins",
+  "title": "The Ecological Grandmother",
+  "p1": "The Abuela Ecologica Foundation was born inspired by the legacy of Bertalia González Villalobos (1935–2020), a community leader in reforestation and water protection.",
+  "p2": "With seeds in her hands and conviction in her heart, she traveled through communities planting trees as an act of intergenerational responsibility.",
+  "p3": "In 2018, together with her daughter Laura Alfaro González and her granddaughter María Murillo Alfaro, that legacy became a foundation."
+  },
+
+  "missionVision": {
+  "title": "Our institutional direction",
+  "description": "We clearly define what we do today and the future we want to build.",
+  "mission": {
+    "title": "Our mission",
+    "subtitle": "Environmental action with a human focus",
+    "text": "To ensure the responsible use of natural resources, restore the environment, and promote sustainable lifestyles alongside communities."
+  },
+  "vision": {
+    "title": "Our vision",
+    "subtitle": "A fair and sustainable future",
+    "text": "To be a leading foundation in community environmental action, promoting sustainable territories and healthy ecosystems."
+  }
+  },
+
+  "aboutValues": {
+    "values": {
+      "title": "Our values",
+      "items": {
+        "consciousness": {
+          "title": "Environmental awareness",
+          "text": "We take responsibility for the impact of our actions."
+        },
+        "respect": {
+          "title": "Environmental respect",
+          "text": "We recognize the limits of the planet and all forms of life."
+        },
+        "justice": {
+          "title": "Environmental justice",
+          "text": "Social and environmental equity are inseparable."
+        }
+      }
+    }
+  },
+
+  "aboutPrinciples": {
+  "principles": {
+    "title": "Our principles",
+    "subtitle": "They guide every decision, project, and partnership we promote.",
+    "items": {
+      "responsibility": "Intergenerational responsibility",
+      "community": "Community collaboration",
+      "sustainability": "True sustainability",
+      "education": "Environmental education"
+    },
+    "impact": {
+      "title": "Transforming the way we live",
+      "text": "It means rethinking how we produce, consume, and coexist. Sustainability is not an add-on: it is a new way of understanding our relationship with nature."
+    }
+  }
+  },
+
+  "aboutClosing": {
+  "quote": "Caring for the Earth is caring for those who have not yet been born.",
+  "description": "A conviction that guides every action of the Abuela Ecologica Foundation."
+  },
+
+  "projects": {
+  "hero": {
+    "eyebrow": "Abuela Ecológica Foundation",
+    "title": "Our Projects",
+    "description": "Each project responds to a real need: fragmented forests, species at risk, and communities that want to be part of the solution."
+  }
+  }
+}

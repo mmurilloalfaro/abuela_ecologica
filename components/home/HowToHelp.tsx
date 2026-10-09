@@ -5,7 +5,19 @@ import { fadeUp } from "@/components/animations/fadeUp";
 import HelpCard from "@/components/cards/HelpCard";
 import { helpOptions } from "@/data/helpOptions";
 
-export default function HowToHelp() {
+interface HowToHelpProps {
+  dictionary: {
+    title: string;
+    description: string;
+    options: {
+      donate: { title: string; description: string };
+      volunteer: { title: string; description: string };
+      alliances: { title: string; description: string };
+    };
+  };
+}
+
+export default function HowToHelp({ dictionary }: HowToHelpProps) {
   return (
     <section
       id="how-to-help"
@@ -13,6 +25,7 @@ export default function HowToHelp() {
     >
       <div className="max-w-6xl mx-auto space-y-24">
 
+        {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto space-y-5">
           <motion.h2
             variants={fadeUp(0)}
@@ -21,7 +34,7 @@ export default function HowToHelp() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold"
           >
-            ¿Cómo podés ser parte?
+            {dictionary.title}
           </motion.h2>
 
           <motion.p
@@ -31,15 +44,27 @@ export default function HowToHelp() {
             viewport={{ once: true }}
             className="text-gray-600 text-lg"
           >
-            Sumarte es sencillo. Cada forma de apoyo fortalece el trabajo
-            ambiental y comunitario que realizamos día a día.
+            {dictionary.description}
           </motion.p>
         </div>
 
+        {/* CARDS */}
         <div className="grid gap-12 md:grid-cols-3">
-          {helpOptions.map((option, index) => (
-            <HelpCard key={option.id} option={option} index={index} />
-          ))}
+          {helpOptions.map((option, index) => {
+            const localized = dictionary.options[option.id as keyof typeof dictionary.options];
+
+            return (
+              <HelpCard
+                key={option.id}
+                option={{
+                  ...option,
+                  title: localized.title,
+                  description: localized.description,
+                }}
+                index={index}
+              />
+            );
+          })}
         </div>
 
       </div>

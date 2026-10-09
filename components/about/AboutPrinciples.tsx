@@ -3,8 +3,11 @@
 import { principles } from "@/data/principles";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
+import { useDictionary } from "@/context/DictionaryProvider";
 
 export default function AboutPrinciples() {
+  const dict = useDictionary();
+
   return (
     <section className="px-6 py-24 md:py-32 bg-gray-50">
       <div className="max-w-6xl mx-auto space-y-16">
@@ -12,10 +15,10 @@ export default function AboutPrinciples() {
         {/* Header */}
         <header className="max-w-3xl space-y-4">
           <h2 className="text-3xl md:text-4xl font-semibold">
-            Nuestros principios
+            {dict.aboutPrinciples.principles.title}
           </h2>
           <p className="text-lg text-gray-600">
-            Guían cada decisión, proyecto y alianza que impulsamos.
+            {dict.aboutPrinciples.principles.subtitle}
           </p>
         </header>
 
@@ -38,7 +41,7 @@ export default function AboutPrinciples() {
                 </div>
 
                 <h3 className="text-lg font-semibold transition-colors duration-300 group-hover:text-green-700">
-                  {principle.title}
+                  {dict.aboutPrinciples.principles.items[principle.id]}
                 </h3>
               </motion.div>
             );
@@ -55,16 +58,13 @@ export default function AboutPrinciples() {
         >
           <div className="max-w-2xl space-y-4">
             <h3 className="text-xl md:text-2xl font-semibold">
-              Transformar nuestra forma de vivir
+              {dict.aboutPrinciples.principles.impact.title}
             </h3>
             <p className="text-white/90 leading-relaxed">
-              Implica repensar cómo producimos, consumimos y convivimos.
-              La sostenibilidad no es un complemento: es una nueva manera
-              de entender nuestra relación con la naturaleza.
+              {dict.aboutPrinciples.principles.impact.text}
             </p>
           </div>
 
-          {/* Subtle accent line */}
           <div className="absolute bottom-0 left-0 w-24 h-1 bg-green-400 rounded-bl-2xl" />
         </motion.div>
 
