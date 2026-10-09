@@ -39,6 +39,7 @@ export default function NurseryHero() {
             alt="Vivero Fundación Abuela Ecológica"
             fill
             priority={index === 0}
+            unoptimized
             className="object-cover"
           />
         </div>
