@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@cloudflare/workers-response-store": "^1.1.0",
-    "@swc/helpers": "^0.5.23",
+    "@swc/helpers": "0.5.23",
     "@vinext/cloudflare": "^1.1.0",
     "framer-motion": "^12.29.0",
     "lucide-react": "^0.562.0",
