@@ -106,7 +106,7 @@ export default function DonationMethods() {
             </p>
 
             <p className="text-2xl font-mono font-semibold text-gray-900">
-              6063-8498
+              7034-2957
             </p>
 
             <p className="text-xs text-gray-500">

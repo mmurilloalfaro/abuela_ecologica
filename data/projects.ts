@@ -26,7 +26,7 @@ export const projects = [
       "Restauración del hábitat de la lapa verde en San Carlos mediante la siembra de árboles clave y el fortalecimiento de corredores biológicos.",
     location: "Zona Norte",
     year: "2025 - 2026",
-    image: "/projects/plant_tree.JPG",
+    image: "/projects/arboles/arboles_01.jpeg",
     heroImages: [
       "/projects/arboles/arboles_01.jpeg",
       "/projects/arboles/arboles2.jpeg",
