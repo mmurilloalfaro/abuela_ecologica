@@ -9,9 +9,14 @@ import { HelpOption } from "@/types/help";
 type HelpCardProps = {
   option: HelpOption;
   index: number;
+  actionLabel: string;
 };
 
-export default function HelpCard({ option, index }: HelpCardProps) {
+export default function HelpCard({
+  option,
+  index,
+  actionLabel,
+}: HelpCardProps) {
   const Icon = option.icon;
 
   return (
@@ -44,7 +49,7 @@ export default function HelpCard({ option, index }: HelpCardProps) {
         rel={option.external ? "noopener noreferrer" : undefined}
         className="inline-flex items-center gap-2 text-sm font-medium text-green-700 transition-colors duration-300 group-hover:text-green-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-green-600 rounded-sm"
       >
-        {option.external ? "Sumate" : "Conocé más"}
+        {actionLabel}
         <ArrowRight className="w-4 h-4" />
       </Link>
     </motion.div>

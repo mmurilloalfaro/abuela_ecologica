@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Inicio",
     "about": "Quiénes somos",
     "projects": "Proyectos",
     "nursery": "Vivero Forestal",
@@ -48,22 +49,26 @@
   "closing": "Cada cifra representa procesos sostenidos en el tiempo, construidos junto a comunidades, instituciones y nuevas generaciones."
   },
   "howToHelp": {
-  "title": "¿Cómo podés ser parte?",
-  "description": "Sumarte es sencillo. Cada forma de apoyo fortalece el trabajo ambiental y comunitario que realizamos día a día.",
-  "options": {
-    "donate": {
-      "title": "Doná",
-      "description": "Tu aporte se transforma en educación ambiental, restauración ecológica y trabajo comunitario sostenible."
+    "title": "¿Cómo podés ser parte?",
+    "description": "Sumarte es sencillo. Cada forma de apoyo fortalece el trabajo ambiental y comunitario que realizamos día a día.",
+    "actions": {
+      "join": "Sumate",
+      "learnMore": "Conocé más"
     },
-    "volunteer": {
-      "title": "Voluntariado",
-      "description": "Participá activamente en talleres, jornadas ambientales y acciones junto a las comunidades."
-    },
-    "alliances": {
-      "title": "Alianzas",
-      "description": "Empresas y organizaciones pueden escalar el impacto ambiental y social junto a nosotros."
+    "options": {
+      "donate": {
+        "title": "Doná",
+        "description": "Tu aporte se transforma en educación ambiental, restauración ecológica y trabajo comunitario sostenible."
+      },
+      "volunteer": {
+        "title": "Voluntariado",
+        "description": "Participá activamente en talleres, jornadas ambientales y acciones junto a las comunidades."
+      },
+      "alliances": {
+        "title": "Alianzas",
+        "description": "Empresas y organizaciones pueden escalar el impacto ambiental y social junto a nosotros."
+      }
     }
-  }
   },
   "cta": {
   "title": "El futuro se construye hoy.",
@@ -162,11 +167,533 @@
   },
 
   "projects": {
-  "hero": {
-    "eyebrow": "Fundación Abuela Ecológica",
-    "title": "Nuestros proyectos",
-    "description": "Cada proyecto es una respuesta concreta a una necesidad real: bosques fragmentados, especies en riesgo y comunidades que quieren ser parte de la solución."
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Nuestros proyectos",
+      "description": "Cada proyecto es una respuesta concreta a una necesidad real: bosques fragmentados, especies en riesgo y comunidades que quieren ser parte de la solución."
+    },
+    "grid": {
+      "title": "Proyectos",
+      "status": {
+        "active": "En progreso",
+        "completed": "Finalizado"
+      }
+    },
+    "items": {
+      "arboles-plumas": {
+        "title": "Árboles y Plumas",
+        "summary": "Restauramos bosques para devolverle el hogar a la lapa verde",
+        "description": "Restauración del hábitat de la lapa verde en San Carlos mediante la siembra de árboles clave y el fortalecimiento de corredores biológicos.",
+        "location": "Zona Norte",
+        "content": [
+          "Árboles y Plumas es un proyecto dedicado a la restauración del hábitat de la lapa verde. La lapa verde es una de las guacamayas más emblemáticas de Costa Rica, pero también una de las más amenazadas. La deforestación y la fragmentación del bosque han reducido drásticamente su hábitat, confinándola a pequeños núcleos aislados.",
+          "San Carlos sigue siendo un territorio clave para su recuperación. Aún existen bosques, comunidades comprometidas y especies arbóreas esenciales como el almendro de montaña que permiten devolverle condiciones adecuadas para alimentarse y anidar.",
+          "Árboles y Plumas nace como una respuesta concreta: restaurar corredores biológicos mediante la siembra de especies clave y la participación activa de comunidades locales, instituciones y aliados estratégicos."  
+        ],
+        "stats": [
+          {
+            "value": "8.000",
+            "label": "Árboles nativos"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Lapa verde"
+          },
+          {
+            "value": "Zona Norte",
+            "label": "Territorio"
+          },
+          {
+            "value": "2025–2026",
+            "label": "Periodo"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a devolverle el bosque a la lapa verde",
+          "text": "Tu donación apoya la producción, siembra y mantenimiento de árboles nativos esenciales para la supervivencia de esta especie y la restauración del ecosistema.",
+          "button": "Apoyar este proyecto"
+        }
+      },
+      "bosque-los-lolos": {
+        "title": "Bosque de los Lolos",
+        "summary": "Restauración ecológica para fortalecer la conectividad entre bosques y proteger fuentes de agua.",
+        "description": "Recuperación de 1.400 m² de terreno mediante la siembra de 700 árboles nativos para la protección de dos nacientes de importancia estratégica para la Zona Norte de Costa Rica.",
+        "location": "Zona Norte",
+        "content": [
+          "El proyecto Bosque de los Lolos consistió en la restauración de un antiguo potrero de aproximadamente 1.400 metros cuadrados ubicado en San Vicente de Ciudad Quesada. El área alberga dos nacientes de gran relevancia para las comunidades locales: una que forma parte del sistema de abastecimiento de agua de Ciudad Quesada y otra que suministra agua a la comunidad de El Porvenir.",
+          "La siembra de 700 árboles nativos contribuye a la protección de estas fuentes hídricas, mejora la infiltración y regulación del agua en el suelo y fortalece la conectividad ecológica entre fragmentos de bosque cercanos, creando condiciones más favorables para la biodiversidad de la región.",
+          "La iniciativa contó con el acompañamiento técnico de profesionales de la Escuela de Ingeniería Forestal y de la Escuela de Agronomía del Instituto Tecnológico de Costa Rica (TEC), quienes brindaron asesoría durante las etapas de planificación, selección de especies y establecimiento de la restauración.",
+          "Debido a que el sitio se encuentra a aproximadamente 1.400 metros sobre el nivel del mar, se realizó una selección cuidadosa de especies nativas adaptadas a las condiciones climáticas, edáficas y ecológicas propias de la zona, con el objetivo de maximizar la supervivencia de los árboles y el impacto ambiental a largo plazo."
+        ],
+        "stats": [
+          {
+            "value": "700",
+            "label": "Árboles plantados"
+          },
+          {
+            "value": "2",
+            "label": "Nacientes"
+          },
+          {
+            "value": "San Vicente",
+            "label": "Lugar"
+          },
+          {
+            "value": "2024–2025",
+            "label": "Periodo"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a restaurar nuestros bosques y proteger el agua",
+          "text": "Tu donación apoya la producción, siembra y mantenimiento de árboles nativos esenciales para la restauración del ecosistema.",
+          "button": "Apoyar este proyecto"
+        }
+      },
+      "nietos-abuela-ecologica": {
+        "title": "Nietos de la Abuela Ecológica",
+        "summary": "Llevando alegría y esperanza a niños y niñas de comunidades rurales vulnerables.",
+        "description": "Programa de apoyo a niños y niñas de comunidades rurales vulnerables, promoviendo su desarrollo integral y su conexión con la naturaleza.",
+        "location": "Zona Norte, Costa Rica",
+        "content": [
+          "Nietos de la Abuela Ecológica es una campaña solidaria que nace en 2020 con un propósito simple y profundo: llevar un regalo navideño a niños y niñas de comunidades rurales en situación de vulnerabilidad en la Zona Norte de Costa Rica.",
+          "Desde su inicio, la campaña ha entregado más de 1.700 regalos, gracias a la colaboración de padrinos, donaciones solidarias y empresas que creen en el impacto social de esta labor. Cada regalo representa mucho más que un objeto: es un gesto de acompañamiento, alegría y dignidad para las familias beneficiadas.",
+          "A lo largo de los años, la campaña ha llegado a diversas comunidades:",
+          "• 2020: 350 regalos en el Territorio Indígena Maleku, en los palenques El Sol, Margarita y Tonjibe.",  
+          "• 2021: Alrededor de 500 regalos en Santa Rosa de Pocosol, Tres y Tres de Pocosol, así como a beneficiarios de CENCINAI en San Joaquín de Cutris y Dulce Nombre de Ciudad Quesada.",  
+          "• 2022: 150 regalos entregados en Boca San Carlos.",  
+          "• 2023: Cerca de 350 regalos para niños y niñas de CENCINAI de Boca Tapada, Santa Rita, Boca San Carlos, Cureñita y el área de Pediatría del Hospital San Carlos.",  
+          "• 2024: 350 regalos entregados en Boca Tapada, Santa Rita, Boca San Carlos y Cureñita.",  
+          "• 2025: 200 regalos distribuidos en Crucitas y Moravia de Cutris, Pediatría del Hospital San Carlos y el Hogarcito de Ciudad Quesada.",
+          "La campaña es coordinada desde sus inicios por María Fernanda Murillo, y se sostiene gracias al compromiso constante de personas y organizaciones que año a año deciden sumarse como padrinos o realizar donaciones.",
+          "Nietos de la Abuela Ecológica demuestra que la solidaridad también transforma territorios, crea comunidad y deja huella en la infancia."
+        ],
+        "stats": [
+          {
+            "value": "1.700+",
+            "label": "Regalos entregados"
+          },
+          {
+            "value": "15",
+            "label": "Comunidades beneficiadas"
+          },
+          {
+            "value": "Zona Norte",
+            "label": "Territorio"
+          },
+          {
+            "value": "2020–2025",
+            "label": "Periodo"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a regalarle una sonrisa a la infancia de la Zona Norte",
+          "text": "Tu donación apoya la compra de regalos, la logística de entrega y la continuidad de esta campaña solidaria.",
+          "button": "Apoyar este proyecto"
+        }
+      },
+      "reforestacion-consciente": {
+        "title": "Reforestación Consciente",
+        "summary": "Siembra de árboles nativos para proteger nacientes de agua y fortalecer ecosistemas en La Tigra de San Carlos.",
+        "description": "Proyecto de reforestación que combina la siembra de árboles nativos con la educación ambiental para proteger las nacientes de agua y fortalecer los ecosistemas en La Tigra de San Carlos.",
+        "location": "La Tigra",
+        "content": [
+          "Durante octubre, noviembre y diciembre de 2020 se realizaron varias jornadas de reforestación en la zona de La Tigra de San Carlos, logrando sembrar exitosamente 5.000 árboles de 55 especies nativas.",
+          "Uno de los terrenos intervenidos colinda con el Bosque Eterno de los Niños, mientras que el otro es propiedad de la ASADA La Lucha – La Vega. Ambos terrenos albergan nacientes de agua de alto valor ecológico.",
+          "En el terreno perteneciente a la ASADA se encuentran las captaciones de agua que abastecen a más de 5.000 familias, por lo que la reforestación tuvo un impacto directo en la protección del recurso hídrico.",
+          "Durante las jornadas, las personas voluntarias aprendieron sobre especies forestales y fauna silvestre, y pudieron observar serpientes, ranas, aves y mamíferos en su hábitat natural.",
+          "Este proyecto se desarrolló como parte de una compensación ambiental de una empresa privada, siendo ejecutado integralmente por nuestra organización."
+        ],
+        "stats": [
+          {
+            "value": "5.000",
+            "label": "Árboles plantados"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Lapa verde"
+          },
+          {
+            "value": "La Tigra de San Carlos",
+            "label": "Zona"
+          },
+          {
+            "value": "2020",
+            "label": "Periodo"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a devolverle el bosque a la lapa verde",
+          "text": "Tu donación apoya la producción, siembra y mantenimiento de árboles nativos esenciales para la supervivencia de esta especie y la restauración del ecosistema.",
+          "button": "Apoyar este proyecto"
+        }
+      },
+      "un-norte-lapa-verde": {
+        "title": "Un Norte para la Lapa Verde",
+        "summary": "Proyecto de restauración ecológica enfocado en la donación y siembra de almendro de montaña para proteger el hábitat de la lapa verde.",
+        "description": "Proyecto de restauración ecológica que busca proteger el hábitat de la lapa verde mediante la siembra de almendro de montaña y la participación de comunidades locales.",
+        "location": "Zona Huetar Norte y Vertiente Atlántica",
+        "content": [
+          "Un Norte para la Lapa Verde es un proyecto de conservación desarrollado entre noviembre de 2019 y julio de 2020, enfocado en reforzar el hábitat de una de las especies más emblemáticas y amenazadas de Costa Rica: la lapa verde.",
+          "La lapa verde se encuentra catalogada como En Peligro de Extinción según la UICN y la legislación nacional. Su principal amenaza continúa siendo la pérdida de hábitat, especialmente la desaparición del almendro de montaña, árbol del cual depende directamente para alimentarse y anidar.",
+          "Diversas investigaciones han demostrado que entre el 80% y 90% de la dieta de la lapa verde proviene del fruto del almendro, y que cerca del 90% de sus nidos se ubican en cavidades naturales de este árbol. Su conservación está, literalmente, ligada a la presencia del almendro en el paisaje.",
+          "Ante esta realidad, el proyecto se enfocó en la donación y siembra de 5.000 árboles de almendro de montaña en la Zona Huetar Norte y la Vertiente Atlántica, regiones que forman parte del rango histórico de distribución de la especie.",
+          "El proyecto integró acciones de comunicación ambiental, producción de material educativo, viverización de plantones y acompañamiento técnico a las personas beneficiarias, promoviendo el cuidado y seguimiento de los árboles sembrados.",
+          "Las semillas utilizadas fueron recolectadas en sitios estratégicos como Veracruz, El Sahino de Pital, Santa Clara, La Tigra y Peñas Blancas, además del apoyo del vivero del ICE de Sarapiquí, que donó 4.000 plantones.",
+          "Un Norte para la Lapa Verde sentó las bases para futuros proyectos de restauración ecológica de la Fundación Abuela Ecológica, consolidando un modelo de conservación basado en ciencia, territorio y participación comunitaria."
+        ],
+        "stats": [
+          {
+            "value": "5.000",
+            "label": "Árboles donados"
+          },
+          {
+            "value": "Dipteryx panamensis",
+            "label": "Especie clave"
+          },
+          {
+            "value": "Zona Norte y Vertiente Atlántica",
+            "label": "Territorio"
+          },
+          {
+            "value": "2020",
+            "label": "Periodo"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a devolverle el bosque a la lapa verde",
+          "text": "Tu donación apoya la producción, siembra y mantenimiento de árboles nativos esenciales para la supervivencia de esta especie y la restauración del ecosistema.",
+          "button": "Apoyar este proyecto"
+        }
+      },
+      "inclusion-intercultural": {
+        "title": "Inclusión Intercultural",
+        "summary": "Proyecto socioambiental que une reforestación, educación ambiental e inclusión de comunidades indígenas en la Zona Norte.",
+        "description": "Proyecto de inclusión intercultural que promueve la reforestación como espacio de encuentro, educación ambiental y fortalecimiento del tejido social entre comunidades indígenas y ciudadanía.",
+        "location": "Territorio Indígena Maleku",
+        "content": [
+          "Inclusión Intercultural nace con el propósito de proteger la naturaleza a través de la reforestación, utilizando esta actividad como un espacio de encuentro entre comunidades indígenas y habitantes de la Zona Norte.",
+          "El proyecto integra la acción ambiental con la educación social y cultural, promoviendo el respeto, la inclusión y el aprendizaje mutuo entre personas de distintos orígenes, edades e instituciones.",
+          "La reforestación funciona como un eje articulador que permite generar conciencia ambiental, fortalecer vínculos comunitarios y abrir espacios para el diálogo intercultural.",
+          "El 30 de octubre de 2019 se realizó la primera edición del proyecto, con la participación aproximada de 110 personas y la presencia de representantes de las etnias Boruca, Ngöbe y Maleku.",
+          "Además, el evento contó con el acompañamiento de diversas instituciones públicas, organizaciones sociales y grupos comunitarios, consolidando una experiencia colectiva de alto valor social y ambiental.",
+          "Este proyecto se concibe como un motor para futuras iniciativas que promuevan un desarrollo más inclusivo y sostenible, no solo en la Zona Norte, sino a nivel nacional."
+        ],
+        "stats": [
+          {
+            "value": "1.000",
+            "label": "Árboles plantados"
+          },
+          {
+            "value": "110",
+            "label": "Participantes"
+          },
+          {
+            "value": "3",
+            "label": "Pueblos indígenas"
+          },
+          {
+            "value": "2019",
+            "label": "Año"
+          }
+        ],
+        "cta": {
+          "title": "Ayudá a crear espacios de encuentro y respeto entre comunidades",
+          "text": "Tu donación apoya a generar oportunidades de participación, educación ambiental y reforestación en territorios indígenas y comunidades locales.",
+          "button": "Apoyar este proyecto"
+        }
+      }
+      }
+  },
+  "nursery": {
+    "hero": {
+      "eyebrow": "Vivero Forestal",
+      "title": "Donde nacen los árboles",
+      "highlight": "y se restaura el territorio",
+      "description": "Desde San Carlos producimos especies forestales, impulsamos educación ambiental y apoyamos procesos de restauración ecológica durante todo el año.",
+      "imageAlt": "Vivero forestal de la Fundación Abuela Ecológica"
+    },
+    "introduction": {
+    "title": "El vivero, la base de nuestro trabajo",
+    "description": "El vivero forestal de Fundación Abuela Ecológica es el principal espacio operativo de la organización y el punto de partida de nuestras acciones de restauración, educación ambiental e inclusión comunitaria.",
+    "highlights": {
+      "production": {
+        "title": "Producción forestal",
+        "text": "Más de 120 especies forestales producidas cada año para restauración ecológica."
+      },
+      "education": {
+        "title": "Educación ambiental",
+        "text": "Espacio formativo para universidades, colegios y procesos comunitarios."
+      },
+      "community": {
+        "title": "Participación comunitaria",
+        "text": "Voluntariado nacional e internacional y Trabajo Comunal Universitario."
+      }
+    },
+    "visitNote": "El vivero funciona en un terreno facilitado por la Municipalidad de San Carlos y recibe visitas únicamente con coordinación previa, garantizando experiencias educativas seguras y organizadas.",
+    "info": {
+      "hours": {
+        "title": "Horario de atención",
+        "weekdays": "Lunes a viernes: 8:00 a. m. – 2:00 p. m.",
+        "saturday": "Sábados: 8:00 a. m. – 12:00 m. d."
+      },
+      "visits": {
+        "title": "Visitas y participación",
+        "items": [
+          "Visitas educativas con coordinación previa",
+          "Grupos escolares y comunitarios",
+          "TCU / Trabajo Comunal",
+          "Voluntariado nacional e internacional"
+        ]
+      },
+      "donations": {
+        "title": "Donaciones en especie",
+        "text": "Se reciben semillas, bolsas, sustratos, abonos y otros insumos necesarios para la producción forestal."
+      }
+    }
+    },
+    "stats": {
+      "eyebrow": "El vivero en cifras",
+      "title": "Capacidad técnica al servicio del territorio",
+      "items": {
+        "species": {
+          "value": "120+",
+          "title": "Especies forestales",
+          "description": "Especies nativas producidas para restauración ecológica."
+        },
+        "trees": {
+          "value": "3.000+",
+          "title": "Árboles al año",
+          "description": "Plántulas destinadas a proyectos comunitarios y ambientales."
+        },
+        "people": {
+          "value": "300+",
+          "title": "Personas capacitadas",
+          "description": "Procesos formativos en viverismo y educación ambiental."
+        },
+        "universities": {
+          "value": "3+",
+          "title": "Universidades aliadas",
+          "description": "Trabajo conjunto en prácticas, TCU e investigación."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "El vivero en acción",
+      "title": "Un espacio vivo de restauración y aprendizaje",
+      "description": "El vivero forestal es un punto de encuentro entre conservación, educación ambiental, voluntariado e inclusión social.",
+      "images": {
+        "main": "Área principal del vivero forestal",
+        "production": "Producción de árboles forestales",
+        "students": "Estudiantes realizando trabajo comunal",
+        "workshops": "Talleres y charlas ambientales en el vivero",
+        "volunteers": "Voluntariado internacional en el vivero",
+        "community": "Actividades de participación comunitaria en el vivero"
+      }
+    },
+    "services": {
+      "eyebrow": "Qué hacemos en el vivero",
+      "title": "Servicios que sostienen la restauración",
+      "description": "El vivero articula producción forestal, formación, voluntariado y alianzas estratégicas con un enfoque territorial y comunitario.",
+      "items": {
+        "trees": {
+          "title": "Venta de árboles forestales",
+          "description": "Disponemos de árboles forestales de diversas especies para proyectos de reforestación, corredores biológicos y jardines ecológicos.",
+          "badge": "Disponible"
+        },
+        "workshops": {
+          "title": "Talleres y charlas ambientales",
+          "description": "Espacios formativos dirigidos a comunidades, estudiantes y empresas sobre conservación, reforestación y educación ambiental.",
+          "badge": "Durante el año"
+        },
+        "communityWork": {
+          "title": "Trabajo Comunal (TCU / TC)",
+          "description": "Recibimos estudiantes universitarios y de secundaria para realizar su trabajo comunal en el vivero, con acompañamiento técnico.",
+          "badge": "Abierto"
+        },
+        "visits": {
+          "title": "Visitas educativas",
+          "description": "Atendemos visitas de centros educativos, adultos mayores y grupos particulares con coordinación previa.",
+          "badge": "Con cita previa"
+        },
+        "volunteering": {
+          "title": "Voluntariado nacional e internacional",
+          "description": "Personas voluntarias participan activamente en procesos de producción, mantenimiento y educación ambiental.",
+          "badge": "Por temporadas"
+        },
+        "donations": {
+          "title": "Donaciones en especie",
+          "description": "Recibimos semillas, bolsas, sustratos, abonos y otros insumos que fortalecen nuestro trabajo anual.",
+          "badge": "Siempre"
+        }
+      }
+    },
+    "schedule": {
+      "eyebrow": "Visitas al vivero",
+      "title": "Horarios y ubicación",
+      "description": "El vivero forestal es un espacio activo de producción, formación y conservación. Las visitas se reciben con coordinación previa.",
+      "hours": {
+        "title": "Horario de atención",
+        "weekdays": "Lunes a viernes: 8:00 a. m. – 2:00 p. m.",
+        "saturday": "Sábados: 8:00 a. m. – 12:00 m. d."
+      },
+      "location": {
+        "title": "Ubicación",
+        "name": "Vivero Forestal Fundación Abuela Ecológica",
+        "address": "Provincia de Alajuela, Ciudad Quesada, barrio El Jardín"
+      },
+      "navigation": {
+        "googleMaps": "Google Maps",
+        "waze": "Waze"
+      },
+      "map": {
+        "title": "Ubicación del Vivero Forestal Fundación Abuela Ecológica"
+      },
+      "notes": {
+        "title": "Consideraciones para visitas",
+        "items": [
+          "Las visitas deben coordinarse previamente.",
+          "Atendemos centros educativos, adultos mayores y visitas particulares.",
+          "Los grupos de niños y niñas deben asistir acompañados por docentes o familiares responsables.",
+          "El vivero es un espacio de trabajo activo durante todo el año."
+        ]
+      }
+    }
+  },
+  "transparency": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Transparencia y rendición de cuentas",
+      "description": "La confianza se cultiva con información clara, accesible y verificable. Aquí compartimos quiénes somos, cómo tomamos decisiones y cómo rendimos cuentas a la comunidad."
+    },
+    "board": {
+      "title": "Junta Directiva",
+      "description": "La Junta Directiva guía la estrategia, supervisa la gestión y vela por el cumplimiento de la misión y los valores de la fundación.",
+      "periodLabel": "Período",
+      "roles": {
+        "president": "Presidenta",
+        "vicePresident": "Vicepresidenta",
+        "treasurer": "Tesorera",
+        "secretary": "Secretaria",
+        "firstMember": "Vocal I",
+        "secondMember": "Vocal II"
+      }
+    },
+    "founders": {
+      "title": "Fundadoras",
+      "description": "La fundación nace del trabajo colectivo y del compromiso profundo con la protección del ambiente y el fortalecimiento comunitario.",
+      "members": {
+        "bertalia": {
+          "role": "Fundadora · Legado e inspiración",
+          "description": "Referente comunitaria en reforestación, protección del agua y cuidado del ambiente. Su trabajo altruista dio origen a la misión y valores que hoy guían a la Fundación Abuela Ecológica."
+        },
+        "laura": {
+          "role": "Fundadora",
+          "description": "Ambientalista y lideresa social de la Región Huetar Norte. Impulsa procesos de restauración ecológica, educación ambiental y fortalecimiento comunitario, con énfasis en el liderazgo de mujeres rurales, la articulación interinstitucional y la conservación de la biodiversidad."
+        },
+        "fernanda": {
+          "role": "Fundadora",
+          "description": "Ingeniera en software. Comprometida con la acción climática y el trabajo comunitario. Parte activa en la consolidación de la fundación y sus procesos de educación ambiental."
+        }
+      }
+    },
+    "reports": {
+      "eyebrow": "Transparencia institucional",
+      "title": "Informes y rendición de cuentas",
+      "description": "Publicamos nuestros informes como parte del compromiso con una gestión ética, responsable y verificable.",
+      "status": {
+        "published": "Publicado",
+        "pending": "Próximamente"
+      },
+      "download": "Descargar informe (PDF)",
+      "inProgress": "Informe en proceso de publicación",
+      "items": {
+        "2025": {
+          "title": "Informe Anual de Labores",
+          "description": "Resumen de proyectos, impacto social y ambiental, y gestión institucional del año 2025."
+        },
+        "2024": {
+          "title": "Informe Anual de Labores",
+          "description": "Resumen de proyectos, impacto social y ambiental, y gestión institucional del año 2024."
+        },
+        "2023": {
+          "title": "Informe Anual de Labores",
+          "description": "Resultados, acciones comunitarias y procesos de conservación desarrollados durante el 2023."
+        },
+        "2022": {
+          "title": "Informe Anual de Labores",
+          "description": "Documento institucional sobre las acciones ambientales y sociales realizadas en 2022."
+        }
+      }
+    }
+  },
+  "donate": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Tu apoyo se convierte en acción ambiental real",
+      "description": "Cada donación impulsa educación ambiental, restauración de ecosistemas y trabajo directo con comunidades en Costa Rica."
+    },
+    "whyDonate": {
+      "title": "¿Por qué donar a",
+      "highlight": "Fundación Abuela Ecológica?",
+      "paragraphs": [
+        "Porque el cambio ambiental no ocurre desde oficinas lejanas, ocurre en comunidades reales, con personas reales.",
+        "Donar a Fundación Abuela Ecológica es apoyar un trabajo cercano, honesto y profundamente arraigado al territorio y a su gente."
+      ]
+    },
+    "impact": {
+      "title": "¿En qué se transforma tu donación?",
+      "description": "Cada aporte se convierte en acciones concretas que generan impacto ambiental y social real.",
+      "items": {
+        "education": {
+          "title": "Educación ambiental",
+          "description": "Talleres y programas para niños y jóvenes."
+        },
+        "reforestation": {
+          "title": "Reforestación",
+          "description": "Recuperación de ecosistemas y corredores biológicos."
+        },
+        "communities": {
+          "title": "Comunidades",
+          "description": "Acompañamiento en zonas rurales e indígenas."
+        },
+        "climate": {
+          "title": "Acción climática",
+          "description": "Soluciones locales frente al cambio climático."
+        }
+      }
+    },
+    "methods": {
+      "eyebrow": "Donar es sembrar futuro",
+      "title": "Donaciones seguras, transparentes",
+      "highlight": "y con impacto real",
+      "description": "Cada aporte se convierte en acciones concretas: educación ambiental, restauración de ecosistemas y trabajo directo con comunidades.",
+      "bank": {
+        "title": "Transferencia bancaria",
+        "ibanDollars": "IBAN dólares",
+        "ibanColones": "IBAN colones",
+        "legalId": "Cédula jurídica",
+        "note": "Transferencias verificables y auditables."
+      },
+      "sinpe": {
+        "title": "SINPE Móvil",
+        "description": "Donación rápida y directa desde Costa Rica.",
+        "beneficiary": "Fundación Abuela Ecológica"
+      },
+      "paypal": {
+        "title": "Donación internacional",
+        "description": "Desde cualquier parte del mundo. Seguro y confiable.",
+        "note": "Acepta tarjetas de crédito y saldo PayPal."
+      },
+      "closing": {
+        "description": "Todos los aportes se destinan exclusivamente a programas de educación ambiental, restauración ecológica y fortalecimiento comunitario.",
+        "statement": "Rendimos cuentas porque la confianza también se cultiva."
+      }
+    },
+    "cta": {
+      "title": "Donar es un acto de amor por la vida",
+      "description": "Tu aporte impulsa educación ambiental, restauración ecológica y trabajo comunitario con impacto real y medible.",
+      "button": "Quiero apoyar",
+      "note": "Gracias por confiar. La transparencia también es parte de nuestro compromiso."
+    }
   }
-  }
-  
 }

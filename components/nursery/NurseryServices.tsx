@@ -1,16 +1,18 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeUp } from "@/components/animations/fadeUp";
 import {
   Sprout,
   BookOpen,
   Users,
-  Handshake,
   GraduationCap,
+  Handshake,
   Recycle,
 } from "lucide-react";
+
+import { fadeUp } from "@/components/animations/fadeUp";
 import { nurseryServices } from "@/data/nurseryServices";
+import { useDictionary } from "@/context/DictionaryProvider";
 
 const icons = [
   Sprout,
@@ -22,6 +24,9 @@ const icons = [
 ];
 
 export default function NurseryServices() {
+  const dict = useDictionary();
+  const t = dict.nursery.services;
+
   return (
     <section className="bg-emerald-50/50 py-28 px-6">
       <div className="max-w-7xl mx-auto space-y-20">
@@ -35,7 +40,7 @@ export default function NurseryServices() {
             viewport={{ once: true }}
             className="inline-block text-sm font-medium text-emerald-700"
           >
-            Qué hacemos en el vivero
+            {t.eyebrow}
           </motion.span>
 
           <motion.h2
@@ -45,7 +50,7 @@ export default function NurseryServices() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold leading-tight"
           >
-            Servicios que sostienen la restauración
+            {t.title}
           </motion.h2>
 
           <motion.p
@@ -55,19 +60,19 @@ export default function NurseryServices() {
             viewport={{ once: true }}
             className="text-gray-700"
           >
-            El vivero articula producción forestal, formación, voluntariado
-            y alianzas estratégicas con un enfoque territorial y comunitario.
+            {t.description}
           </motion.p>
         </div>
 
         {/* SERVICES GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {nurseryServices.map((service, index) => {
-            const Icon = icons[index % icons.length];
+            const Icon = icons[index];
+            const item = t.items[service.key];
 
             return (
               <motion.article
-                key={index}
+                key={service.key}
                 variants={fadeUp(index * 0.05)}
                 initial="hidden"
                 whileInView="visible"
@@ -75,25 +80,29 @@ export default function NurseryServices() {
                 className="group bg-white rounded-2xl p-8 border border-emerald-100
                 hover:shadow-lg hover:-translate-y-1 transition-all"
               >
-                {/* Icon */}
-                <div className="w-12 h-12 flex items-center justify-center
+                {/* ICON */}
+                <div
+                  className="w-12 h-12 flex items-center justify-center
                   rounded-xl bg-emerald-100 text-emerald-700 mb-6
-                  group-hover:bg-emerald-600 group-hover:text-white transition">
+                  group-hover:bg-emerald-600 group-hover:text-white transition"
+                >
                   <Icon className="w-6 h-6" />
                 </div>
 
-                {/* Badge */}
-                <span className="inline-block mb-3 px-3 py-1 text-xs font-medium
-                  bg-emerald-50 text-emerald-700 rounded-full">
-                  {service.badge}
+                {/* BADGE */}
+                <span
+                  className="inline-block mb-3 px-3 py-1 text-xs font-medium
+                  bg-emerald-50 text-emerald-700 rounded-full"
+                >
+                  {item.badge}
                 </span>
 
                 <h3 className="text-xl font-semibold mb-3">
-                  {service.title}
+                  {item.title}
                 </h3>
 
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  {service.description}
+                  {item.description}
                 </p>
               </motion.article>
             );

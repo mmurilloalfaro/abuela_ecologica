@@ -1,10 +1,13 @@
+
 "use client";
 
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { fadeUp } from "@/components/animations/fadeUp";
 import { ArrowDown } from "lucide-react";
+
+import { useDictionary } from "@/context/DictionaryProvider";
+import { fadeUp } from "@/components/animations/fadeUp";
 
 const images = [
   "/nursery/image00.JPG",
@@ -13,6 +16,9 @@ const images = [
 ];
 
 export default function NurseryHero() {
+  const dict = useDictionary();
+  const t = dict.nursery.hero;
+
   const [current, setCurrent] = useState(0);
 
   useEffect(() => {
@@ -25,7 +31,7 @@ export default function NurseryHero() {
 
   return (
     <section className="relative h-[70vh] min-h-[520px] w-full overflow-hidden">
-      
+
       {/* IMAGES */}
       {images.map((src, index) => (
         <div
@@ -36,7 +42,7 @@ export default function NurseryHero() {
         >
           <Image
             src={src}
-            alt="Vivero Fundación Abuela Ecológica"
+            alt={t.imageAlt}
             fill
             priority={index === 0}
             unoptimized
@@ -58,30 +64,32 @@ export default function NurseryHero() {
             className="max-w-3xl space-y-6"
           >
             <span className="inline-block px-4 py-1 text-xs font-medium tracking-wide uppercase rounded-full bg-emerald-600 text-white">
-              Vivero Forestal
+              {t.eyebrow}
             </span>
 
             <h1 className="text-4xl md:text-5xl font-semibold text-white leading-tight">
-              Donde nacen los árboles  
+              {t.title}
               <br />
               <span className="text-emerald-300">
-                y se restaura el territorio
+                {t.highlight}
               </span>
             </h1>
 
             <p className="text-lg text-gray-100 max-w-2xl">
-              Desde San Carlos producimos especies forestales, impulsamos
-              educación ambiental y apoyamos procesos de restauración ecológica
-              durante todo el año.
+              {t.description}
             </p>
           </motion.div>
         </div>
       </div>
 
       {/* SCROLL CUE */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 animate-bounce">
+      <div
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/80 animate-bounce"
+        aria-hidden="true"
+      >
         <ArrowDown className="w-5 h-5" />
       </div>
+
     </section>
   );
 }

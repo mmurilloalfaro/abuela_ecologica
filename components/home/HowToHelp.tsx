@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { useParams } from "next/navigation";
 import { fadeUp } from "@/components/animations/fadeUp";
 import HelpCard from "@/components/cards/HelpCard";
 import { helpOptions } from "@/data/helpOptions";
@@ -9,6 +10,10 @@ interface HowToHelpProps {
   dictionary: {
     title: string;
     description: string;
+    actions: {
+      join: string;
+      learnMore: string;
+    };
     options: {
       donate: { title: string; description: string };
       volunteer: { title: string; description: string };
@@ -18,6 +23,9 @@ interface HowToHelpProps {
 }
 
 export default function HowToHelp({ dictionary }: HowToHelpProps) {
+  const params = useParams<{ locale: string }>();
+  const locale = params.locale;
+
   return (
     <section
       id="how-to-help"
@@ -51,17 +59,30 @@ export default function HowToHelp({ dictionary }: HowToHelpProps) {
         {/* CARDS */}
         <div className="grid gap-12 md:grid-cols-3">
           {helpOptions.map((option, index) => {
-            const localized = dictionary.options[option.id as keyof typeof dictionary.options];
+            const localized =
+              dictionary.options[
+                option.id as keyof typeof dictionary.options
+              ];
+
+            const localizedHref = option.external
+              ? option.href
+              : `/${locale}${option.href}`;
 
             return (
               <HelpCard
                 key={option.id}
                 option={{
                   ...option,
+                  href: localizedHref,
                   title: localized.title,
                   description: localized.description,
                 }}
                 index={index}
+                actionLabel={
+                  option.external
+                    ? dictionary.actions.join
+                    : dictionary.actions.learnMore
+                }
               />
             );
           })}

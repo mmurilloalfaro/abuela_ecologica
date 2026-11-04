@@ -1,26 +1,26 @@
 export const nurseryImages = [
   {
     src: "/nursery/image03.jpeg",
-    alt: "Área principal del vivero forestal",
+    altKey: "main",
   },
   {
     src: "/nursery/image00.JPG",
-    alt: "Producción de árboles forestales",
+    altKey: "production",
   },
   {
     src: "/nursery/image01.jpeg",
-    alt: "Estudiantes realizando trabajo comunal",
+    altKey: "students",
   },
   {
     src: "/nursery/image02.jpeg",
-    alt: "Talleres y charlas ambientales en el vivero",
+    altKey: "workshops",
   },
   {
     src: "/nursery/image04.JPG",
-    alt: "Voluntariado internacional en el vivero",
+    altKey: "volunteers",
   },
   {
     src: "/nursery/image07.jpeg",
-    alt: "Voluntariado internacional en el vivero",
+    altKey: "community",
   },
-];
+] as const;

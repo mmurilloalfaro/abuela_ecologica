@@ -1,11 +1,16 @@
+
 "use client";
 
 import { motion } from "framer-motion";
+
+import { useDictionary } from "@/context/DictionaryProvider";
 import ProjectCard from "./ProjectCard";
 import { projects } from "@/data/projects";
 import { fadeUp } from "@/components/animations/fadeUp";
 
 export default function ProjectsGrid() {
+  const dict = useDictionary();
+
   return (
     <section className="px-6 pb-24">
       <div className="max-w-7xl mx-auto space-y-10">
@@ -19,9 +24,11 @@ export default function ProjectsGrid() {
         >
           <div className="flex items-center gap-4">
             <div className="h-px flex-1 bg-gray-200" />
+
             <span className="text-sm text-gray-500 uppercase tracking-widest">
-              Proyectos
+              {dict.projects.grid.title}
             </span>
+
             <div className="h-px flex-1 bg-gray-200" />
           </div>
         </motion.div>

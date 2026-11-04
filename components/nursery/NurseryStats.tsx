@@ -1,7 +1,7 @@
+
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeUp } from "@/components/animations/fadeUp";
 import {
   Leaf,
   Users,
@@ -9,34 +9,20 @@ import {
   TreePine,
 } from "lucide-react";
 
-const stats = [
-  {
-    value: "120+",
-    title: "Especies forestales",
-    description: "Especies nativas producidas para restauración ecológica.",
-    icon: Leaf,
-  },
-  {
-    value: "3.000+",
-    title: "Árboles al año",
-    description: "Plántulas destinadas a proyectos comunitarios y ambientales.",
-    icon: TreePine,
-  },
-  {
-    value: "300+",
-    title: "Personas capacitadas",
-    description: "Procesos formativos en viverismo y educación ambiental.",
-    icon: Users,
-  },
-  {
-    value: "3+",
-    title: "Universidades aliadas",
-    description: "Trabajo conjunto en prácticas, TCU e investigación.",
-    icon: GraduationCap,
-  },
+import { useDictionary } from "@/context/DictionaryProvider";
+import { fadeUp } from "@/components/animations/fadeUp";
+
+const statItems = [
+  { key: "species" as const, icon: Leaf },
+  { key: "trees" as const, icon: TreePine },
+  { key: "people" as const, icon: Users },
+  { key: "universities" as const, icon: GraduationCap },
 ];
 
 export default function NurseryStats() {
+  const dict = useDictionary();
+  const t = dict.nursery.stats;
+
   return (
     <section className="bg-green-950 text-white py-28 px-6">
       <div className="max-w-6xl mx-auto space-y-16">
@@ -50,7 +36,7 @@ export default function NurseryStats() {
             viewport={{ once: true }}
             className="inline-block text-sm font-medium text-green-300"
           >
-            El vivero en cifras
+            {t.eyebrow}
           </motion.span>
 
           <motion.h2
@@ -60,18 +46,19 @@ export default function NurseryStats() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold leading-tight"
           >
-            Capacidad técnica al servicio del territorio
+            {t.title}
           </motion.h2>
         </div>
 
         {/* STATS */}
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat, index) => {
-            const Icon = stat.icon;
+          {statItems.map((item, index) => {
+            const Icon = item.icon;
+            const stat = t.items[item.key];
 
             return (
               <motion.div
-                key={stat.title}
+                key={item.key}
                 variants={fadeUp(index * 0.1)}
                 initial="hidden"
                 whileInView="visible"
