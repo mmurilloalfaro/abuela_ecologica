@@ -68,6 +68,7 @@ export default function ProjectHero({
                 alt={title}
                 fill
                 priority
+                unoptimized
                 className="object-cover object-center"
               />
             </motion.div>

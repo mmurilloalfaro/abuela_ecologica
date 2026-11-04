@@ -1,6 +1,12 @@
-interface BoardMember {
+export interface BoardMember {
   name: string;
-  role: string;
+  roleKey:
+    | "president"
+    | "vicePresident"
+    | "treasurer"
+    | "secretary"
+    | "firstMember"
+    | "secondMember";
   period: string;
   image: string;
 }
@@ -8,37 +14,37 @@ interface BoardMember {
 export const boardMembers: BoardMember[] = [
   {
     name: "María Fernanda Murillo Alfaro",
-    role: "Presidenta",
+    roleKey: "president",
     period: "2026 – 2028",
     image: "/founder/fernanda.JPG",
   },
   {
     name: "Cristel Arce",
-    role: "Vicepresidenta",
+    roleKey: "vicePresident",
     period: "2026 – 2028",
     image: "/board/Cristel_Arce.png",
   },
   {
     name: "Laura Alfaro González",
-    role: "Tesorera",
+    roleKey: "treasurer",
     period: "2026 – 2028",
     image: "/board/Laura_Alfaro.JPG",
   },
   {
     name: "Eulin Chacón",
-    role: "Secretaria",
+    roleKey: "secretary",
     period: "2026 – 2028",
     image: "/avatar-placeholder.svg",
   },
   {
     name: "Carlos Andrei Salas",
-    role: "Vocal I",
+    roleKey: "firstMember",
     period: "2026 – 2028",
     image: "/avatar-placeholder.svg",
   },
   {
     name: "Alberto Rico Urones",
-    role: "Vocal II",
+    roleKey: "secondMember",
     period: "2026 – 2028",
     image: "/board/Alberto_RicoU.jpeg",
   },

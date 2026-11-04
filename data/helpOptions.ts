@@ -8,14 +8,13 @@ export const helpOptions = [
   },
   {
     id: "volunteer",
-    href:
-      "https://wa.me/506XXXXXXXX?text=Hola%20quiero%20sumarme%20al%20voluntariado",
+    href: "https://wa.me/50670342957",
     icon: Users,
     external: true,
   },
   {
     id: "alliances",
-    href: "/alianzas",
+    href: "/",
     icon: Leaf,
   },
 ];

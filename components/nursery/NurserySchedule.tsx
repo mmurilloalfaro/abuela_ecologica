@@ -1,11 +1,20 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeUp } from "@/components/animations/fadeUp";
-import { MapPin, Clock, AlertCircle, Navigation } from "lucide-react";
+import {
+  MapPin,
+  Clock,
+  AlertCircle,
+} from "lucide-react";
 import Image from "next/image";
 
+import { fadeUp } from "@/components/animations/fadeUp";
+import { useDictionary } from "@/context/DictionaryProvider";
+
 export default function NurserySchedule() {
+  const dict = useDictionary();
+  const t = dict.nursery.schedule;
+
   return (
     <section className="bg-green-950 text-white py-28 px-6">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -13,7 +22,7 @@ export default function NurserySchedule() {
         {/* INFO */}
         <div className="space-y-10">
 
-          {/* Header */}
+          {/* HEADER */}
           <div className="max-w-xl space-y-6">
             <motion.span
               variants={fadeUp(0)}
@@ -22,7 +31,7 @@ export default function NurserySchedule() {
               viewport={{ once: true }}
               className="inline-block text-sm font-medium text-green-300"
             >
-              Visitas al vivero
+              {t.eyebrow}
             </motion.span>
 
             <motion.h2
@@ -32,7 +41,7 @@ export default function NurserySchedule() {
               viewport={{ once: true }}
               className="text-3xl md:text-4xl font-semibold leading-tight"
             >
-              Horarios y ubicación
+              {t.title}
             </motion.h2>
 
             <motion.p
@@ -42,15 +51,14 @@ export default function NurserySchedule() {
               viewport={{ once: true }}
               className="text-green-100/90"
             >
-              El vivero forestal es un espacio activo de producción,
-              formación y conservación. Las visitas se reciben
-              con coordinación previa.
+              {t.description}
             </motion.p>
           </div>
 
-          {/* Details */}
+          {/* DETAILS */}
           <div className="space-y-6">
 
+            {/* HOURS */}
             <motion.div
               variants={fadeUp(0.3)}
               initial="hidden"
@@ -58,19 +66,21 @@ export default function NurserySchedule() {
               viewport={{ once: true }}
               className="flex items-start gap-4"
             >
-              <div className="w-10 h-10 flex items-center justify-center rounded-xl bg-green-800 text-green-200">
+              <div className="w-10 h-10 flex items-center justify-center rounded-xl bg-green-800 text-green-200 shrink-0">
                 <Clock className="w-5 h-5" />
               </div>
 
               <div>
-                <p className="font-medium">Horario de atención</p>
+                <p className="font-medium">{t.hours.title}</p>
                 <p className="text-sm text-green-100/80">
-                  Lunes a viernes: 8:00 a.m. – 2:00 p.m.<br />
-                  Sábados: 8:00 a.m. – 12:00 m.d.
+                  {t.hours.weekdays}
+                  <br />
+                  {t.hours.saturday}
                 </p>
               </div>
             </motion.div>
 
+            {/* LOCATION */}
             <motion.div
               variants={fadeUp(0.4)}
               initial="hidden"
@@ -78,22 +88,22 @@ export default function NurserySchedule() {
               viewport={{ once: true }}
               className="flex items-start gap-4"
             >
-              <div className="w-10 h-10 flex items-center justify-center rounded-xl bg-green-800 text-green-200">
+              <div className="w-10 h-10 flex items-center justify-center rounded-xl bg-green-800 text-green-200 shrink-0">
                 <MapPin className="w-5 h-5" />
               </div>
 
               <div>
-                <p className="font-medium">Ubicación</p>
+                <p className="font-medium">{t.location.title}</p>
                 <p className="text-sm text-green-100/80">
-                  Vivero Forestal Fundación Abuela Ecológica<br />
-                  Provincia de Alajuela, Cd. Quesada, Barrio El Jardín
+                  {t.location.name}
+                  <br />
+                  {t.location.address}
                 </p>
               </div>
             </motion.div>
           </div>
 
-
-          {/* Navigation Buttons */}
+          {/* NAVIGATION BUTTONS */}
           <motion.div
             variants={fadeUp(0.5)}
             initial="hidden"
@@ -101,7 +111,7 @@ export default function NurserySchedule() {
             viewport={{ once: true }}
             className="flex flex-wrap gap-4"
           >
-            {/* Google Maps */}
+            {/* GOOGLE MAPS */}
             <a
               href="https://maps.app.goo.gl/juVdfoqtrvopood2A"
               target="_blank"
@@ -114,10 +124,10 @@ export default function NurserySchedule() {
                 width={18}
                 height={18}
               />
-              Google Maps
+              {t.navigation.googleMaps}
             </a>
 
-            {/* Waze */}
+            {/* WAZE */}
             <a
               href="https://waze.com/ul/hd1gfy8tbu"
               target="_blank"
@@ -130,7 +140,7 @@ export default function NurserySchedule() {
                 width={20}
                 height={20}
               />
-              Waze
+              {t.navigation.waze}
             </a>
           </motion.div>
         </div>
@@ -138,7 +148,7 @@ export default function NurserySchedule() {
         {/* MAP + NOTES */}
         <div className="space-y-8">
 
-          {/* Google Map Embed */}
+          {/* GOOGLE MAP EMBED */}
           <motion.div
             variants={fadeUp(0.6)}
             initial="hidden"
@@ -152,11 +162,11 @@ export default function NurserySchedule() {
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               allowFullScreen
-              title="Ubicación Vivero Fundación Abuela Ecológica"
+              title={t.map.title}
             />
           </motion.div>
 
-          {/* Notes */}
+          {/* VISIT NOTES */}
           <motion.div
             variants={fadeUp(0.7)}
             initial="hidden"
@@ -166,21 +176,19 @@ export default function NurserySchedule() {
           >
             <div className="flex items-center gap-3">
               <AlertCircle className="w-5 h-5 text-green-300" />
+
               <h3 className="text-xl font-semibold">
-                Consideraciones para visitas
+                {t.notes.title}
               </h3>
             </div>
 
             <ul className="space-y-3 text-sm text-green-100/80 list-disc list-inside">
-              <li>Las visitas deben coordinarse previamente.</li>
-              <li>Atendemos centros educativos, adultos mayores y visitas particulares.</li>
-              <li>Grupos de niñez asisten acompañados por docentes y familias.</li>
-              <li>El vivero es un espacio de trabajo activo durante todo el año.</li>
+              {t.notes.items.map((item: string, index: number) => (
+                <li key={index}>{item}</li>
+              ))}
             </ul>
           </motion.div>
-
         </div>
-
       </div>
     </section>
   );

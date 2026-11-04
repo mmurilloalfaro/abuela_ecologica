@@ -1,3 +1,4 @@
+
 import { NextRequest, NextResponse } from "next/server";
 import { locales, defaultLocale, isValidLocale } from "./lib/i18n/config";
 
@@ -15,10 +16,18 @@ export function proxy(request: NextRequest) {
   const pathnameLocale = pathname.split("/")[1];
 
   if (isValidLocale(pathnameLocale)) {
-    return NextResponse.next();
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-locale", pathnameLocale);
+
+    return NextResponse.next({
+      request: {
+        headers: requestHeaders,
+      },
+    });
   }
 
   const url = request.nextUrl.clone();
+
   url.pathname =
     pathname === "/"
       ? `/${defaultLocale}`

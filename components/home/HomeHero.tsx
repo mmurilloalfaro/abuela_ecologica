@@ -41,7 +41,8 @@ export default function HomeHero() {
             src={images[index]}
             alt={dict.home.heroTitle}
             fill
-            priority
+            priority={index === 0}
+            unoptimized
             className="object-cover"
           />
           <div className="absolute inset-0 bg-black/45" />

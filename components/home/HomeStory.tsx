@@ -83,13 +83,14 @@ export default function HomeStory() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-lg"
+          className="relative w-full max-w-[420px] h-[560px] mx-auto rounded-2xl overflow-hidden shadow-lg"
         >
           <Image
-            src="/inicio.jpeg"
+            src="/inicio.JPG"
             alt={dict.story.imageAlt}
             fill
             className="object-cover"
+            sizes="(max-width: 768px) 100vw, 420px"
           />
         </motion.div>
       </div>

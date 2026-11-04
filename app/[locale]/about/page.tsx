@@ -1,6 +1,7 @@
-"use client";
-
-import { useDictionary } from "@/context/DictionaryProvider";
+import type { Metadata } from "next";
+import { getDictionary } from "@/lib/i18n/getDictionary";
+import { buildPageMetadata } from "@/lib/seo/metadata";
+import { isValidLocale, defaultLocale } from "@/lib/i18n/config";
 
 import AboutHero from "@/components/about/AboutHero";
 import AboutStory from "@/components/about/AboutStory";
@@ -8,8 +9,33 @@ import MissionVision from "@/components/about/MissionVision";
 import AboutValues from "@/components/about/AboutValues";
 import AboutPrinciples from "@/components/about/AboutPrinciples";
 
-export default function AboutPage() {
-  const dict = useDictionary();
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale: requestedLocale } = await params;
+  const locale = isValidLocale(requestedLocale)
+    ? requestedLocale
+    : defaultLocale;
+
+  const dict = getDictionary(locale);
+
+  return buildPageMetadata({
+    locale,
+    path: "/about",
+    title: dict.aboutHero.title,
+    description: dict.aboutHero.description,
+  });
+}
+
+export default async function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const dict = getDictionary(locale);
 
   return (
     <main className="pt-20">
@@ -19,7 +45,6 @@ export default function AboutPage() {
       <AboutValues />
       <AboutPrinciples />
 
-      {/* Closing Statement */}
       <section className="relative px-6 py-28 bg-white overflow-hidden">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_center,_rgba(34,197,94,0.08),_transparent_70%)]" />
 
@@ -35,7 +60,6 @@ export default function AboutPage() {
           </p>
         </div>
       </section>
-
     </main>
   );
 }
