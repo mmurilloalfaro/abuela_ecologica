@@ -1,3 +1,4 @@
+
 "use client";
 
 import Link from "next/link";
@@ -5,6 +6,7 @@ import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
 
 interface HomeCTAProps {
+  locale: string;
   dictionary: {
     title: string;
     description: string;
@@ -12,11 +14,13 @@ interface HomeCTAProps {
   };
 }
 
-export default function HomeCTA({ dictionary }: HomeCTAProps) {
+export default function HomeCTA({
+  locale,
+  dictionary,
+}: HomeCTAProps) {
   return (
     <section className="bg-green-950 text-white py-24 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-8">
-
         <motion.h3
           variants={fadeUp(0)}
           initial="hidden"
@@ -45,13 +49,12 @@ export default function HomeCTA({ dictionary }: HomeCTAProps) {
           className="pt-4"
         >
           <Link
-            href="/donate"
+            href={`/${locale}/donate`}
             className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-green-500 text-black font-medium hover:bg-green-400 transition"
           >
             {dictionary.button}
           </Link>
         </motion.div>
-
       </div>
     </section>
   );

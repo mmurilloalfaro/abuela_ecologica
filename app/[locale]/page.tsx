@@ -1,3 +1,4 @@
+
 import HomeHero from "@/components/home/HomeHero";
 import HomeStory from "@/components/home/HomeStory";
 import HomeImpact from "@/components/home/HomeImpact";
@@ -8,13 +9,16 @@ import { getDictionary } from "@/lib/i18n/getDictionary";
 import { buildPageMetadata } from "@/lib/seo/metadata";
 import { isValidLocale, defaultLocale } from "@/lib/i18n/config";
 
-
-export default async function HomePage({
-  params,
-}: {
+interface HomePageProps {
   params: Promise<{ locale: string }>;
-}) {
-  const { locale } = await params; 
+}
+
+export default async function HomePage({ params }: HomePageProps) {
+  const { locale: requestedLocale } = await params;
+
+  const locale = isValidLocale(requestedLocale)
+    ? requestedLocale
+    : defaultLocale;
 
   const dict = await getDictionary(locale);
 
@@ -23,22 +27,27 @@ export default async function HomePage({
       <HomeHero />
       <HomeStory />
       <HomeImpact />
+
       <HowToHelp dictionary={dict.howToHelp} />
-      <HomeCTA dictionary={dict.cta} />
+
+      <HomeCTA
+        locale={locale}
+        dictionary={dict.cta}
+      />
     </main>
   );
 }
+
 export async function generateMetadata({
   params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
+}: HomePageProps): Promise<Metadata> {
   const { locale: requestedLocale } = await params;
+
   const locale = isValidLocale(requestedLocale)
     ? requestedLocale
     : defaultLocale;
 
-  const dict = getDictionary(locale);
+  const dict = await getDictionary(locale);
 
   return buildPageMetadata({
     locale,

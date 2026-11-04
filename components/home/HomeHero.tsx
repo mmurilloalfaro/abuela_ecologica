@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -5,6 +6,7 @@ import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useDictionary } from "@/data/context/DictionaryProvider";
+import { usePathname } from "next/navigation";
 
 const images = [
   "/hero/image00.PNG",
@@ -16,12 +18,16 @@ const images = [
 
 export default function HomeHero() {
   const dict = useDictionary();
+  const pathname = usePathname();
+  const locale = pathname.split("/")[1] || "es";
+
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % images.length);
     }, 6000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -45,6 +51,7 @@ export default function HomeHero() {
             unoptimized
             className="object-cover"
           />
+
           <div className="absolute inset-0 bg-black/45" />
         </motion.div>
       </AnimatePresence>
@@ -61,7 +68,7 @@ export default function HomeHero() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 pt-6">
           <Link
-            href="/donate"
+            href={`/${locale}/donate`}
             className="px-8 py-4 rounded-xl bg-green-500 text-black font-medium hover:bg-green-400 transition"
           >
             {dict.home.ctaPrimary}
