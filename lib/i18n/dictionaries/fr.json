@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Accueil",
     "about": "Qui sommes-nous",
     "projects": "Projets",
     "nursery": "Pépinière Forestière",
@@ -51,20 +52,24 @@
   },
 
   "howToHelp": {
-    "title": "Comment pouvez-vous participer ?",
-    "description": "Nous rejoindre est simple. Chaque forme de soutien renforce le travail environnemental et communautaire que nous menons au quotidien.",
+    "title": "Comment pouvez-vous vous engager ?",
+    "description": "S’engager est simple. Chaque forme de soutien renforce le travail environnemental et communautaire que nous menons chaque jour.",
+    "actions": {
+      "join": "Rejoignez-nous",
+      "learnMore": "En savoir plus"
+    },
     "options": {
       "donate": {
         "title": "Faire un don",
-        "description": "Votre contribution se transforme en éducation environnementale, restauration écologique et travail communautaire durable."
+        "description": "Votre contribution soutient l’éducation environnementale, la restauration écologique et le développement communautaire durable."
       },
       "volunteer": {
         "title": "Bénévolat",
-        "description": "Participez activement aux ateliers, aux journées environnementales et aux actions menées avec les communautés."
+        "description": "Participez activement à des ateliers, des activités environnementales et des initiatives aux côtés des communautés."
       },
       "alliances": {
-        "title": "Alliances",
-        "description": "Les entreprises et organisations peuvent amplifier l'impact environnemental et social à nos côtés."
+        "title": "Partenariats",
+        "description": "Les entreprises et les organisations peuvent amplifier l’impact environnemental et social en travaillant avec nous."
       }
     }
   },
@@ -166,10 +171,533 @@
   },
 
   "projects": {
-  "hero": {
-    "eyebrow": "Fondation Abuela Ecológica",
-    "title": "Nos projets",
-    "description": "Chaque projet répond à un besoin réel : forêts fragmentées, espèces menacées et communautés souhaitant faire partie de la solution."
-  }
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Nos projets",
+      "description": "Chaque projet apporte une réponse concrète à un besoin réel : des forêts fragmentées, des espèces menacées et des communautés qui souhaitent prendre part à la solution."
+    },
+    "grid": {
+      "title": "Projets",
+      "status": {
+        "active": "En cours",
+        "completed": "Terminé"
+      }
+    },
+    "items": {
+      "arboles-plumas": {
+        "title": "Arbres et Plumes",
+        "summary": "Nous restaurons les forêts pour rendre son habitat à l'ara vert",
+        "description": "Restauration de l'habitat de l'ara vert à San Carlos grâce à la plantation d'espèces d'arbres essentielles et au renforcement des corridors biologiques.",
+        "location": "Région Nord",
+        "content": [
+          "Arbres et Plumes (Árboles y Plumas) est un projet consacré à la restauration de l'habitat de l'ara vert. Cet oiseau, l'un des aras les plus emblématiques du Costa Rica, compte également parmi les espèces les plus menacées du pays. La déforestation et la fragmentation des forêts ont considérablement réduit son habitat, le confinant à de petites populations isolées.",
+          "San Carlos reste un territoire essentiel à son rétablissement. On y trouve encore des forêts, des communautés engagées et des espèces d'arbres indispensables, comme l'amandier de montagne, qui peuvent lui offrir à nouveau les conditions nécessaires pour se nourrir et nicher.",
+          "Arbres et Plumes est né pour apporter une réponse concrète à cette situation : restaurer les corridors biologiques grâce à la plantation d'espèces d'arbres essentielles et à la participation active des communautés locales, des institutions et des partenaires stratégiques."
+        ],
+        "stats": [
+          {
+            "value": "8 000",
+            "label": "Arbres indigènes"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Ara vert"
+          },
+          {
+            "value": "Région Nord",
+            "label": "Territoire"
+          },
+          {
+            "value": "2025–2026",
+            "label": "Période"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à rendre sa forêt à l'ara vert",
+          "text": "Votre don contribue à la production, à la plantation et à l'entretien d'arbres indigènes essentiels à la survie de cette espèce et à la restauration de son écosystème.",
+          "button": "Soutenir ce projet"
+        }
+      },
+      "bosque-los-lolos": {
+        "title": "Forêt de Los Lolos",
+        "summary": "Restauration écologique visant à renforcer la connectivité entre les forêts et à protéger les sources d'eau.",
+        "description": "Restauration d'un terrain de 1 400 m² grâce à la plantation de 700 arbres indigènes afin de protéger deux sources d'eau d'une importance stratégique pour la région Nord du Costa Rica.",
+        "location": "Région Nord",
+        "content": [
+          "Le projet Forêt de Los Lolos a consisté à restaurer un ancien pâturage d'environ 1 400 mètres carrés situé à San Vicente de Ciudad Quesada. Le site abrite deux sources d'eau essentielles pour les communautés locales : l'une fait partie du système d'approvisionnement en eau de Ciudad Quesada, tandis que l'autre alimente la communauté d'El Porvenir.",
+          "La plantation de 700 arbres indigènes contribue à protéger ces ressources en eau, améliore l'infiltration et la régulation de l'eau dans le sol et renforce la connectivité écologique entre les fragments forestiers voisins, créant ainsi des conditions plus favorables à la biodiversité de la région.",
+          "L'initiative a bénéficié de l'accompagnement technique de professionnels de l'École d'ingénierie forestière et de l'École d'agronomie de l'Institut technologique du Costa Rica (TEC), qui ont apporté leur expertise lors des étapes de planification, de sélection des espèces et de mise en œuvre de la restauration.",
+          "Le site étant situé à environ 1 400 mètres d'altitude, une sélection rigoureuse d'espèces indigènes adaptées aux conditions climatiques, pédologiques et écologiques de la région a été réalisée, afin de maximiser la survie des arbres et les retombées environnementales à long terme."
+        ],
+        "stats": [
+          {
+            "value": "700",
+            "label": "Arbres plantés"
+          },
+          {
+            "value": "2",
+            "label": "Sources protégées"
+          },
+          {
+            "value": "San Vicente",
+            "label": "Lieu"
+          },
+          {
+            "value": "2024–2025",
+            "label": "Période"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à restaurer nos forêts et à protéger l’eau",
+          "text": "Votre don soutient la production, la plantation et l’entretien d’arbres indigènes essentiels à la restauration de l’écosystème.",
+          "button": "Soutenir ce projet"
+        }
+      },
+      "nietos-abuela-ecologica": {
+        "title": "Les petits-enfants de la Grand-mère écologique",
+        "summary": "Apporter de la joie et de l'espoir aux enfants des communautés rurales vulnérables.",
+        "description": "Un programme de soutien aux enfants des communautés rurales vulnérables, qui favorise leur épanouissement et leur lien avec la nature.",
+        "location": "Région Nord, Costa Rica",
+        "content": [
+          "Les petits-enfants de la Grand-mère écologique est une campagne solidaire lancée en 2020 avec un objectif simple et profondément humain : offrir un cadeau de Noël aux enfants vivant dans des communautés rurales vulnérables de la région Nord du Costa Rica.",
+          "Depuis sa création, la campagne a distribué plus de 1 700 cadeaux grâce à la participation de parrains et marraines, aux dons solidaires et aux entreprises qui croient en l'impact social de cette initiative. Chaque cadeau représente bien plus qu'un objet : c'est un geste de soutien, de joie et de dignité pour les familles bénéficiaires.",
+          "Au fil des années, la campagne a atteint plusieurs communautés :",
+          "• 2020 : 350 cadeaux distribués dans le territoire autochtone Maleku, dans les palenques El Sol, Margarita et Tonjibe.",
+          "• 2021 : Environ 500 cadeaux à Santa Rosa de Pocosol et Tres y Tres de Pocosol, ainsi qu'aux bénéficiaires des centres CENCINAI de San Joaquín de Cutris et Dulce Nombre de Ciudad Quesada.",
+          "• 2022 : 150 cadeaux distribués à Boca San Carlos.",
+          "• 2023 : Près de 350 cadeaux pour les enfants des centres CENCINAI de Boca Tapada, Santa Rita, Boca San Carlos et Cureñita, ainsi que pour le service de pédiatrie de l'hôpital San Carlos.",
+          "• 2024 : 350 cadeaux distribués à Boca Tapada, Santa Rita, Boca San Carlos et Cureñita.",
+          "• 2025 : 200 cadeaux distribués à Crucitas et Moravia de Cutris, au service de pédiatrie de l'hôpital San Carlos et au Hogarcito de Ciudad Quesada.",
+          "Depuis ses débuts, la campagne est coordonnée par María Fernanda Murillo et repose sur l'engagement constant de personnes et d'organisations qui choisissent chaque année de devenir parrains ou marraines, ou de faire des dons.",
+          "Les petits-enfants de la Grand-mère écologique montre que la solidarité peut aussi transformer les territoires, renforcer les communautés et laisser une empreinte durable dans l'enfance."
+        ],
+        "stats": [
+          {
+            "value": "1 700+",
+            "label": "Cadeaux distribués"
+          },
+          {
+            "value": "15",
+            "label": "Communautés bénéficiaires"
+          },
+          {
+            "value": "Région Nord",
+            "label": "Territoire"
+          },
+          {
+            "value": "2020–2025",
+            "label": "Période"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à offrir un sourire aux enfants de la région Nord",
+          "text": "Votre don contribue à l’achat de cadeaux, à l’organisation de leur distribution et à la poursuite de cette campagne solidaire.",
+          "button": "Soutenir ce projet"
+        }
+      },
+      "reforestacion-consciente": {
+        "title": "Reboisement responsable",
+        "summary": "Plantation d'arbres indigènes pour protéger les sources d'eau et renforcer les écosystèmes à La Tigra, San Carlos.",
+        "description": "Un projet de reboisement qui associe la plantation d'arbres indigènes à l'éducation environnementale afin de protéger les sources d'eau et de renforcer les écosystèmes à La Tigra, San Carlos.",
+        "location": "La Tigra",
+        "content": [
+          "En octobre, novembre et décembre 2020, plusieurs journées de reboisement ont été organisées dans la région de La Tigra, à San Carlos. Elles ont permis de planter avec succès 5 000 arbres appartenant à 55 espèces indigènes.",
+          "L'un des terrains concernés jouxte la Forêt éternelle des enfants, tandis que l'autre appartient à l'ASADA La Lucha – La Vega, une association communautaire chargée de l'approvisionnement en eau. Les deux terrains abritent des sources d'eau d'une grande valeur écologique.",
+          "Le terrain appartenant à l'ASADA accueille les captages d'eau qui approvisionnent plus de 5 000 familles. Le reboisement a donc eu un impact direct sur la protection de cette ressource hydrique essentielle.",
+          "Au cours des journées de reboisement, les bénévoles ont découvert différentes espèces forestières et la faune sauvage. Ils ont également pu observer des serpents, des grenouilles, des oiseaux et des mammifères dans leur habitat naturel.",
+          "Ce projet a été réalisé dans le cadre d'une mesure de compensation environnementale financée par une entreprise privée et entièrement mis en œuvre par notre organisation."
+        ],
+        "stats": [
+          {
+            "value": "5 000",
+            "label": "Arbres plantés"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Ara vert"
+          },
+          {
+            "value": "La Tigra de San Carlos",
+            "label": "Zone"
+          },
+          {
+            "value": "2020",
+            "label": "Année"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à rendre sa forêt à l'ara vert",
+          "text": "Votre don soutient la production, la plantation et l'entretien d'arbres indigènes essentiels à la survie de cette espèce et à la restauration de son écosystème.",
+          "button": "Soutenir ce projet"
+        }
+      },
+      "un-norte-lapa-verde": {
+        "title": "Un avenir pour l'ara vert",
+        "summary": "Projet de restauration écologique axé sur le don et la plantation d'amandiers de montagne afin de protéger l'habitat de l'ara vert.",
+        "description": "Un projet de restauration écologique visant à protéger l'habitat de l'ara vert grâce à la plantation d'amandiers de montagne et à la participation des communautés locales.",
+        "location": "Région Huetar Nord et versant atlantique",
+        "content": [
+          "Un avenir pour l'ara vert est un projet de conservation mené entre novembre 2019 et juillet 2020. Il visait à renforcer l'habitat de l'une des espèces les plus emblématiques et les plus menacées du Costa Rica : l'ara vert.",
+          "L'ara vert est classé En danger d'extinction par l'UICN et par la législation nationale. Sa principale menace demeure la perte de son habitat, notamment la disparition de l'amandier de montagne, un arbre dont il dépend directement pour se nourrir et nicher.",
+          "Plusieurs études ont démontré que 80 à 90 % de l'alimentation de l'ara vert provient des fruits de l'amandier de montagne et qu'environ 90 % de ses nids se trouvent dans les cavités naturelles de cet arbre. Sa survie est littéralement liée à la présence de l'amandier de montagne dans le paysage.",
+          "Face à cette réalité, le projet s'est concentré sur le don et la plantation de 5 000 amandiers de montagne dans la région Huetar Nord et sur le versant atlantique, deux zones faisant partie de l'aire de répartition historique de l'espèce.",
+          "Le projet a intégré des actions de communication environnementale, la production de matériel éducatif, la culture de jeunes plants en pépinière et un accompagnement technique des bénéficiaires, afin de favoriser l'entretien et le suivi des arbres plantés.",
+          "Les graines utilisées ont été récoltées dans des sites stratégiques tels que Veracruz, El Sahino de Pital, Santa Clara, La Tigra et Peñas Blancas. Le projet a également bénéficié du soutien de la pépinière de l'ICE à Sarapiquí, qui a fait don de 4 000 jeunes plants.",
+          "Un avenir pour l'ara vert a posé les bases de futurs projets de restauration écologique de la Fundación Abuela Ecológica, en consolidant un modèle de conservation fondé sur la science, l'ancrage territorial et la participation communautaire."
+        ],
+        "stats": [
+          {
+            "value": "5 000",
+            "label": "Arbres offerts"
+          },
+          {
+            "value": "Dipteryx panamensis",
+            "label": "Espèce clé"
+          },
+          {
+            "value": "Région Nord et versant atlantique",
+            "label": "Territoire"
+          },
+          {
+            "value": "2020",
+            "label": "Année"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à rendre sa forêt à l'ara vert",
+          "text": "Votre don soutient la production, la plantation et l'entretien d'arbres indigènes essentiels à la survie de cette espèce et à la restauration de son écosystème.",
+          "button": "Soutenir ce projet"
+        }
+      },
+      "inclusion-intercultural": {
+        "title": "Inclusion interculturelle",
+        "summary": "Un projet socio-environnemental qui associe reboisement, éducation environnementale et inclusion des communautés autochtones dans la région Nord.",
+        "description": "Un projet d'inclusion interculturelle qui fait du reboisement un espace de rencontre, d'éducation environnementale et de renforcement des liens sociaux entre les communautés autochtones et la population.",
+        "location": "Territoire autochtone Maleku",
+        "content": [
+          "Inclusion interculturelle est née avec pour objectif de protéger la nature grâce au reboisement, en utilisant cette activité comme un espace de rencontre entre les communautés autochtones et les habitants de la région Nord.",
+          "Le projet associe l'action environnementale à l'éducation sociale et culturelle, en encourageant le respect, l'inclusion et l'apprentissage mutuel entre des personnes d'origines, d'âges et d'institutions différents.",
+          "Le reboisement joue un rôle fédérateur : il permet de sensibiliser aux enjeux environnementaux, de renforcer les liens communautaires et de créer des espaces de dialogue interculturel.",
+          "La première édition du projet a eu lieu le 30 octobre 2019, avec la participation d'environ 110 personnes et la présence de représentants des peuples autochtones Boruca, Ngöbe et Maleku.",
+          "L'événement a également bénéficié de l'accompagnement de plusieurs institutions publiques, organisations sociales et groupes communautaires, donnant naissance à une expérience collective d'une grande valeur sociale et environnementale.",
+          "Ce projet est conçu comme un moteur pour de futures initiatives favorisant un développement plus inclusif et durable, non seulement dans la région Nord, mais aussi à l'échelle nationale."
+        ],
+        "stats": [
+          {
+            "value": "1 000",
+            "label": "Arbres plantés"
+          },
+          {
+            "value": "110",
+            "label": "Participants"
+          },
+          {
+            "value": "3",
+            "label": "Peuples autochtones"
+          },
+          {
+            "value": "2019",
+            "label": "Année"
+          }
+        ],
+        "cta": {
+          "title": "Aidez à créer des espaces de rencontre et de respect entre les communautés",
+          "text": "Votre don contribue à créer des possibilités de participation, d’éducation environnementale et de reboisement dans les territoires autochtones et les communautés locales.",
+          "button": "Soutenir ce projet"
+        }
+      }
+    }
+  },
+  "nursery": {
+    "hero": {
+      "eyebrow": "Pépinière forestière",
+      "title": "Là où naissent les arbres",
+      "highlight": "et où les territoires se régénèrent",
+      "description": "Depuis San Carlos, nous produisons des espèces forestières, développons l'éducation environnementale et soutenons des initiatives de restauration écologique tout au long de l'année.",
+      "imageAlt": "Pépinière forestière de la Fundación Abuela Ecológica"
+    },
+    "introduction": {
+      "title": "La pépinière : au cœur de notre travail",
+      "description": "La pépinière forestière de la Fundación Abuela Ecológica est le principal centre opérationnel de l'organisation et le point de départ de nos actions de restauration écologique, d'éducation environnementale et d'inclusion communautaire.",
+      "highlights": {
+        "production": {
+          "title": "Production forestière",
+          "text": "Plus de 120 espèces forestières cultivées chaque année pour la restauration écologique."
+        },
+        "education": {
+          "title": "Éducation environnementale",
+          "text": "Un espace d'apprentissage destiné aux universités, aux établissements scolaires et aux initiatives communautaires."
+        },
+        "community": {
+          "title": "Participation communautaire",
+          "text": "Bénévolat national et international, ainsi que programmes universitaires de service communautaire."
+        }
+      },
+      "visitNote": "La pépinière est installée sur un terrain mis à disposition par la municipalité de San Carlos. Les visites se font uniquement sur rendez-vous afin de garantir des expériences éducatives sûres et bien organisées.",
+      "info": {
+        "hours": {
+          "title": "Horaires d'ouverture",
+          "weekdays": "Du lundi au vendredi : 8 h – 14 h",
+          "saturday": "Le samedi : 8 h – 12 h"
+        },
+        "visits": {
+          "title": "Visites et participation",
+          "items": [
+            "Visites éducatives sur rendez-vous",
+            "Groupes scolaires et communautaires",
+            "TCU / Travail communautaire universitaire",
+            "Bénévolat national et international"
+          ]
+        },
+        "donations": {
+          "title": "Dons en nature",
+          "text": "Nous acceptons les graines, les sachets de pépinière, les substrats, les engrais et autres fournitures nécessaires à la production forestière."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "La pépinière en chiffres",
+      "title": "Une expertise technique au service du territoire",
+      "items": {
+        "species": {
+          "value": "120+",
+          "title": "Espèces forestières",
+          "description": "Espèces indigènes cultivées pour la restauration écologique."
+        },
+        "trees": {
+          "value": "3 000+",
+          "title": "Arbres par an",
+          "description": "Jeunes plants destinés aux projets communautaires et environnementaux."
+        },
+        "people": {
+          "value": "300+",
+          "title": "Personnes formées",
+          "description": "Formations en gestion de pépinières et en éducation environnementale."
+        },
+        "universities": {
+          "value": "3+",
+          "title": "Universités partenaires",
+          "description": "Collaboration dans le cadre de stages, de programmes de service communautaire et de projets de recherche."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "La pépinière en action",
+      "title": "Un espace vivant de restauration et d'apprentissage",
+      "description": "La pépinière forestière est un lieu de rencontre entre conservation, éducation environnementale, bénévolat et inclusion sociale.",
+      "images": {
+        "main": "Espace principal de la pépinière forestière",
+        "production": "Production d'arbres forestiers",
+        "students": "Étudiants participant à des activités de service communautaire",
+        "workshops": "Ateliers et conférences sur l'environnement à la pépinière",
+        "volunteers": "Bénévoles internationaux à la pépinière",
+        "community": "Activités de participation communautaire à la pépinière"
+      }
+    },
+    "services": {
+      "eyebrow": "Nos activités à la pépinière",
+      "title": "Des services au cœur de la restauration écologique",
+      "description": "La pépinière associe production forestière, formation, bénévolat et partenariats stratégiques dans une approche territoriale et communautaire.",
+      "items": {
+        "trees": {
+          "title": "Vente d'arbres forestiers",
+          "description": "Nous proposons des arbres de différentes espèces pour les projets de reboisement, les corridors biologiques et les jardins écologiques.",
+          "badge": "Disponible"
+        },
+        "workshops": {
+          "title": "Ateliers et conférences sur l'environnement",
+          "description": "Des activités éducatives destinées aux communautés, aux étudiants et aux entreprises sur la conservation, le reboisement et l'éducation environnementale.",
+          "badge": "Toute l'année"
+        },
+        "communityWork": {
+          "title": "Service communautaire (TCU / TC)",
+          "description": "Nous accueillons des étudiants universitaires et du secondaire qui souhaitent effectuer leur service communautaire à la pépinière, avec un accompagnement technique.",
+          "badge": "Ouvert"
+        },
+        "visits": {
+          "title": "Visites éducatives",
+          "description": "Nous accueillons, sur rendez-vous, des établissements scolaires, des personnes âgées et des groupes privés.",
+          "badge": "Sur rendez-vous"
+        },
+        "volunteering": {
+          "title": "Bénévolat national et international",
+          "description": "Les bénévoles participent activement aux activités de production, d'entretien et d'éducation environnementale.",
+          "badge": "Selon les périodes"
+        },
+        "donations": {
+          "title": "Dons en nature",
+          "description": "Nous acceptons les graines, les sachets de pépinière, les substrats, les engrais et autres fournitures qui contribuent à nos activités tout au long de l'année.",
+          "badge": "À tout moment"
+        }
+      }
+    },
+    "schedule": {
+      "eyebrow": "Visitez la pépinière",
+      "title": "Horaires et localisation",
+      "description": "La pépinière forestière est un espace actif de production, de formation et de conservation. Les visites se font sur rendez-vous.",
+      "hours": {
+        "title": "Horaires d'ouverture",
+        "weekdays": "Du lundi au vendredi : 8 h – 14 h",
+        "saturday": "Le samedi : 8 h – 12 h"
+      },
+      "location": {
+        "title": "Localisation",
+        "name": "Pépinière forestière de la Fundación Abuela Ecológica",
+        "address": "Province d'Alajuela, Ciudad Quesada, quartier El Jardín"
+      },
+      "navigation": {
+        "googleMaps": "Google Maps",
+        "waze": "Waze"
+      },
+      "map": {
+        "title": "Localisation de la pépinière forestière de la Fundación Abuela Ecológica"
+      },
+      "notes": {
+        "title": "Informations pratiques pour les visites",
+        "items": [
+          "Toutes les visites doivent être organisées à l'avance.",
+          "Nous accueillons les établissements scolaires, les personnes âgées et les visiteurs individuels ou en groupe.",
+          "Les groupes d'enfants doivent être accompagnés par des enseignants ou des adultes responsables.",
+          "La pépinière est un espace de travail actif tout au long de l'année."
+        ]
+      }
+    }
+  },
+  "transparency": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Transparence et reddition de comptes",
+      "description": "La confiance se construit grâce à des informations claires, accessibles et vérifiables. Nous présentons ici qui nous sommes, comment nous prenons nos décisions et comment nous rendons compte de nos actions à la communauté."
+    },
+    "board": {
+      "title": "Conseil d’administration",
+      "description": "Le Conseil d’administration définit les orientations stratégiques, supervise la gestion et veille au respect de la mission et des valeurs de la fondation.",
+      "periodLabel": "Mandat",
+      "roles": {
+        "president": "Présidente",
+        "vicePresident": "Vice-présidente",
+        "treasurer": "Trésorière",
+        "secretary": "Secrétaire",
+        "firstMember": "Administratrice I",
+        "secondMember": "Administratrice II"
+      }
+    },
+    "founders": {
+      "title": "Fondatrices",
+      "description": "La fondation est née d’un travail collectif et d’un engagement profond en faveur de la protection de l’environnement et du renforcement des communautés.",
+      "members": {
+        "bertalia": {
+          "role": "Fondatrice · Héritage et inspiration",
+          "description": "Figure de référence au sein de la communauté dans les domaines du reboisement, de la protection de l’eau et du respect de l’environnement. Son engagement désintéressé est à l’origine de la mission et des valeurs qui guident aujourd’hui la Fundación Abuela Ecológica."
+        },
+        "laura": {
+          "role": "Fondatrice",
+          "description": "Écologiste et leader sociale de la région Huetar Norte. Elle encourage les initiatives de restauration écologique, d’éducation environnementale et de renforcement communautaire, en mettant l’accent sur le leadership des femmes rurales, la collaboration interinstitutionnelle et la conservation de la biodiversité."
+        },
+        "fernanda": {
+          "role": "Fondatrice",
+          "description": "Ingénieure en informatique, engagée en faveur de l’action climatique et du travail communautaire. Elle participe activement au développement de la fondation et à ses initiatives d’éducation environnementale."
+        }
+      }
+    },
+    "reports": {
+      "eyebrow": "Transparence institutionnelle",
+      "title": "Rapports et reddition de comptes",
+      "description": "Nous publions nos rapports dans le cadre de notre engagement en faveur d’une gestion éthique, responsable et vérifiable.",
+      "status": {
+        "published": "Publié",
+        "pending": "Prochainement"
+      },
+      "download": "Télécharger le rapport (PDF)",
+      "inProgress": "Rapport en cours de publication",
+      "items": {
+        "2025": {
+          "title": "Rapport annuel d’activités",
+          "description": "Synthèse des projets, de l’impact social et environnemental et de la gestion institutionnelle pour l’année 2025."
+        },
+        "2024": {
+          "title": "Rapport annuel d’activités",
+          "description": "Synthèse des projets, de l’impact social et environnemental et de la gestion institutionnelle pour l’année 2024."
+        },
+        "2023": {
+          "title": "Rapport annuel d’activités",
+          "description": "Résultats, actions communautaires et initiatives de conservation menés tout au long de l’année 2023."
+        },
+        "2022": {
+          "title": "Rapport annuel d’activités",
+          "description": "Document institutionnel présentant les actions environnementales et sociales réalisées en 2022."
+        }
+      }
+    }
+  },
+  "donate": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Votre soutien devient une véritable action environnementale",
+      "description": "Chaque don contribue à l’éducation environnementale, à la restauration des écosystèmes et au travail direct avec les communautés du Costa Rica."
+    },
+    "whyDonate": {
+      "title": "Pourquoi faire un don à la",
+      "highlight": "Fundación Abuela Ecológica ?",
+      "paragraphs": [
+        "Parce que le changement environnemental ne se produit pas dans des bureaux éloignés, mais au sein de communautés réelles, avec des personnes réelles.",
+        "Faire un don à la Fundación Abuela Ecológica, c’est soutenir un travail de proximité, sincère et profondément ancré dans le territoire et auprès de ses habitants."
+      ]
+    },
+    "impact": {
+      "title": "Que devient votre don ?",
+      "description": "Chaque contribution se transforme en actions concrètes qui génèrent un véritable impact environnemental et social.",
+      "items": {
+        "education": {
+          "title": "Éducation environnementale",
+          "description": "Ateliers et programmes destinés aux enfants et aux jeunes."
+        },
+        "reforestation": {
+          "title": "Reboisement",
+          "description": "Restauration des écosystèmes et des corridors biologiques."
+        },
+        "communities": {
+          "title": "Communautés",
+          "description": "Accompagnement des communautés rurales et autochtones."
+        },
+        "climate": {
+          "title": "Action climatique",
+          "description": "Solutions locales face au changement climatique."
+        }
+      }
+    },
+    "methods": {
+      "eyebrow": "Donner, c’est semer l’avenir",
+      "title": "Des dons sécurisés et transparents",
+      "highlight": "à impact réel",
+      "description": "Chaque contribution se transforme en actions concrètes : éducation environnementale, restauration des écosystèmes et travail direct avec les communautés.",
+      "bank": {
+        "title": "Virement bancaire",
+        "ibanDollars": "IBAN en dollars",
+        "ibanColones": "IBAN en colones",
+        "legalId": "Numéro d’identification juridique",
+        "note": "Virements vérifiables et auditables."
+      },
+      "sinpe": {
+        "title": "SINPE Móvil",
+        "description": "Un don rapide et direct depuis le Costa Rica.",
+        "beneficiary": "Fundación Abuela Ecológica"
+      },
+      "paypal": {
+        "title": "Don international",
+        "description": "Depuis n’importe quel endroit du monde. Sûr et fiable.",
+        "note": "Accepte les cartes de crédit et le solde PayPal."
+      },
+      "closing": {
+        "description": "Toutes les contributions sont exclusivement consacrées aux programmes d’éducation environnementale, de restauration écologique et de renforcement communautaire.",
+        "statement": "Nous rendons des comptes, car la confiance se cultive aussi."
+      }
+    },
+    "cta": {
+      "title": "Donner, c’est un acte d’amour pour la vie",
+      "description": "Votre contribution soutient l’éducation environnementale, la restauration écologique et le travail communautaire avec un impact réel et mesurable.",
+      "button": "Je souhaite soutenir",
+      "note": "Merci pour votre confiance. La transparence fait également partie de notre engagement."
+    }
   }
 }

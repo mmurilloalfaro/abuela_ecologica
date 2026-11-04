@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About us",
     "projects": "Projects",
     "nursery": "Forest Nursery",
@@ -51,22 +52,26 @@
   },
 
   "howToHelp": {
-  "title": "How You Can Contribute",
-  "description": "There are multiple ways to support our mission. Each contribution strengthens our environmental and community-based initiatives.",
-  "options": {
-    "donate": {
-      "title": "Donate",
-      "description": "Your contribution supports environmental education, ecological restoration, and sustainable community initiatives."
+    "title": "How can you get involved?",
+    "description": "Getting involved is easy. Every form of support strengthens the environmental and community work we carry out every day.",
+    "actions": {
+      "join": "Join us",
+      "learnMore": "Learn more"
     },
-    "volunteer": {
-      "title": "Volunteer",
-      "description": "Engage directly in workshops, environmental campaigns, and collaborative community actions."
-    },
-    "alliances": {
-      "title": "Partnerships",
-      "description": "Companies and organizations can amplify environmental and social impact alongside us."
+    "options": {
+      "donate": {
+        "title": "Donate",
+        "description": "Your contribution supports environmental education, ecological restoration, and sustainable community development."
+      },
+      "volunteer": {
+        "title": "Volunteer",
+        "description": "Get actively involved in workshops, environmental activities, and initiatives alongside local communities."
+      },
+      "alliances": {
+        "title": "Partnerships",
+        "description": "Companies and organizations can help scale environmental and social impact by working alongside us."
+      }
     }
-  }
   },
 
   "cta": {
@@ -166,10 +171,533 @@
   },
 
   "projects": {
-  "hero": {
-    "eyebrow": "Abuela Ecológica Foundation",
-    "title": "Our Projects",
-    "description": "Each project responds to a real need: fragmented forests, species at risk, and communities that want to be part of the solution."
-  }
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Our Projects",
+      "description": "Every project addresses a real need through concrete action: fragmented forests, endangered species, and communities eager to be part of the solution."
+    },
+    "grid": {
+      "title": "Projects",
+      "status": {
+        "active": "In Progress",
+        "completed": "Completed"
+      }
+    },
+    "items": {
+      "arboles-plumas": {
+        "title": "Trees and Feathers",
+        "summary": "Restoring forests to give the Great Green Macaw a home again",
+        "description": "Restoring the Great Green Macaw's habitat in San Carlos by planting key tree species and strengthening biological corridors.",
+        "location": "Northern Region",
+        "content": [
+          "Trees and Feathers (Árboles y Plumas) is a project dedicated to restoring the habitat of the Great Green Macaw. One of Costa Rica's most iconic macaws, this species is also among its most threatened. Deforestation and forest fragmentation have drastically reduced its habitat, leaving it confined to small, isolated populations.",
+          "San Carlos remains a key area for its recovery. Forests, committed communities, and essential tree species such as the mountain almond still exist here, offering the conditions needed for the macaw to feed and nest once again.",
+          "Trees and Feathers was created as a direct response to this challenge: restoring biological corridors through the planting of key tree species and the active participation of local communities, institutions, and strategic partners."
+        ],
+        "stats": [
+          {
+            "value": "8,000",
+            "label": "Native trees"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Great Green Macaw"
+          },
+          {
+            "value": "Northern Region",
+            "label": "Territory"
+          },
+          {
+            "value": "2025–2026",
+            "label": "Period"
+          }
+        ],
+        "cta": {
+          "title": "Help bring the forest back to the Great Green Macaw",
+          "text": "Your donation supports the propagation, planting, and maintenance of native trees essential to the survival of this species and the restoration of its ecosystem.",
+          "button": "Support this project"
+        }
+      },
+      "bosque-los-lolos": {
+        "title": "Los Lolos Forest",
+        "summary": "Ecological restoration to strengthen connectivity between forests and protect water sources.",
+        "description": "Restoration of 1,400 m² of land through the planting of 700 native trees to protect two springs of strategic importance to Costa Rica's Northern Region.",
+        "location": "Northern Region",
+        "content": [
+          "The Los Lolos Forest project involved restoring a former pasture of approximately 1,400 square meters in San Vicente, Ciudad Quesada. The area is home to two springs of great importance to local communities: one is part of Ciudad Quesada's water supply system, while the other provides water to the community of El Porvenir.",
+          "Planting 700 native trees helps protect these water sources, improves water infiltration and regulation in the soil, and strengthens ecological connectivity between nearby forest fragments, creating more favorable conditions for regional biodiversity.",
+          "The initiative received technical support from professionals at the School of Forest Engineering and the School of Agronomy of the Costa Rica Institute of Technology (TEC), who provided guidance throughout the planning, species selection, and restoration establishment stages.",
+          "Since the site is located approximately 1,400 meters above sea level, native species adapted to the area's climatic, soil, and ecological conditions were carefully selected to maximize tree survival and ensure a lasting environmental impact."
+        ],
+        "stats": [
+          {
+            "value": "700",
+            "label": "Trees planted"
+          },
+          {
+            "value": "2",
+            "label": "Springs protected"
+          },
+          {
+            "value": "San Vicente",
+            "label": "Location"
+          },
+          {
+            "value": "2024–2025",
+            "label": "Period"
+          }
+        ],
+        "cta": {
+          "title": "Help restore our forests and protect water resources",
+          "text": "Your donation supports the cultivation, planting, and maintenance of native trees essential to ecosystem restoration.",
+          "button": "Support this project"
+        }
+      },
+      "nietos-abuela-ecologica": {
+        "title": "Grandchildren of the Ecological Grandma",
+        "summary": "Bringing joy and hope to children in vulnerable rural communities.",
+        "description": "A support program for children in vulnerable rural communities, promoting their overall development and connection with nature.",
+        "location": "Northern Region, Costa Rica",
+        "content": [
+          "Grandchildren of the Ecological Grandma is a charitable campaign launched in 2020 with a simple yet meaningful purpose: to bring a Christmas gift to children living in vulnerable rural communities in Costa Rica's Northern Region.",
+          "Since its beginning, the campaign has delivered more than 1,700 gifts thanks to the support of sponsors, generous donations, and companies that believe in the social impact of this initiative. Each gift represents much more than an object: it is a gesture of support, joy, and dignity for the families who receive it.",
+          "Over the years, the campaign has reached several communities:",
+          "• 2020: 350 gifts delivered in the Maleku Indigenous Territory, in the El Sol, Margarita, and Tonjibe settlements.",
+          "• 2021: Around 500 gifts delivered in Santa Rosa de Pocosol and Tres y Tres de Pocosol, as well as to CENCINAI beneficiaries in San Joaquín de Cutris and Dulce Nombre de Ciudad Quesada.",
+          "• 2022: 150 gifts delivered in Boca San Carlos.",
+          "• 2023: Nearly 350 gifts for children attending CENCINAI centers in Boca Tapada, Santa Rita, Boca San Carlos, and Cureñita, as well as the Pediatric Unit of San Carlos Hospital.",
+          "• 2024: 350 gifts delivered in Boca Tapada, Santa Rita, Boca San Carlos, and Cureñita.",
+          "• 2025: 200 gifts distributed in Crucitas and Moravia de Cutris, the Pediatric Unit of San Carlos Hospital, and the Hogarcito in Ciudad Quesada.",
+          "Since its inception, the campaign has been coordinated by María Fernanda Murillo and sustained through the ongoing commitment of individuals and organizations that choose each year to participate as sponsors or make donations.",
+          "Grandchildren of the Ecological Grandma shows that solidarity can also transform territories, build community, and leave a lasting mark on childhood."
+        ],
+        "stats": [
+          {
+            "value": "1,700+",
+            "label": "Gifts delivered"
+          },
+          {
+            "value": "15",
+            "label": "Communities reached"
+          },
+          {
+            "value": "Northern Region",
+            "label": "Territory"
+          },
+          {
+            "value": "2020–2025",
+            "label": "Period"
+          }
+        ],
+        "cta": {
+          "title": "Help bring a smile to children across the Northern Region",
+          "text": "Your donation supports the purchase of gifts, delivery logistics, and the continuation of this charitable campaign.",
+          "button": "Support this project"
+        }
+      },
+      "reforestacion-consciente": {
+        "title": "Conscious Reforestation",
+        "summary": "Planting native trees to protect water springs and strengthen ecosystems in La Tigra, San Carlos.",
+        "description": "A reforestation project that combines native tree planting with environmental education to protect water springs and strengthen ecosystems in La Tigra, San Carlos.",
+        "location": "La Tigra",
+        "content": [
+          "During October, November, and December 2020, several reforestation activities took place in the La Tigra area of San Carlos, resulting in the successful planting of 5,000 trees from 55 native species.",
+          "One of the restored properties borders the Children's Eternal Rainforest, while the other belongs to the ASADA La Lucha – La Vega, a local community water association. Both properties contain springs of significant ecological value.",
+          "The property belonging to the ASADA contains water intakes that supply more than 5,000 families, making the reforestation effort directly relevant to protecting this vital water resource.",
+          "During the activities, volunteers learned about forest species and wildlife and had the opportunity to observe snakes, frogs, birds, and mammals in their natural habitats.",
+          "This project was carried out as part of an environmental compensation initiative funded by a private company, with our organization responsible for its full implementation."
+        ],
+        "stats": [
+          {
+            "value": "5,000",
+            "label": "Trees planted"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Great Green Macaw"
+          },
+          {
+            "value": "La Tigra de San Carlos",
+            "label": "Area"
+          },
+          {
+            "value": "2020",
+            "label": "Year"
+          }
+        ],
+        "cta": {
+          "title": "Help bring the forest back to the Great Green Macaw",
+          "text": "Your donation supports the propagation, planting, and maintenance of native trees essential to the survival of this species and the restoration of its ecosystem.",
+          "button": "Support this project"
+        }
+      },
+      "un-norte-lapa-verde": {
+        "title": "A Future for the Great Green Macaw",
+        "summary": "An ecological restoration project focused on donating and planting mountain almond trees to protect the Great Green Macaw's habitat.",
+        "description": "An ecological restoration project that aims to protect the Great Green Macaw's habitat through mountain almond tree planting and the active participation of local communities.",
+        "location": "Huetar Norte Region and Atlantic Slope",
+        "content": [
+          "A Future for the Great Green Macaw is a conservation project carried out between November 2019 and July 2020, focused on strengthening the habitat of one of Costa Rica's most iconic and threatened species: the Great Green Macaw.",
+          "The Great Green Macaw is classified as Endangered by the IUCN and under Costa Rican national legislation. Its main threat remains habitat loss, particularly the disappearance of the mountain almond tree, on which it directly depends for food and nesting sites.",
+          "Several studies have shown that between 80% and 90% of the Great Green Macaw's diet consists of mountain almond fruit, and that approximately 90% of its nests are located in natural cavities in these trees. Its survival is literally linked to the presence of mountain almond trees in the landscape.",
+          "In response to this situation, the project focused on donating and planting 5,000 mountain almond trees throughout the Huetar Norte Region and the Atlantic Slope, areas that form part of the species' historical range.",
+          "The project brought together environmental communication activities, the development of educational materials, seedling propagation, and technical support for beneficiaries, encouraging the care and monitoring of the planted trees.",
+          "The seeds used were collected in strategic locations such as Veracruz, El Sahino de Pital, Santa Clara, La Tigra, and Peñas Blancas. The project also received support from the ICE nursery in Sarapiquí, which donated 4,000 seedlings.",
+          "A Future for the Great Green Macaw laid the groundwork for future ecological restoration projects by Fundación Abuela Ecológica, establishing a conservation model based on science, local territories, and community participation."
+        ],
+        "stats": [
+          {
+            "value": "5,000",
+            "label": "Trees donated"
+          },
+          {
+            "value": "Dipteryx panamensis",
+            "label": "Key species"
+          },
+          {
+            "value": "Northern Region and Atlantic Slope",
+            "label": "Territory"
+          },
+          {
+            "value": "2020",
+            "label": "Year"
+          }
+        ],
+        "cta": {
+          "title": "Help bring the forest back to the Great Green Macaw",
+          "text": "Your donation supports the propagation, planting, and maintenance of native trees essential to the survival of this species and the restoration of its ecosystem.",
+          "button": "Support this project"
+        }
+      },
+      "inclusion-intercultural": {
+        "title": "Intercultural Inclusion",
+        "summary": "A socio-environmental project bringing together reforestation, environmental education, and the inclusion of Indigenous communities in the Northern Region.",
+        "description": "An intercultural inclusion project that promotes reforestation as a space for connection, environmental education, and stronger social ties between Indigenous communities and the wider population.",
+        "location": "Maleku Indigenous Territory",
+        "content": [
+          "Intercultural Inclusion was created with the purpose of protecting nature through reforestation, using this activity as an opportunity for connection between Indigenous communities and residents of Costa Rica's Northern Region.",
+          "The project combines environmental action with social and cultural education, promoting respect, inclusion, and mutual learning among people from different backgrounds, age groups, and institutions.",
+          "Reforestation serves as a common thread, helping to raise environmental awareness, strengthen community relationships, and create opportunities for intercultural dialogue.",
+          "The first edition of the project took place on October 30, 2019, with approximately 110 participants and representatives from the Boruca, Ngöbe, and Maleku Indigenous peoples.",
+          "The event also received support from several public institutions, social organizations, and community groups, bringing together a collective experience of significant social and environmental value.",
+          "This project is envisioned as a driving force for future initiatives that promote more inclusive and sustainable development, not only in the Northern Region but throughout the country."
+        ],
+        "stats": [
+          {
+            "value": "1,000",
+            "label": "Trees planted"
+          },
+          {
+            "value": "110",
+            "label": "Participants"
+          },
+          {
+            "value": "3",
+            "label": "Indigenous peoples"
+          },
+          {
+            "value": "2019",
+            "label": "Year"
+          }
+        ],
+        "cta": {
+          "title": "Help create spaces for connection and mutual respect between communities",
+          "text": "Your donation helps create opportunities for participation, environmental education, and reforestation in Indigenous territories and local communities.",
+          "button": "Support this project"
+        }
+      }
+    }
+  },
+  "nursery": {
+    "hero": {
+      "eyebrow": "Forest Nursery",
+      "title": "Where trees take root",
+      "highlight": "and landscapes are restored",
+      "description": "Based in San Carlos, we grow native and other forest tree species, promote environmental education, and support ecological restoration initiatives throughout the year.",
+      "imageAlt": "Forest nursery operated by Fundación Abuela Ecológica"
+    },
+    "introduction": {
+      "title": "The nursery: the foundation of our work",
+      "description": "The forest nursery of Fundación Abuela Ecológica is the organization's main operational center and the starting point for our ecological restoration, environmental education, and community inclusion initiatives.",
+      "highlights": {
+        "production": {
+          "title": "Forest tree production",
+          "text": "More than 120 forest tree species grown each year for ecological restoration."
+        },
+        "education": {
+          "title": "Environmental education",
+          "text": "A learning space for universities, schools, and community initiatives."
+        },
+        "community": {
+          "title": "Community participation",
+          "text": "National and international volunteering, as well as university community service programs."
+        }
+      },
+      "visitNote": "The nursery operates on land provided by the Municipality of San Carlos and welcomes visitors by prior arrangement only, ensuring safe and well-organized educational experiences.",
+      "info": {
+        "hours": {
+          "title": "Opening hours",
+          "weekdays": "Monday to Friday: 8:00 a.m. – 2:00 p.m.",
+          "saturday": "Saturdays: 8:00 a.m. – 12:00 p.m."
+        },
+        "visits": {
+          "title": "Visits and participation",
+          "items": [
+            "Educational visits by prior arrangement",
+            "School and community groups",
+            "University Community Service / TCU",
+            "National and international volunteering"
+          ]
+        },
+        "donations": {
+          "title": "In-kind donations",
+          "text": "We accept seeds, nursery bags, growing media, fertilizers, and other supplies needed for forest tree production."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "The nursery in numbers",
+      "title": "Technical capacity serving the local community",
+      "items": {
+        "species": {
+          "value": "120+",
+          "title": "Forest tree species",
+          "description": "Native species grown for ecological restoration."
+        },
+        "trees": {
+          "value": "3,000+",
+          "title": "Trees per year",
+          "description": "Seedlings supplied to community and environmental projects."
+        },
+        "people": {
+          "value": "300+",
+          "title": "People trained",
+          "description": "Training programs in nursery management and environmental education."
+        },
+        "universities": {
+          "value": "3+",
+          "title": "University partners",
+          "description": "Collaborative work through internships, community service programs, and research."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "The nursery in action",
+      "title": "A living space for restoration and learning",
+      "description": "The forest nursery brings together conservation, environmental education, volunteering, and social inclusion.",
+      "images": {
+        "main": "Main area of the forest nursery",
+        "production": "Forest tree production",
+        "students": "Students carrying out community service",
+        "workshops": "Environmental workshops and talks at the nursery",
+        "volunteers": "International volunteers at the nursery",
+        "community": "Community participation activities at the nursery"
+      }
+    },
+    "services": {
+      "eyebrow": "What we do at the nursery",
+      "title": "Services that support ecological restoration",
+      "description": "The nursery brings together forest tree production, training, volunteering, and strategic partnerships through a community-based, place-focused approach.",
+      "items": {
+        "trees": {
+          "title": "Forest tree sales",
+          "description": "We offer forest trees from a variety of species for reforestation projects, biological corridors, and ecological gardens.",
+          "badge": "Available"
+        },
+        "workshops": {
+          "title": "Environmental workshops and talks",
+          "description": "Educational activities for communities, students, and companies on conservation, reforestation, and environmental education.",
+          "badge": "Year-round"
+        },
+        "communityWork": {
+          "title": "Community Service (TCU / TC)",
+          "description": "We welcome university and high school students who wish to complete their community service at the nursery, with technical guidance and support.",
+          "badge": "Open"
+        },
+        "visits": {
+          "title": "Educational visits",
+          "description": "We welcome visits from schools, older adults, and private groups by prior arrangement.",
+          "badge": "By appointment"
+        },
+        "volunteering": {
+          "title": "National and international volunteering",
+          "description": "Volunteers actively participate in tree production, nursery maintenance, and environmental education activities.",
+          "badge": "Seasonal"
+        },
+        "donations": {
+          "title": "In-kind donations",
+          "description": "We accept seeds, nursery bags, growing media, fertilizers, and other supplies that strengthen our work throughout the year.",
+          "badge": "Always welcome"
+        }
+      }
+    },
+    "schedule": {
+      "eyebrow": "Visit the nursery",
+      "title": "Opening hours and location",
+      "description": "The forest nursery is an active space for production, training, and conservation. Visits are available by prior arrangement.",
+      "hours": {
+        "title": "Opening hours",
+        "weekdays": "Monday to Friday: 8:00 a.m. – 2:00 p.m.",
+        "saturday": "Saturdays: 8:00 a.m. – 12:00 p.m."
+      },
+      "location": {
+        "title": "Location",
+        "name": "Fundación Abuela Ecológica Forest Nursery",
+        "address": "Alajuela Province, Ciudad Quesada, El Jardín neighborhood"
+      },
+      "navigation": {
+        "googleMaps": "Google Maps",
+        "waze": "Waze"
+      },
+      "map": {
+        "title": "Location of the Fundación Abuela Ecológica Forest Nursery"
+      },
+      "notes": {
+        "title": "Visitor information",
+        "items": [
+          "All visits must be arranged in advance.",
+          "We welcome schools, older adults, and private visitors.",
+          "Children must be accompanied by teachers or responsible adults.",
+          "The nursery is an active working space throughout the year."
+        ]
+      }
+    }
+  },
+  "transparency": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Transparency and Accountability",
+      "description": "Trust is built through clear, accessible, and verifiable information. Here, we share who we are, how we make decisions, and how we remain accountable to our community."
+    },
+    "board": {
+      "title": "Board of Directors",
+      "description": "The Board of Directors guides the organization's strategy, oversees its management, and ensures that its mission and values are upheld.",
+      "periodLabel": "Term",
+      "roles": {
+        "president": "President",
+        "vicePresident": "Vice President",
+        "treasurer": "Treasurer",
+        "secretary": "Secretary",
+        "firstMember": "Board Member I",
+        "secondMember": "Board Member II"
+      }
+    },
+    "founders": {
+      "title": "Founders",
+      "description": "The foundation was born from collective efforts and a deep commitment to environmental protection and community empowerment.",
+      "members": {
+        "bertalia": {
+          "role": "Founder · Legacy and Inspiration",
+          "description": "A community leader in reforestation, water protection, and environmental stewardship. Her selfless work gave rise to the mission and values that guide Fundación Abuela Ecológica today."
+        },
+        "laura": {
+          "role": "Founder",
+          "description": "Environmental advocate and social leader from the Huetar Norte Region. She promotes ecological restoration, environmental education, and community development, with an emphasis on rural women's leadership, interinstitutional collaboration, and biodiversity conservation."
+        },
+        "fernanda": {
+          "role": "Founder",
+          "description": "Software engineer committed to climate action and community work. She has played an active role in strengthening the foundation and advancing its environmental education initiatives."
+        }
+      }
+    },
+    "reports": {
+      "eyebrow": "Institutional Transparency",
+      "title": "Reports and Accountability",
+      "description": "We publish our reports as part of our commitment to ethical, responsible, and verifiable management.",
+      "status": {
+        "published": "Published",
+        "pending": "Coming soon"
+      },
+      "download": "Download report (PDF)",
+      "inProgress": "Report pending publication",
+      "items": {
+        "2025": {
+          "title": "Annual Activity Report",
+          "description": "An overview of projects, social and environmental impact, and institutional management during 2025."
+        },
+        "2024": {
+          "title": "Annual Activity Report",
+          "description": "An overview of projects, social and environmental impact, and institutional management during 2024."
+        },
+        "2023": {
+          "title": "Annual Activity Report",
+          "description": "Results, community initiatives, and conservation activities carried out throughout 2023."
+        },
+        "2022": {
+          "title": "Annual Activity Report",
+          "description": "An institutional report on the environmental and social initiatives carried out in 2022."
+        }
+      }
+    }
+  },
+  "donate": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Your support becomes meaningful environmental action",
+      "description": "Every donation supports environmental education, ecosystem restoration, and direct work with communities across Costa Rica."
+    },
+    "whyDonate": {
+      "title": "Why donate to",
+      "highlight": "Fundación Abuela Ecológica?",
+      "paragraphs": [
+        "Because environmental change does not happen in distant offices. It happens in real communities, with real people.",
+        "Donating to Fundación Abuela Ecológica means supporting work that is local, honest, and deeply rooted in the land and its people."
+      ]
+    },
+    "impact": {
+      "title": "What does your donation make possible?",
+      "description": "Every contribution becomes concrete action that generates real environmental and social impact.",
+      "items": {
+        "education": {
+          "title": "Environmental Education",
+          "description": "Workshops and programs for children and young people."
+        },
+        "reforestation": {
+          "title": "Reforestation",
+          "description": "Ecosystem and biological corridor restoration."
+        },
+        "communities": {
+          "title": "Communities",
+          "description": "Support for rural and Indigenous communities."
+        },
+        "climate": {
+          "title": "Climate Action",
+          "description": "Local solutions to address climate change."
+        }
+      }
+    },
+    "methods": {
+      "eyebrow": "Giving means planting the seeds of the future",
+      "title": "Safe, transparent donations",
+      "highlight": "with real impact",
+      "description": "Every contribution supports concrete action: environmental education, ecosystem restoration, and direct work with communities.",
+      "bank": {
+        "title": "Bank Transfer",
+        "ibanDollars": "USD IBAN",
+        "ibanColones": "CRC IBAN",
+        "legalId": "Legal Entity ID",
+        "note": "Verifiable and auditable transfers."
+      },
+      "sinpe": {
+        "title": "SINPE Móvil",
+        "description": "Fast and direct donations from within Costa Rica.",
+        "beneficiary": "Fundación Abuela Ecológica"
+      },
+      "paypal": {
+        "title": "International Donations",
+        "description": "From anywhere in the world. Safe and reliable.",
+        "note": "Accepts credit cards and PayPal balance."
+      },
+      "closing": {
+        "description": "All contributions are allocated exclusively to environmental education programs, ecological restoration, and community empowerment.",
+        "statement": "We are accountable because trust, too, must be cultivated."
+      }
+    },
+    "cta": {
+      "title": "Giving is an act of love for life",
+      "description": "Your contribution supports environmental education, ecological restoration, and community initiatives with real, measurable impact.",
+      "button": "I want to support",
+      "note": "Thank you for your trust. Transparency is also part of our commitment."
+    }
   }
 }

@@ -1,7 +1,13 @@
+"use client";
+import { useDictionary } from "@/context/DictionaryProvider";
+
 export default function TransparencyHero() {
+  const dict = useDictionary();
+  const t = dict.transparency.hero;
+
   return (
     <section className="relative px-6 py-32 bg-green-950 text-white overflow-hidden">
-      
+
       {/* Background texture */}
       <div className="absolute inset-0 bg-[url('/leaf-texture.png')] opacity-10" />
 
@@ -9,12 +15,12 @@ export default function TransparencyHero() {
 
         {/* Eyebrow */}
         <span className="inline-block text-sm tracking-wide uppercase text-emerald-300">
-          Fundación Abuela Ecológica
+          {t.eyebrow}
         </span>
 
         {/* Title */}
         <h1 className="text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-          Transparencia y rendición de cuentas
+          {t.title}
         </h1>
 
         {/* Divider */}
@@ -22,9 +28,7 @@ export default function TransparencyHero() {
 
         {/* Description */}
         <p className="text-lg text-white/90 max-w-3xl">
-          La confianza se cultiva con información clara, accesible y verificable.
-          Aquí compartimos quiénes somos, cómo tomamos decisiones y cómo rendimos
-          cuentas a la comunidad.
+          {t.description}
         </p>
 
       </div>

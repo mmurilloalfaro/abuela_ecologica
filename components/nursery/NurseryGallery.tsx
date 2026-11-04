@@ -2,10 +2,15 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+
 import { fadeUp } from "@/components/animations/fadeUp";
 import { nurseryImages } from "@/data/nurseryImages";
+import { useDictionary } from "@/context/DictionaryProvider";
 
 export default function NurseryGallery() {
+  const dict = useDictionary();
+  const t = dict.nursery.gallery;
+
   return (
     <section className="bg-white py-28 px-6">
       <div className="max-w-7xl mx-auto space-y-16">
@@ -19,7 +24,7 @@ export default function NurseryGallery() {
             viewport={{ once: true }}
             className="inline-block text-sm font-medium text-emerald-700"
           >
-            El vivero en acción
+            {t.eyebrow}
           </motion.span>
 
           <motion.h2
@@ -29,7 +34,7 @@ export default function NurseryGallery() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-semibold leading-tight"
           >
-            Un espacio vivo de restauración y aprendizaje
+            {t.title}
           </motion.h2>
 
           <motion.p
@@ -39,8 +44,7 @@ export default function NurseryGallery() {
             viewport={{ once: true }}
             className="text-gray-700"
           >
-            El vivero forestal es un punto de encuentro entre conservación,
-            educación ambiental, voluntariado e inclusión social.
+            {t.description}
           </motion.p>
         </div>
 
@@ -48,7 +52,7 @@ export default function NurseryGallery() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {nurseryImages.map((image, index) => (
             <motion.div
-              key={index}
+              key={image.src}
               variants={fadeUp(index * 0.05)}
               initial="hidden"
               whileInView="visible"
@@ -57,8 +61,9 @@ export default function NurseryGallery() {
             >
               <Image
                 src={image.src}
-                alt={image.alt}
+                alt={t.images[image.altKey]}
                 fill
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
 

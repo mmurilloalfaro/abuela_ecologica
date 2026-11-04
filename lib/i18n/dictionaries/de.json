@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Startseite",
     "about": "Über uns",
     "projects": "Projekte",
     "nursery": "Forstbaumschule",
@@ -51,22 +52,26 @@
   },
   
   "howToHelp": {
-  "title": "Wie Sie sich engagieren können",
-  "description": "Es gibt verschiedene Möglichkeiten, unsere Mission zu unterstützen. Jeder Beitrag stärkt unsere Umwelt- und Gemeinschaftsarbeit nachhaltig.",
-  "options": {
-    "donate": {
-      "title": "Spenden",
-      "description": "Ihre Spende unterstützt Umweltbildung, ökologische Wiederherstellung und nachhaltige Gemeinschaftsprojekte."
+    "title": "Wie können Sie sich engagieren?",
+    "description": "Mitmachen ist ganz einfach. Jede Form der Unterstützung stärkt unsere tägliche Umwelt- und Gemeinschaftsarbeit.",
+    "actions": {
+      "join": "Mach mit",
+      "learnMore": "Mehr erfahren"
     },
-    "volunteer": {
-      "title": "Freiwilligenarbeit",
-      "description": "Engagieren Sie sich aktiv in Workshops, Umweltaktionen und gemeinschaftlichen Initiativen."
-    },
-    "alliances": {
-      "title": "Partnerschaften",
-      "description": "Unternehmen und Organisationen können gemeinsam mit uns ökologische und soziale Wirkung verstärken."
+    "options": {
+      "donate": {
+        "title": "Spenden",
+        "description": "Ihre Spende unterstützt Umweltbildung, ökologische Wiederherstellung und nachhaltige Gemeinschaftsarbeit."
+      },
+      "volunteer": {
+        "title": "Freiwilligenarbeit",
+        "description": "Engagieren Sie sich aktiv bei Workshops, Umweltaktionen und gemeinsamen Projekten mit lokalen Gemeinschaften."
+      },
+      "alliances": {
+        "title": "Partnerschaften",
+        "description": "Unternehmen und Organisationen können gemeinsam mit uns die ökologische und soziale Wirkung verstärken."
+      }
     }
-  }
   },
 
   "cta": {
@@ -165,10 +170,533 @@
   },
 
   "projects": {
-  "hero": {
-    "eyebrow": "Abuela Ecológica Stiftung",
-    "title": "Unsere Projekte",
-    "description": "Jedes Projekt reagiert auf einen realen Bedarf: fragmentierte Wälder, bedrohte Arten und Gemeinschaften, die Teil der Lösung sein wollen."
-  }
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Unsere Projekte",
+      "description": "Jedes Projekt setzt bei einem konkreten Bedarf an: zerschnittene Waldgebiete, bedrohte Arten und Gemeinden, die Teil der Lösung sein möchten."
+    },
+    "grid": {
+      "title": "Projekte",
+      "status": {
+        "active": "In Umsetzung",
+        "completed": "Abgeschlossen"
+      }
+    },
+    "items": {
+      "arboles-plumas": {
+        "title": "Bäume und Federn",
+        "summary": "Wir stellen Wälder wieder her, damit der Große Soldatenara seinen Lebensraum zurückerhält",
+        "description": "Wiederherstellung des Lebensraums des Großen Soldatenaras in San Carlos durch die Pflanzung wichtiger Baumarten und die Stärkung biologischer Korridore.",
+        "location": "Nordregion",
+        "content": [
+          "Bäume und Federn (Árboles y Plumas) ist ein Projekt zur Wiederherstellung des Lebensraums des Großen Soldatenaras. Er gehört zu den bekanntesten Papageien Costa Ricas, ist jedoch auch eine der am stärksten bedrohten Arten des Landes. Abholzung und die Zerschneidung der Wälder haben seinen Lebensraum drastisch verkleinert und die Population auf kleine, voneinander isolierte Gebiete zurückgedrängt.",
+          "San Carlos ist nach wie vor ein wichtiges Gebiet für seine Erholung. Hier gibt es noch Wälder, engagierte Gemeinden und essenzielle Baumarten wie den Berg-Mandelbaum, die dem Ara wieder geeignete Bedingungen zum Fressen und Brüten bieten können.",
+          "Bäume und Federn ist eine konkrete Antwort auf diese Herausforderung: Durch die Pflanzung wichtiger Baumarten und die aktive Beteiligung lokaler Gemeinden, Institutionen und strategischer Partner sollen biologische Korridore wiederhergestellt werden."
+        ],
+        "stats": [
+          {
+            "value": "8.000",
+            "label": "Einheimische Bäume"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Großer Soldatenara"
+          },
+          {
+            "value": "Nordregion",
+            "label": "Gebiet"
+          },
+          {
+            "value": "2025–2026",
+            "label": "Zeitraum"
+          }
+        ],
+        "cta": {
+          "title": "Helfen Sie mit, dem Großen Soldatenara seinen Wald zurückzugeben",
+          "text": "Ihre Spende unterstützt die Anzucht, Pflanzung und Pflege einheimischer Bäume, die für das Überleben dieser Art und die Wiederherstellung ihres Ökosystems unverzichtbar sind.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      },
+      "bosque-los-lolos": {
+        "title": "Wald von Los Lolos",
+        "summary": "Ökologische Wiederherstellung zur Stärkung der Vernetzung von Wäldern und zum Schutz von Wasserquellen.",
+        "description": "Wiederherstellung einer 1.400 m² großen Fläche durch die Pflanzung von 700 einheimischen Bäumen zum Schutz zweier Quellen von strategischer Bedeutung für die Nordregion Costa Ricas.",
+        "location": "Nordregion",
+        "content": [
+          "Das Projekt Wald von Los Lolos umfasste die ökologische Wiederherstellung einer ehemaligen Weidefläche von etwa 1.400 Quadratmetern in San Vicente, Ciudad Quesada. Auf dem Gelände befinden sich zwei Quellen von großer Bedeutung für die örtlichen Gemeinden: Eine ist Teil des Wasserversorgungssystems von Ciudad Quesada, die andere versorgt die Gemeinde El Porvenir mit Wasser.",
+          "Die Pflanzung von 700 einheimischen Bäumen trägt zum Schutz dieser Wasserquellen bei, verbessert die Wasserinfiltration und -regulierung im Boden und stärkt die ökologische Vernetzung zwischen nahe gelegenen Waldfragmenten. Dadurch entstehen günstigere Bedingungen für die biologische Vielfalt der Region.",
+          "Die Initiative wurde fachlich von Experten der Fakultät für Forstingenieurwesen und der Fakultät für Agrarwissenschaften des Technologischen Instituts von Costa Rica (TEC) begleitet. Sie unterstützten die Planung, die Auswahl der Baumarten und die Umsetzung der Wiederherstellungsmaßnahmen.",
+          "Da sich das Gebiet auf etwa 1.400 Metern über dem Meeresspiegel befindet, wurden einheimische Baumarten sorgfältig ausgewählt, die an die klimatischen, bodenkundlichen und ökologischen Bedingungen der Region angepasst sind. Ziel war es, das Überleben der Bäume und die langfristige Umweltwirkung zu maximieren."
+        ],
+        "stats": [
+          {
+            "value": "700",
+            "label": "Gepflanzte Bäume"
+          },
+          {
+            "value": "2",
+            "label": "Geschützte Quellen"
+          },
+          {
+            "value": "San Vicente",
+            "label": "Standort"
+          },
+          {
+            "value": "2024–2025",
+            "label": "Zeitraum"
+          }
+        ],
+        "cta": {
+          "title": "Helfen Sie, unsere Wälder wiederherzustellen und Wasser zu schützen",
+          "text": "Ihre Spende unterstützt die Anzucht, Pflanzung und Pflege einheimischer Bäume, die für die Wiederherstellung des Ökosystems unverzichtbar sind.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      },
+      "nietos-abuela-ecologica": {
+        "title": "Enkel der Ökologischen Großmutter",
+        "summary": "Freude und Hoffnung für Kinder in benachteiligten ländlichen Gemeinden.",
+        "description": "Ein Unterstützungsprogramm für Kinder in benachteiligten ländlichen Gemeinden, das ihre ganzheitliche Entwicklung und ihre Verbindung zur Natur fördert.",
+        "location": "Nordregion, Costa Rica",
+        "content": [
+          "Enkel der Ökologischen Großmutter ist eine Solidaritätskampagne, die 2020 mit einem einfachen und zugleich bedeutungsvollen Ziel ins Leben gerufen wurde: Kindern in benachteiligten ländlichen Gemeinden der Nordregion Costa Ricas ein Weihnachtsgeschenk zu bringen.",
+          "Seit ihrem Beginn hat die Kampagne dank der Unterstützung von Geschenkpatinnen und -paten, großzügigen Spenden und Unternehmen, die an die gesellschaftliche Wirkung dieser Arbeit glauben, mehr als 1.700 Geschenke verteilt. Jedes Geschenk ist viel mehr als ein Gegenstand: Es ist ein Zeichen der Unterstützung, Freude und Würde für die begünstigten Familien.",
+          "Im Laufe der Jahre hat die Kampagne verschiedene Gemeinden erreicht:",
+          "• 2020: 350 Geschenke im indigenen Gebiet der Maleku, in den Palenques El Sol, Margarita und Tonjibe.",
+          "• 2021: Rund 500 Geschenke in Santa Rosa de Pocosol und Tres y Tres de Pocosol sowie für Begünstigte der CENCINAI-Einrichtungen in San Joaquín de Cutris und Dulce Nombre de Ciudad Quesada.",
+          "• 2022: 150 Geschenke in Boca San Carlos.",
+          "• 2023: Etwa 350 Geschenke für Kinder der CENCINAI-Einrichtungen in Boca Tapada, Santa Rita, Boca San Carlos und Cureñita sowie für die Kinderstation des Krankenhauses San Carlos.",
+          "• 2024: 350 Geschenke in Boca Tapada, Santa Rita, Boca San Carlos und Cureñita.",
+          "• 2025: 200 Geschenke in Crucitas und Moravia de Cutris, auf der Kinderstation des Krankenhauses San Carlos und im Hogarcito in Ciudad Quesada.",
+          "Seit ihren Anfängen wird die Kampagne von María Fernanda Murillo koordiniert. Sie wird durch das kontinuierliche Engagement von Menschen und Organisationen getragen, die sich jedes Jahr als Geschenkpatinnen und -paten beteiligen oder Spenden leisten.",
+          "Enkel der Ökologischen Großmutter zeigt, dass Solidarität auch Regionen verändern, Gemeinschaften stärken und bleibende Spuren in der Kindheit hinterlassen kann."
+        ],
+        "stats": [
+          {
+            "value": "1.700+",
+            "label": "Verteilte Geschenke"
+          },
+          {
+            "value": "15",
+            "label": "Begünstigte Gemeinden"
+          },
+          {
+            "value": "Nordregion",
+            "label": "Gebiet"
+          },
+          {
+            "value": "2020–2025",
+            "label": "Zeitraum"
+          }
+        ],
+        "cta": {
+          "title": "Schenken Sie Kindern in der Nordregion ein Lächeln",
+          "text": "Ihre Spende unterstützt den Kauf von Geschenken, die Organisation der Verteilung und die Fortführung dieser Solidaritätskampagne.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      },
+      "reforestacion-consciente": {
+        "title": "Bewusste Wiederaufforstung",
+        "summary": "Pflanzung einheimischer Bäume zum Schutz von Quellen und zur Stärkung der Ökosysteme in La Tigra, San Carlos.",
+        "description": "Ein Wiederaufforstungsprojekt, das die Pflanzung einheimischer Bäume mit Umweltbildung verbindet, um Quellen zu schützen und die Ökosysteme in La Tigra, San Carlos, zu stärken.",
+        "location": "La Tigra",
+        "content": [
+          "Im Oktober, November und Dezember 2020 fanden mehrere Wiederaufforstungsaktionen in der Region La Tigra in San Carlos statt. Dabei wurden erfolgreich 5.000 Bäume aus 55 einheimischen Arten gepflanzt.",
+          "Eines der wiederhergestellten Grundstücke grenzt an den Ewigen Wald der Kinder, während das andere der ASADA La Lucha – La Vega gehört, einem örtlichen Wasserversorgungsverband. Beide Grundstücke beherbergen Quellen von hohem ökologischem Wert.",
+          "Auf dem Grundstück der ASADA befinden sich die Wasserfassungen, die mehr als 5.000 Familien versorgen. Die Wiederaufforstung leistete daher einen direkten Beitrag zum Schutz dieser lebenswichtigen Wasserressource.",
+          "Während der Aktionen lernten die Freiwilligen verschiedene Baumarten und Wildtiere kennen und konnten Schlangen, Frösche, Vögel und Säugetiere in ihrem natürlichen Lebensraum beobachten.",
+          "Das Projekt wurde im Rahmen einer von einem Privatunternehmen finanzierten ökologischen Ausgleichsmaßnahme durchgeführt und vollständig von unserer Organisation umgesetzt."
+        ],
+        "stats": [
+          {
+            "value": "5.000",
+            "label": "Gepflanzte Bäume"
+          },
+          {
+            "value": "Ara ambiguus",
+            "label": "Großer Soldatenara"
+          },
+          {
+            "value": "La Tigra de San Carlos",
+            "label": "Gebiet"
+          },
+          {
+            "value": "2020",
+            "label": "Jahr"
+          }
+        ],
+        "cta": {
+          "title": "Helfen Sie mit, dem Großen Soldatenara seinen Wald zurückzugeben",
+          "text": "Ihre Spende unterstützt die Anzucht, Pflanzung und Pflege einheimischer Bäume, die für das Überleben dieser Art und die Wiederherstellung ihres Ökosystems unverzichtbar sind.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      },
+      "un-norte-lapa-verde": {
+        "title": "Eine Zukunft für den Großen Soldatenara",
+        "summary": "Ein ökologisches Wiederherstellungsprojekt, das durch die Bereitstellung und Pflanzung von Berg-Mandelbäumen den Lebensraum des Großen Soldatenaras schützen soll.",
+        "description": "Ein ökologisches Wiederherstellungsprojekt zum Schutz des Lebensraums des Großen Soldatenaras durch die Pflanzung von Berg-Mandelbäumen und die Beteiligung lokaler Gemeinden.",
+        "location": "Huetar-Norte-Region und Atlantikseite",
+        "content": [
+          "Eine Zukunft für den Großen Soldatenara ist ein Naturschutzprojekt, das zwischen November 2019 und Juli 2020 durchgeführt wurde. Im Mittelpunkt stand die Stärkung des Lebensraums einer der bekanntesten und am stärksten bedrohten Arten Costa Ricas: des Großen Soldatenaras.",
+          "Der Große Soldatenara wird sowohl von der IUCN als auch nach der nationalen Gesetzgebung als stark gefährdet eingestuft. Seine größte Bedrohung bleibt der Verlust seines Lebensraums, insbesondere das Verschwinden des Berg-Mandelbaums, von dem er direkt für seine Ernährung und seine Nistplätze abhängig ist.",
+          "Verschiedene Studien haben gezeigt, dass 80 bis 90 % der Nahrung des Großen Soldatenaras aus den Früchten des Berg-Mandelbaums bestehen und sich etwa 90 % seiner Nester in natürlichen Höhlen dieses Baumes befinden. Sein Überleben ist buchstäblich an das Vorkommen des Berg-Mandelbaums in der Landschaft gebunden.",
+          "Vor diesem Hintergrund konzentrierte sich das Projekt auf die Bereitstellung und Pflanzung von 5.000 Berg-Mandelbäumen in der Huetar-Norte-Region und an der Atlantikseite, Gebieten, die zum historischen Verbreitungsgebiet der Art gehören.",
+          "Das Projekt umfasste Maßnahmen zur Umweltkommunikation, die Erstellung von Bildungsmaterialien, die Anzucht von Jungpflanzen sowie fachliche Unterstützung für die Begünstigten. Dadurch wurden die Pflege und Beobachtung der gepflanzten Bäume gefördert.",
+          "Die verwendeten Samen wurden an strategisch wichtigen Standorten wie Veracruz, El Sahino de Pital, Santa Clara, La Tigra und Peñas Blancas gesammelt. Darüber hinaus unterstützte die Baumschule des ICE in Sarapiquí das Projekt mit einer Spende von 4.000 Jungpflanzen.",
+          "Eine Zukunft für den Großen Soldatenara legte den Grundstein für weitere ökologische Wiederherstellungsprojekte der Fundación Abuela Ecológica und etablierte ein Naturschutzmodell, das auf Wissenschaft, regionaler Verankerung und gemeinschaftlicher Beteiligung beruht."
+        ],
+        "stats": [
+          {
+            "value": "5.000",
+            "label": "Gespendete Bäume"
+          },
+          {
+            "value": "Dipteryx panamensis",
+            "label": "Schlüsselart"
+          },
+          {
+            "value": "Nordregion und Atlantikseite",
+            "label": "Gebiet"
+          },
+          {
+            "value": "2020",
+            "label": "Jahr"
+          }
+        ],
+        "cta": {
+          "title": "Helfen Sie mit, dem Großen Soldatenara seinen Wald zurückzugeben",
+          "text": "Ihre Spende unterstützt die Anzucht, Pflanzung und Pflege einheimischer Bäume, die für das Überleben dieser Art und die Wiederherstellung ihres Ökosystems unverzichtbar sind.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      },
+      "inclusion-intercultural": {
+        "title": "Interkulturelle Inklusion",
+        "summary": "Ein sozial-ökologisches Projekt, das Wiederaufforstung, Umweltbildung und die Einbeziehung indigener Gemeinden in der Nordregion verbindet.",
+        "description": "Ein Projekt zur interkulturellen Inklusion, das Wiederaufforstung als Raum für Begegnung, Umweltbildung und die Stärkung des gesellschaftlichen Zusammenhalts zwischen indigenen Gemeinden und der Bevölkerung fördert.",
+        "location": "Indigenes Gebiet der Maleku",
+        "content": [
+          "Interkulturelle Inklusion entstand mit dem Ziel, die Natur durch Wiederaufforstung zu schützen und diese Aktivität als Begegnungsraum zwischen indigenen Gemeinden und den Bewohnern der Nordregion zu nutzen.",
+          "Das Projekt verbindet Umweltmaßnahmen mit sozialer und kultureller Bildung und fördert Respekt, Inklusion und gegenseitiges Lernen zwischen Menschen unterschiedlicher Herkunft, Altersgruppen und Institutionen.",
+          "Die Wiederaufforstung bildet eine verbindende Grundlage, um das Umweltbewusstsein zu stärken, Gemeinschaftsbeziehungen zu fördern und Räume für interkulturellen Dialog zu schaffen.",
+          "Die erste Ausgabe des Projekts fand am 30. Oktober 2019 mit etwa 110 Teilnehmenden und Vertretern der indigenen Völker Boruca, Ngöbe und Maleku statt.",
+          "Die Veranstaltung wurde außerdem von verschiedenen öffentlichen Institutionen, sozialen Organisationen und Gemeinschaftsgruppen begleitet und entwickelte sich so zu einer gemeinsamen Erfahrung von hohem gesellschaftlichem und ökologischem Wert.",
+          "Das Projekt versteht sich als Impulsgeber für zukünftige Initiativen, die eine inklusivere und nachhaltigere Entwicklung fördern – nicht nur in der Nordregion, sondern im ganzen Land."
+        ],
+        "stats": [
+          {
+            "value": "1.000",
+            "label": "Gepflanzte Bäume"
+          },
+          {
+            "value": "110",
+            "label": "Teilnehmende"
+          },
+          {
+            "value": "3",
+            "label": "Indigene Völker"
+          },
+          {
+            "value": "2019",
+            "label": "Jahr"
+          }
+        ],
+        "cta": {
+          "title": "Helfen Sie, Räume der Begegnung und des gegenseitigen Respekts zwischen Gemeinschaften zu schaffen",
+          "text": "Ihre Spende unterstützt die Schaffung von Möglichkeiten zur Beteiligung, Umweltbildung und Wiederaufforstung in indigenen Gebieten und lokalen Gemeinschaften.",
+          "button": "Dieses Projekt unterstützen"
+        }
+      }
+    }
+  },
+  "nursery": {
+    "hero": {
+      "eyebrow": "Forstbaumschule",
+      "title": "Wo Bäume wachsen",
+      "highlight": "und Landschaften wiederhergestellt werden",
+      "description": "Von San Carlos aus ziehen wir verschiedene Baumarten heran, fördern Umweltbildung und unterstützen das ganze Jahr über ökologische Wiederherstellungsprojekte.",
+      "imageAlt": "Forstbaumschule der Fundación Abuela Ecológica"
+    },
+    "introduction": {
+      "title": "Die Baumschule: das Fundament unserer Arbeit",
+      "description": "Die Forstbaumschule der Fundación Abuela Ecológica ist das wichtigste operative Zentrum der Organisation und Ausgangspunkt unserer Maßnahmen zur ökologischen Wiederherstellung, Umweltbildung und gemeinschaftlichen Inklusion.",
+      "highlights": {
+        "production": {
+          "title": "Forstliche Pflanzenproduktion",
+          "text": "Jährlich werden mehr als 120 Baumarten für die ökologische Wiederherstellung herangezogen."
+        },
+        "education": {
+          "title": "Umweltbildung",
+          "text": "Ein Lernort für Universitäten, Schulen und gemeinschaftliche Initiativen."
+        },
+        "community": {
+          "title": "Gemeinschaftliche Beteiligung",
+          "text": "Nationale und internationale Freiwilligenarbeit sowie universitäre Gemeinschaftsdienste."
+        }
+      },
+      "visitNote": "Die Baumschule befindet sich auf einem von der Stadtverwaltung San Carlos zur Verfügung gestellten Grundstück. Besuche sind nur nach vorheriger Absprache möglich, um sichere und gut organisierte Lernerfahrungen zu gewährleisten.",
+      "info": {
+        "hours": {
+          "title": "Öffnungszeiten",
+          "weekdays": "Montag bis Freitag: 8:00–14:00 Uhr",
+          "saturday": "Samstag: 8:00–12:00 Uhr"
+        },
+        "visits": {
+          "title": "Besuche und Mitwirkung",
+          "items": [
+            "Bildungsbesuche nach vorheriger Absprache",
+            "Schul- und Gemeinschaftsgruppen",
+            "TCU / Universitärer Gemeinschaftsdienst",
+            "Nationale und internationale Freiwilligenarbeit"
+          ]
+        },
+        "donations": {
+          "title": "Sachspenden",
+          "text": "Wir nehmen Saatgut, Anzuchtbeutel, Pflanzsubstrate, Dünger und weitere Materialien entgegen, die für die forstliche Pflanzenproduktion benötigt werden."
+        }
+      }
+    },
+    "stats": {
+      "eyebrow": "Die Baumschule in Zahlen",
+      "title": "Fachliche Kompetenz im Dienst der Region",
+      "items": {
+        "species": {
+          "value": "120+",
+          "title": "Baumarten",
+          "description": "Einheimische Arten für die ökologische Wiederherstellung."
+        },
+        "trees": {
+          "value": "3.000+",
+          "title": "Bäume pro Jahr",
+          "description": "Jungpflanzen für gemeinschaftliche und ökologische Projekte."
+        },
+        "people": {
+          "value": "300+",
+          "title": "Geschulte Personen",
+          "description": "Schulungsangebote zu Baumschulwesen und Umweltbildung."
+        },
+        "universities": {
+          "value": "3+",
+          "title": "Partneruniversitäten",
+          "description": "Zusammenarbeit bei Praktika, Gemeinschaftsdiensten und Forschungsprojekten."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "Die Baumschule in Aktion",
+      "title": "Ein lebendiger Ort für Wiederherstellung und Lernen",
+      "description": "Die Forstbaumschule ist ein Treffpunkt für Naturschutz, Umweltbildung, Freiwilligenarbeit und soziale Inklusion.",
+      "images": {
+        "main": "Hauptbereich der Forstbaumschule",
+        "production": "Anzucht von Forstbäumen",
+        "students": "Studierende bei gemeinschaftlichen Arbeitseinsätzen",
+        "workshops": "Umweltworkshops und Vorträge in der Baumschule",
+        "volunteers": "Internationale Freiwillige in der Baumschule",
+        "community": "Aktivitäten zur gemeinschaftlichen Beteiligung in der Baumschule"
+      }
+    },
+    "services": {
+      "eyebrow": "Unsere Arbeit in der Baumschule",
+      "title": "Angebote zur Unterstützung der ökologischen Wiederherstellung",
+      "description": "Die Baumschule verbindet forstliche Pflanzenproduktion, Bildung, Freiwilligenarbeit und strategische Partnerschaften mit einem regionalen und gemeinschaftsorientierten Ansatz.",
+      "items": {
+        "trees": {
+          "title": "Verkauf von Forstbäumen",
+          "description": "Wir bieten Forstbäume verschiedener Arten für Wiederaufforstungsprojekte, biologische Korridore und naturnahe Gärten an.",
+          "badge": "Verfügbar"
+        },
+        "workshops": {
+          "title": "Umweltworkshops und Vorträge",
+          "description": "Bildungsangebote für Gemeinden, Studierende und Unternehmen zu Naturschutz, Wiederaufforstung und Umweltbildung.",
+          "badge": "Ganzjährig"
+        },
+        "communityWork": {
+          "title": "Gemeinschaftsdienst (TCU / TC)",
+          "description": "Wir nehmen Studierende von Universitäten und weiterführenden Schulen auf, die ihren Gemeinschaftsdienst in der Baumschule mit fachlicher Begleitung absolvieren möchten.",
+          "badge": "Offen"
+        },
+        "visits": {
+          "title": "Bildungsbesuche",
+          "description": "Wir empfangen nach vorheriger Absprache Besuche von Bildungseinrichtungen, älteren Menschen und privaten Gruppen.",
+          "badge": "Nach Vereinbarung"
+        },
+        "volunteering": {
+          "title": "Nationale und internationale Freiwilligenarbeit",
+          "description": "Freiwillige beteiligen sich aktiv an der Pflanzenproduktion, der Pflege der Baumschule und der Umweltbildung.",
+          "badge": "Saisonabhängig"
+        },
+        "donations": {
+          "title": "Sachspenden",
+          "description": "Wir nehmen Saatgut, Anzuchtbeutel, Pflanzsubstrate, Dünger und weitere Materialien entgegen, die unsere Arbeit das ganze Jahr über unterstützen.",
+          "badge": "Jederzeit willkommen"
+        }
+      }
+    },
+    "schedule": {
+      "eyebrow": "Besuchen Sie die Baumschule",
+      "title": "Öffnungszeiten und Standort",
+      "description": "Die Forstbaumschule ist ein aktiver Ort der Pflanzenproduktion, Bildung und des Naturschutzes. Besuche sind nach vorheriger Absprache möglich.",
+      "hours": {
+        "title": "Öffnungszeiten",
+        "weekdays": "Montag bis Freitag: 8:00–14:00 Uhr",
+        "saturday": "Samstag: 8:00–12:00 Uhr"
+      },
+      "location": {
+        "title": "Standort",
+        "name": "Forstbaumschule der Fundación Abuela Ecológica",
+        "address": "Provinz Alajuela, Ciudad Quesada, Stadtviertel El Jardín"
+      },
+      "navigation": {
+        "googleMaps": "Google Maps",
+        "waze": "Waze"
+      },
+      "map": {
+        "title": "Standort der Forstbaumschule der Fundación Abuela Ecológica"
+      },
+      "notes": {
+        "title": "Hinweise für Besucher",
+        "items": [
+          "Alle Besuche müssen im Voraus vereinbart werden.",
+          "Wir empfangen Bildungseinrichtungen, ältere Menschen und private Besuchergruppen.",
+          "Kindergruppen müssen von Lehrkräften oder verantwortlichen Erwachsenen begleitet werden.",
+          "Die Baumschule ist das ganze Jahr über ein aktiver Arbeitsort."
+        ]
+      }
+    }
+  },
+  "transparency": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Transparenz und Rechenschaft",
+      "description": "Vertrauen entsteht durch klare, zugängliche und überprüfbare Informationen. Hier erfahren Sie, wer wir sind, wie wir Entscheidungen treffen und wie wir gegenüber unserer Gemeinschaft Rechenschaft ablegen."
+    },
+    "board": {
+      "title": "Vorstand",
+      "description": "Der Vorstand legt die strategische Ausrichtung fest, überwacht die Geschäftsführung und achtet auf die Einhaltung der Mission und Werte der Stiftung.",
+      "periodLabel": "Amtszeit",
+      "roles": {
+        "president": "Vorsitzende",
+        "vicePresident": "Stellvertretende Vorsitzende",
+        "treasurer": "Schatzmeisterin",
+        "secretary": "Schriftführerin",
+        "firstMember": "Vorstandsmitglied I",
+        "secondMember": "Vorstandsmitglied II"
+      }
+    },
+    "founders": {
+      "title": "Gründerinnen",
+      "description": "Die Stiftung entstand aus gemeinschaftlichem Engagement und einem tiefen Einsatz für den Umweltschutz und die Stärkung lokaler Gemeinschaften.",
+      "members": {
+        "bertalia": {
+          "role": "Gründerin · Vermächtnis und Inspiration",
+          "description": "Eine wichtige Persönlichkeit der Gemeinschaft in den Bereichen Wiederaufforstung, Wasserschutz und Umweltpflege. Ihr selbstloser Einsatz legte den Grundstein für die Mission und Werte, die Fundación Abuela Ecológica heute prägen."
+        },
+        "laura": {
+          "role": "Gründerin",
+          "description": "Umweltschützerin und soziale Führungspersönlichkeit aus der Region Huetar Norte. Sie fördert ökologische Wiederherstellung, Umweltbildung und die Stärkung von Gemeinschaften, mit besonderem Augenmerk auf die Führungsrolle von Frauen im ländlichen Raum, die Zusammenarbeit zwischen Institutionen und den Erhalt der biologischen Vielfalt."
+        },
+        "fernanda": {
+          "role": "Gründerin",
+          "description": "Softwareingenieurin, die sich für Klimaschutz und gemeinschaftliches Engagement einsetzt. Sie wirkt aktiv am Aufbau der Stiftung und an ihren Umweltbildungsprozessen mit."
+        }
+      }
+    },
+    "reports": {
+      "eyebrow": "Institutionelle Transparenz",
+      "title": "Berichte und Rechenschaft",
+      "description": "Wir veröffentlichen unsere Berichte als Teil unseres Engagements für eine ethische, verantwortungsvolle und überprüfbare Verwaltung.",
+      "status": {
+        "published": "Veröffentlicht",
+        "pending": "Demnächst"
+      },
+      "download": "Bericht herunterladen (PDF)",
+      "inProgress": "Bericht wird derzeit zur Veröffentlichung vorbereitet",
+      "items": {
+        "2025": {
+          "title": "Jahresbericht",
+          "description": "Überblick über Projekte, soziale und ökologische Wirkung sowie die institutionelle Arbeit im Jahr 2025."
+        },
+        "2024": {
+          "title": "Jahresbericht",
+          "description": "Überblick über Projekte, soziale und ökologische Wirkung sowie die institutionelle Arbeit im Jahr 2024."
+        },
+        "2023": {
+          "title": "Jahresbericht",
+          "description": "Ergebnisse, gemeinschaftliche Initiativen und Naturschutzmaßnahmen aus dem Jahr 2023."
+        },
+        "2022": {
+          "title": "Jahresbericht",
+          "description": "Institutioneller Bericht über die im Jahr 2022 durchgeführten Umwelt- und Sozialmaßnahmen."
+        }
+      }
+    }
+  },
+  "donate": {
+    "hero": {
+      "eyebrow": "Fundación Abuela Ecológica",
+      "title": "Ihre Unterstützung wird zu konkretem Umwelthandeln",
+      "description": "Jede Spende fördert Umweltbildung, die Wiederherstellung von Ökosystemen und die direkte Zusammenarbeit mit Gemeinschaften in Costa Rica."
+    },
+    "whyDonate": {
+      "title": "Warum an die",
+      "highlight": "Fundación Abuela Ecológica spenden?",
+      "paragraphs": [
+        "Denn ökologischer Wandel findet nicht in weit entfernten Büros statt, sondern in echten Gemeinschaften mit echten Menschen.",
+        "Eine Spende an Fundación Abuela Ecológica unterstützt eine unmittelbare, ehrliche Arbeit, die tief in der Region und ihrer Bevölkerung verwurzelt ist."
+      ]
+    },
+    "impact": {
+      "title": "Was bewirkt Ihre Spende?",
+      "description": "Jeder Beitrag wird in konkrete Maßnahmen umgesetzt, die eine echte ökologische und soziale Wirkung erzielen.",
+      "items": {
+        "education": {
+          "title": "Umweltbildung",
+          "description": "Workshops und Programme für Kinder und Jugendliche."
+        },
+        "reforestation": {
+          "title": "Wiederaufforstung",
+          "description": "Wiederherstellung von Ökosystemen und biologischen Korridoren."
+        },
+        "communities": {
+          "title": "Gemeinschaften",
+          "description": "Unterstützung ländlicher und indigener Gemeinschaften."
+        },
+        "climate": {
+          "title": "Klimaschutz",
+          "description": "Lokale Lösungen im Umgang mit dem Klimawandel."
+        }
+      }
+    },
+    "methods": {
+      "eyebrow": "Spenden heißt, Zukunft zu säen",
+      "title": "Sichere und transparente Spenden",
+      "highlight": "mit echter Wirkung",
+      "description": "Jeder Beitrag ermöglicht konkrete Maßnahmen: Umweltbildung, Wiederherstellung von Ökosystemen und direkte Zusammenarbeit mit Gemeinschaften.",
+      "bank": {
+        "title": "Banküberweisung",
+        "ibanDollars": "IBAN in US-Dollar",
+        "ibanColones": "IBAN in Colones",
+        "legalId": "Rechtliche Registrierungsnummer",
+        "note": "Nachvollziehbare und überprüfbare Überweisungen."
+      },
+      "sinpe": {
+        "title": "SINPE Móvil",
+        "description": "Schnelle und direkte Spenden aus Costa Rica.",
+        "beneficiary": "Fundación Abuela Ecológica"
+      },
+      "paypal": {
+        "title": "Internationale Spende",
+        "description": "Von überall auf der Welt. Sicher und zuverlässig.",
+        "note": "Akzeptiert Kreditkarten und PayPal-Guthaben."
+      },
+      "closing": {
+        "description": "Alle Beiträge werden ausschließlich für Umweltbildungsprogramme, ökologische Wiederherstellung und die Stärkung von Gemeinschaften verwendet.",
+        "statement": "Wir legen Rechenschaft ab, denn auch Vertrauen muss wachsen."
+      }
+    },
+    "cta": {
+      "title": "Spenden ist ein Akt der Liebe zum Leben",
+      "description": "Ihr Beitrag fördert Umweltbildung, ökologische Wiederherstellung und gemeinschaftliche Arbeit mit echter und messbarer Wirkung.",
+      "button": "Ich möchte unterstützen",
+      "note": "Vielen Dank für Ihr Vertrauen. Transparenz ist ebenfalls Teil unseres Engagements."
+    }
   }
 }

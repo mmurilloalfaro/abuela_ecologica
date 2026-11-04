@@ -7,13 +7,13 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-/*type Locale = "es" | "en" | "de" | "fr" | "pt";*/
-type Locale = "es";
+type Locale = "es" | "en" | "de" | "fr" | "pt";
 
 
 interface NavbarProps {
   locale: Locale;
   dictionary: {
+    home: string;
     about: string;
     projects: string;
     nursery: string;
@@ -28,6 +28,7 @@ export default function Navbar({ locale, dictionary }: NavbarProps) {
   const pathname = usePathname();
 
   const navLinks = [
+    { name: dictionary.home, href: `/${locale}` },
     { name: dictionary.about, href: `/${locale}/about` },
     { name: dictionary.projects, href: `/${locale}/projects` },
     { name: dictionary.nursery, href: `/${locale}/nursery` },
@@ -36,10 +37,10 @@ export default function Navbar({ locale, dictionary }: NavbarProps) {
 
   const languages = [
     { code: "es" as Locale, flag: "🇪🇸", label: "ES Español" },
-    /*{ code: "en" as Locale, flag: "🇬🇧", label: "GB English" },
+    { code: "en" as Locale, flag: "🇬🇧", label: "GB English" },
     { code: "fr" as Locale, flag: "🇫🇷", label: "FR French" },
     { code: "de" as Locale, flag: "🇩🇪", label: "DE German" },
-    { code: "pt" as Locale, flag: "🇵🇹", label: "PT Portuguese" },*/
+    { code: "pt" as Locale, flag: "🇵🇹", label: "PT Portuguese" },
   ];
 
   useEffect(() => {
