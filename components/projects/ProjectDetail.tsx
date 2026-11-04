@@ -1,6 +1,8 @@
+
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import { getDictionary } from "@/lib/i18n/getDictionary";
 import { useDictionary } from "@/data/context/DictionaryProvider";
@@ -8,19 +10,22 @@ import { projects } from "@/data/projects";
 import ProjectHero from "@/components/projects/ProjectHero";
 
 type Project = (typeof projects)[number];
-type Dictionary = ReturnType<typeof getDictionary>;
+type Dictionary = Awaited<ReturnType<typeof getDictionary>>;
 type ProjectContent =
   Dictionary["projects"]["items"][keyof Dictionary["projects"]["items"]];
 
 export default function ProjectDetail({ project }: { project: Project }) {
   const dict = useDictionary();
+  const pathname = usePathname();
+  const locale = pathname.split("/")[1] || "es";
 
   const projectContent: ProjectContent =
-    dict.projects.items[project.slug as keyof Dictionary["projects"]["items"]];
+    dict.projects.items[
+      project.slug as keyof Dictionary["projects"]["items"]
+    ];
 
   return (
     <article key={project.slug} className="bg-white">
-
       {/* HERO */}
       <ProjectHero
         title={projectContent.title}
@@ -54,7 +59,6 @@ export default function ProjectDetail({ project }: { project: Project }) {
       {/* STORY */}
       <section className="px-6 py-24">
         <div className="max-w-4xl mx-auto space-y-12">
-
           {/* DESCRIPTION */}
           <p className="text-xl text-gray-600 leading-relaxed">
             {projectContent.description}
@@ -63,21 +67,23 @@ export default function ProjectDetail({ project }: { project: Project }) {
           {/* CONTENT */}
           <div className="space-y-8 text-lg text-gray-700 leading-relaxed">
             {Array.isArray(projectContent.content) &&
-              projectContent.content.map((paragraph: string, i: number) => (
-                <motion.p
-                  key={i}
-                  initial={{ opacity: 0, y: 14 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, margin: "-80px" }}
-                  transition={{
-                    duration: 0.5,
-                    ease: "easeOut",
-                    delay: i * 0.06,
-                  }}
-                >
-                  {paragraph}
-                </motion.p>
-              ))}
+              projectContent.content.map(
+                (paragraph: string, i: number) => (
+                  <motion.p
+                    key={i}
+                    initial={{ opacity: 0, y: 14 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-80px" }}
+                    transition={{
+                      duration: 0.5,
+                      ease: "easeOut",
+                      delay: i * 0.06,
+                    }}
+                  >
+                    {paragraph}
+                  </motion.p>
+                )
+              )}
           </div>
 
           {/* CTA */}
@@ -92,17 +98,15 @@ export default function ProjectDetail({ project }: { project: Project }) {
               </p>
 
               <Link
-                href={`/${dict.locale}/donate`}
+                href={`/${locale}/donate`}
                 className="inline-flex items-center bg-green-700 text-white font-semibold px-6 py-3 rounded-xl hover:bg-green-600 transition"
               >
                 {projectContent.cta.button}
               </Link>
             </div>
           )}
-
         </div>
       </section>
-
     </article>
   );
 }
