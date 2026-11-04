@@ -9,7 +9,7 @@ import {
 import Image from "next/image";
 
 import { fadeUp } from "@/components/animations/fadeUp";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function NurserySchedule() {
   const dict = useDictionary();

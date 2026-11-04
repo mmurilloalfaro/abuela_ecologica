@@ -11,7 +11,7 @@ import {
   HandHeart,
 } from "lucide-react";
 
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 import { fadeUp } from "@/components/animations/fadeUp";
 
 const highlightItems = [

@@ -2,16 +2,16 @@
 
 A multilingual web platform for **Fundación Abuela Ecológica**, a Costa Rican environmental foundation committed to environmental education, ecological restoration, biodiversity conservation, and community engagement.
 
-🌐 **Website:** https://abuelaecologica.org  
-📍 **Location:** San Carlos, Costa Rica
+**Website:** https://abuelaecologica.org  
+**Location:** San Carlos, Costa Rica
 
 ---
 
 ## Overview
 
-This project is the official digital platform of Fundación Abuela Ecológica. It aims to communicate the foundation's mission, showcase environmental initiatives, promote community participation, and provide transparent access to its projects and activities.
+This project is the official digital platform of Fundación Abuela Ecológica. It communicates the foundation's mission, showcases environmental initiatives, promotes community participation, and provides transparent access to its projects and activities.
 
-The website is designed with a focus on:
+The platform is designed with a focus on:
 
 - Multilingual accessibility and international reach.
 - Responsive design across desktop and mobile devices.
@@ -24,12 +24,12 @@ The website is designed with a focus on:
 
 | Category | Technologies |
 |---|---|
-| Framework | Next.js 16 |
+| Framework | Next.js-compatible application |
 | Language | TypeScript |
 | Styling | Tailwind CSS 4 |
 | Animations | Framer Motion |
 | Icons | Lucide React |
-| Build and runtime | Vinext, Vite |
+| Build tooling and runtime | Vinext, Vite |
 | Hosting and deployment | Cloudflare Workers |
 | Internationalization | Custom dictionary-based i18n |
 | SEO | Metadata API, JSON-LD, sitemap, hreflang |
@@ -47,10 +47,11 @@ The platform uses a custom dictionary-based internationalization system to suppo
 | German | `de` | Available |
 | French | `fr` | Available |
 | Portuguese | `pt` | Available |
+| Chinese | `zh` | Available |
 
-### Future language roadmap
+### International language roadmap
 
-The internationalization strategy aims to incorporate all six official languages of the United Nations:
+The platform aims to support all six official languages of the United Nations:
 
 - Spanish (`es`)
 - English (`en`)
@@ -59,9 +60,9 @@ The internationalization strategy aims to incorporate all six official languages
 - Chinese (`zh`)
 - Arabic (`ar`)
 
-German and Portuguese will remain additional supported languages.
+German and Portuguese are additional supported languages.
 
-Future implementations will also consider right-to-left (RTL) layout support for Arabic.
+Future development will include right-to-left (RTL) layout support for Arabic.
 
 ## Project Structure
 
@@ -80,8 +81,17 @@ app/
 └── sitemap.ts
 
 components/
-context/
+├── about/
+├── donate/
+├── home/
+├── nursery/
+├── projects/
+└── transparency/
+
 data/
+└── context/
+    └── DictionaryProvider.tsx
+
 lib/
 ├── i18n/
 │   ├── config.ts
@@ -91,13 +101,15 @@ lib/
 │       ├── en.json
 │       ├── de.json
 │       ├── fr.json
-│       └── pt.json
+│       ├── pt.json
+│       └── zh.json
 └── seo/
-proxy.ts
+
 public/
+proxy.ts
 ```
 
-*The structure above represents the main application directories.*
+*This tree represents the main application directories.*
 
 ## Getting Started
 
@@ -122,9 +134,9 @@ Install dependencies:
 npm install
 ```
 
-### Development server
+### Development
 
-Start the local development environment:
+Start the local development server:
 
 ```bash
 npm run dev:vinext
@@ -136,7 +148,7 @@ The application will be available at:
 http://localhost:3001
 ```
 
-### Production build
+### Validation and production build
 
 Run TypeScript validation:
 
@@ -152,17 +164,15 @@ npm run build:vinext
 
 ## Deployment
 
-The application is deployed using Cloudflare Workers and Vinext.
+The application is deployed using Vinext and Cloudflare Workers.
 
-To deploy the application:
+To deploy:
 
 ```bash
 npm run deploy:vinext
 ```
 
-Production URL:
-
-https://abuelaecologica.org
+**Production URL:** https://abuelaecologica.org
 
 ## SEO and Web Optimization
 
@@ -195,4 +205,4 @@ San Carlos, Costa Rica.
 
 Environmental education, ecological restoration, biodiversity conservation, and community action.
 
-🌱 *For San Carlos, Costa Rica, and the world... for those who have yet to be born.*
+*For San Carlos, Costa Rica, and the world... for those who have yet to be born.*

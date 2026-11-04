@@ -4,7 +4,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export interface ProjectCardProps {
   slug: string;

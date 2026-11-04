@@ -12,7 +12,7 @@ import {
 
 import { fadeUp } from "@/components/animations/fadeUp";
 import { nurseryServices } from "@/data/nurseryServices";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 const icons = [
   Sprout,

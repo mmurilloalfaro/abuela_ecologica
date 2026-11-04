@@ -1,5 +1,5 @@
 //Idiomas soportados
-export const locales = ["en", "es", "de", "fr", "pt"] as const;
+export const locales = ["en", "es", "de", "fr", "pt", "zh"] as const;
 
 export type Locale = (typeof locales)[number];
 

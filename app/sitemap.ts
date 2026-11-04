@@ -10,6 +10,7 @@ const localeCodes: Record<string, string> = {
   de: "de",
   fr: "fr",
   pt: "pt",
+  zh: "zh",
 };
 
 const staticPages = [

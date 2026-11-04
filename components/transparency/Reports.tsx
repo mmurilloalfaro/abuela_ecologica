@@ -1,7 +1,7 @@
 "use client";
 
 import { reports } from "@/data/reports";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 import Link from "next/link";
 import { FileText, Download, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";

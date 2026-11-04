@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { founders } from "@/data/founders";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function Founders() {
   const dict = useDictionary();

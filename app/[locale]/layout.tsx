@@ -2,7 +2,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { getDictionary } from "@/lib/i18n/getDictionary";
-import { DictionaryProvider } from "@/context/DictionaryProvider";
+import { DictionaryProvider } from "@/data/context/DictionaryProvider";
 import { isValidLocale, defaultLocale } from "@/lib/i18n/config";
 import { notFound } from "next/navigation";
 
@@ -13,6 +13,7 @@ export function generateStaticParams() {
     { locale: "de" },
     { locale: "fr" },
     { locale: "pt" },
+    { locale: "zh" },
   ];
 }
 

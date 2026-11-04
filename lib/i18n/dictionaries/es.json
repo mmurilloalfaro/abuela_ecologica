@@ -15,6 +15,7 @@
   "ctaPrimary": "Apoyar la fundación",
   "ctaSecondary": "Conocer nuestra historia"
   },
+
   "story": {
   "title": "Nuestra historia nace de un río",
   "paragraph1": "Fundación Abuela Ecológica nació en la Zona Norte de Costa Rica, a la orilla de un río que estaba perdiendo su bosque.",
@@ -24,6 +25,7 @@
   "closing": "Por San Carlos, Costa Rica y el mundo.",
   "imageAlt": "Inicios Abuela Ecológica"
   },
+
   "impact": {
   "badge": "Nuestro impacto",
   "title": "Resultados concretos desde 2018",
@@ -48,6 +50,7 @@
   },
   "closing": "Cada cifra representa procesos sostenidos en el tiempo, construidos junto a comunidades, instituciones y nuevas generaciones."
   },
+  
   "howToHelp": {
     "title": "¿Cómo podés ser parte?",
     "description": "Sumarte es sencillo. Cada forma de apoyo fortalece el trabajo ambiental y comunitario que realizamos día a día.",
@@ -70,29 +73,30 @@
       }
     }
   },
+
   "cta": {
-  "title": "El futuro se construye hoy.",
-  "description": "Cada acción cuenta. Cada persona suma. Juntos podemos proteger la naturaleza y fortalecer comunidades.",
-  "button": "Apoyar la fundación"
+    "title": "El futuro se construye hoy.",
+    "description": "Cada acción cuenta. Cada persona suma. Juntos podemos proteger la naturaleza y fortalecer comunidades.",
+    "button": "Apoyar la fundación"
   },
   
   "footer": {
-  "navigation": "Navegación",
-  "legalTitle": "Información legal",
-  "legal": {
-    "nonprofit": "Fundación sin fines de lucro",
-    "country": "Costa Rica",
-    "rights": "Todos los derechos reservados"
-  },
-  "contact": "Contacto",
-  "email": "info@abuelaecologica.org",
-  "links": {
-    "home": "Inicio",
-    "projects": "Proyectos",
-    "donate": "Donar",
-    "transparency": "Transparencia"
-  },
-  "developedBy": "Desarrollado por"
+    "navigation": "Navegación",
+    "legalTitle": "Información legal",
+    "legal": {
+      "nonprofit": "Fundación sin fines de lucro",
+      "country": "Costa Rica",
+      "rights": "Todos los derechos reservados"
+    },
+    "contact": "Contacto",
+    "email": "info@abuelaecologica.org",
+    "links": {
+      "home": "Inicio",
+      "projects": "Proyectos",
+      "donate": "Donar",
+      "transparency": "Transparencia"
+    },
+    "developedBy": "Desarrollado por"
   },
 
   "aboutHero": {
@@ -102,26 +106,26 @@
   },
 
   "aboutStory": {
-  "eyebrow": "Nuestro origen",
-  "title": "La Abuela Ecológica",
-  "p1": "La Fundación Abuela Ecológica nace inspirada en el legado de Bertalia González Villalobos (1935–2020), referente comunitaria en reforestación y protección del agua.",
-  "p2": "Con semillas en las manos y convicción en el corazón, recorrió comunidades sembrando árboles como un acto de responsabilidad intergeneracional.",
-  "p3": "En 2018, junto a su hija Laura Alfaro González y su nieta María Murillo Alfaro, ese legado se transforma en fundación."
+    "eyebrow": "Nuestro origen",
+    "title": "La Abuela Ecológica",
+    "p1": "La Fundación Abuela Ecológica nace inspirada en el legado de Bertalia González Villalobos (1935–2020), referente comunitaria en reforestación y protección del agua.",
+    "p2": "Con semillas en las manos y convicción en el corazón, recorrió comunidades sembrando árboles como un acto de responsabilidad intergeneracional.",
+    "p3": "En 2018, junto a su hija Laura Alfaro González y su nieta María Murillo Alfaro, ese legado se transforma en fundación."
   },
 
   "missionVision": {
-  "title": "Nuestra dirección institucional",
-  "description": "Definimos con claridad lo que hacemos hoy y el futuro que queremos construir.",
-  "mission": {
-    "title": "Nuestra misión",
-    "subtitle": "Acción ambiental con sentido humano",
-    "text": "Velar por el uso responsable de los recursos naturales, restaurar el ambiente y promover estilos de vida sostenibles junto a las comunidades."
-  },
-  "vision": {
-    "title": "Nuestra visión",
-    "subtitle": "Un futuro justo y sostenible",
-    "text": "Ser una fundación referente en acción ambiental comunitaria, impulsando territorios sostenibles y ecosistemas sanos."
-  }
+    "title": "Nuestra dirección institucional",
+    "description": "Definimos con claridad lo que hacemos hoy y el futuro que queremos construir.",
+    "mission": {
+      "title": "Nuestra misión",
+      "subtitle": "Acción ambiental con sentido humano",
+      "text": "Velar por el uso responsable de los recursos naturales, restaurar el ambiente y promover estilos de vida sostenibles junto a las comunidades."
+    },
+    "vision": {
+      "title": "Nuestra visión",
+      "subtitle": "Un futuro justo y sostenible",
+      "text": "Ser una fundación referente en acción ambiental comunitaria, impulsando territorios sostenibles y ecosistemas sanos."
+    }
   },
 
   "aboutValues": {
@@ -145,25 +149,25 @@
   },
 
   "aboutPrinciples": {
-  "principles": {
-    "title": "Nuestros principios",
-    "subtitle": "Guían cada decisión, proyecto y alianza que impulsamos.",
-    "items": {
-      "responsibility": "Responsabilidad intergeneracional",
-      "community": "Trabajo comunitario",
-      "sustainability": "Sostenibilidad real",
-      "education": "Educación ambiental"
-    },
-    "impact": {
-      "title": "Transformar nuestra forma de vivir",
-      "text": "Implica repensar cómo producimos, consumimos y convivimos. La sostenibilidad no es un complemento: es una nueva manera de entender nuestra relación con la naturaleza."
+    "principles": {
+      "title": "Nuestros principios",
+      "subtitle": "Guían cada decisión, proyecto y alianza que impulsamos.",
+      "items": {
+        "responsibility": "Responsabilidad intergeneracional",
+        "community": "Trabajo comunitario",
+        "sustainability": "Sostenibilidad real",
+        "education": "Educación ambiental"
+      },
+      "impact": {
+        "title": "Transformar nuestra forma de vivir",
+        "text": "Implica repensar cómo producimos, consumimos y convivimos. La sostenibilidad no es un complemento: es una nueva manera de entender nuestra relación con la naturaleza."
+      }
     }
-  }
   },
 
   "aboutClosing": {
-  "quote": "Cuidar la tierra es cuidar a quienes aún no han nacido.",
-  "description": "Una convicción que guía cada acción de la Fundación Abuela Ecológica."
+    "quote": "Cuidar la tierra es cuidar a quienes aún no han nacido.",
+    "description": "Una convicción que guía cada acción de la Fundación Abuela Ecológica."
   },
 
   "projects": {
@@ -404,6 +408,7 @@
       }
       }
   },
+
   "nursery": {
     "hero": {
       "eyebrow": "Vivero Forestal",
@@ -413,43 +418,43 @@
       "imageAlt": "Vivero forestal de la Fundación Abuela Ecológica"
     },
     "introduction": {
-    "title": "El vivero, la base de nuestro trabajo",
-    "description": "El vivero forestal de Fundación Abuela Ecológica es el principal espacio operativo de la organización y el punto de partida de nuestras acciones de restauración, educación ambiental e inclusión comunitaria.",
-    "highlights": {
-      "production": {
-        "title": "Producción forestal",
-        "text": "Más de 120 especies forestales producidas cada año para restauración ecológica."
+      "title": "El vivero, la base de nuestro trabajo",
+      "description": "El vivero forestal de Fundación Abuela Ecológica es el principal espacio operativo de la organización y el punto de partida de nuestras acciones de restauración, educación ambiental e inclusión comunitaria.",
+      "highlights": {
+        "production": {
+          "title": "Producción forestal",
+          "text": "Más de 120 especies forestales producidas cada año para restauración ecológica."
+        },
+        "education": {
+          "title": "Educación ambiental",
+          "text": "Espacio formativo para universidades, colegios y procesos comunitarios."
+        },
+        "community": {
+          "title": "Participación comunitaria",
+          "text": "Voluntariado nacional e internacional y Trabajo Comunal Universitario."
+        }
       },
-      "education": {
-        "title": "Educación ambiental",
-        "text": "Espacio formativo para universidades, colegios y procesos comunitarios."
-      },
-      "community": {
-        "title": "Participación comunitaria",
-        "text": "Voluntariado nacional e internacional y Trabajo Comunal Universitario."
+      "visitNote": "El vivero funciona en un terreno facilitado por la Municipalidad de San Carlos y recibe visitas únicamente con coordinación previa, garantizando experiencias educativas seguras y organizadas.",
+      "info": {
+        "hours": {
+          "title": "Horario de atención",
+          "weekdays": "Lunes a viernes: 8:00 a. m. – 2:00 p. m.",
+          "saturday": "Sábados: 8:00 a. m. – 12:00 m. d."
+        },
+        "visits": {
+          "title": "Visitas y participación",
+          "items": [
+            "Visitas educativas con coordinación previa",
+            "Grupos escolares y comunitarios",
+            "TCU / Trabajo Comunal",
+            "Voluntariado nacional e internacional"
+          ]
+        },
+        "donations": {
+          "title": "Donaciones en especie",
+          "text": "Se reciben semillas, bolsas, sustratos, abonos y otros insumos necesarios para la producción forestal."
+        }
       }
-    },
-    "visitNote": "El vivero funciona en un terreno facilitado por la Municipalidad de San Carlos y recibe visitas únicamente con coordinación previa, garantizando experiencias educativas seguras y organizadas.",
-    "info": {
-      "hours": {
-        "title": "Horario de atención",
-        "weekdays": "Lunes a viernes: 8:00 a. m. – 2:00 p. m.",
-        "saturday": "Sábados: 8:00 a. m. – 12:00 m. d."
-      },
-      "visits": {
-        "title": "Visitas y participación",
-        "items": [
-          "Visitas educativas con coordinación previa",
-          "Grupos escolares y comunitarios",
-          "TCU / Trabajo Comunal",
-          "Voluntariado nacional e internacional"
-        ]
-      },
-      "donations": {
-        "title": "Donaciones en especie",
-        "text": "Se reciben semillas, bolsas, sustratos, abonos y otros insumos necesarios para la producción forestal."
-      }
-    }
     },
     "stats": {
       "eyebrow": "El vivero en cifras",
@@ -559,6 +564,7 @@
       }
     }
   },
+
   "transparency": {
     "hero": {
       "eyebrow": "Fundación Abuela Ecológica",
@@ -626,6 +632,7 @@
       }
     }
   },
+  
   "donate": {
     "hero": {
       "eyebrow": "Fundación Abuela Ecológica",

@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
-type Locale = "es" | "en" | "de" | "fr" | "pt";
+type Locale = "es" | "en" | "de" | "fr" | "pt" | "zh";
 
 
 interface NavbarProps {
@@ -41,6 +41,7 @@ export default function Navbar({ locale, dictionary }: NavbarProps) {
     { code: "fr" as Locale, flag: "🇫🇷", label: "FR French" },
     { code: "de" as Locale, flag: "🇩🇪", label: "DE German" },
     { code: "pt" as Locale, flag: "🇵🇹", label: "PT Portuguese" },
+    { code: "zh" as Locale, flag: "🇨🇳", label: "中文" },
   ];
 
   useEffect(() => {

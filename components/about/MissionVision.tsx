@@ -4,7 +4,7 @@ import { Leaf, Target } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
 import { Card } from "./AboutHelpers";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function MissionVision() {
   const dict = useDictionary();

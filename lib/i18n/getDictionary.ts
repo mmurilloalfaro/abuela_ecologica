@@ -5,6 +5,7 @@ import es from "./dictionaries/es.json";
 import de from "./dictionaries/de.json";
 import fr from "./dictionaries/fr.json";
 import pt from "./dictionaries/pt.json";
+import zh from "./dictionaries/zh.json";
 
 import { Locale, defaultLocale, isValidLocale } from "./config";
 
@@ -16,6 +17,7 @@ const dictionaries: Record<Locale, Dictionary> = {
   de,
   fr,
   pt,
+  zh,
 };
 
 export function getDictionary(locale: string): Dictionary {
@@ -23,5 +25,5 @@ export function getDictionary(locale: string): Dictionary {
     return dictionaries[defaultLocale];
   }
 
-  return dictionaries[locale];
+  return dictionaries[locale as Locale];
 }

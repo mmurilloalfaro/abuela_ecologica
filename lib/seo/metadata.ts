@@ -9,6 +9,7 @@ const localeCodes: Record<Locale, string> = {
   de: "de",
   fr: "fr",
   pt: "pt",
+  zh: "zh",
 };
 
 export function getLocalizedAlternates(path: string) {
@@ -24,6 +25,7 @@ export function getLocalizedAlternates(path: string) {
     de: `${BASE_URL}/de${cleanPath}`,
     fr: `${BASE_URL}/fr${cleanPath}`,
     pt: `${BASE_URL}/pt${cleanPath}`,
+    "zh": `${BASE_URL}/zh${cleanPath}`,
     "x-default": `${BASE_URL}/es${cleanPath}`,
   };
 

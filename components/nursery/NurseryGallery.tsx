@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 import { fadeUp } from "@/components/animations/fadeUp";
 import { nurseryImages } from "@/data/nurseryImages";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function NurseryGallery() {
   const dict = useDictionary();

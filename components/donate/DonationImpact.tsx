@@ -1,7 +1,7 @@
 "use client";
 
 import { Leaf, TreePine, Users, Globe } from "lucide-react";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function DonationImpact() {
   const dict = useDictionary();

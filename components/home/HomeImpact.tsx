@@ -8,7 +8,7 @@ import {
   Handshake,
   GraduationCap,
 } from "lucide-react";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function HomeImpact() {
   const dict = useDictionary();

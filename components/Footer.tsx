@@ -133,7 +133,7 @@ export default function Footer({ dictionary, locale }: FooterProps) {
             </a>
 
             <a
-              href="https://wa.me/"
+              href="https://wa.me/50670342957"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-white transition"
@@ -161,6 +161,8 @@ export default function Footer({ dictionary, locale }: FooterProps) {
           {dictionary.developedBy}{" "}
           <Link
             href="https://github.com/mmurilloalfaro"
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-semibold hover:text-white transition underline-offset-4 hover:underline"
           >
             mmurilloalfaro

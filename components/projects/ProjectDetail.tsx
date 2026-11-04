@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { getDictionary } from "@/lib/i18n/getDictionary";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 import { projects } from "@/data/projects";
 import ProjectHero from "@/components/projects/ProjectHero";
 

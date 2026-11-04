@@ -3,7 +3,7 @@
 import { Landmark, Smartphone, ShieldCheck, Globe } from "lucide-react";
 import { motion } from "framer-motion";
 import { fadeUp } from "@/components/animations/fadeUp";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 import PaypalDonateButton from "./PaypalDonateButton";
 
 export default function DonationMethods() {

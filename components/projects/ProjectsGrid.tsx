@@ -3,7 +3,7 @@
 
 import { motion } from "framer-motion";
 
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 import ProjectCard from "./ProjectCard";
 import { projects } from "@/data/projects";
 import { fadeUp } from "@/components/animations/fadeUp";

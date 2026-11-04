@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import { boardMembers } from "@/data/board";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function Board() {
   const dict = useDictionary();

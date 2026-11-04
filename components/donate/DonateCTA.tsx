@@ -2,7 +2,7 @@
 
 import { HeartHandshake } from "lucide-react";
 import Link from "next/link";
-import { useDictionary } from "@/context/DictionaryProvider";
+import { useDictionary } from "@/data/context/DictionaryProvider";
 
 export default function DonateCTA() {
   const dict = useDictionary();
